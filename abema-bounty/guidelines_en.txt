@@ -1,0 +1,111 @@
+***Warning***
+Reports using generative AI are increasing; however, as stated in the guidelines, reports with redundant reproduction steps or those containing multiple vulnerability findings may be closed.
+
+## 1. Program Terms
+
+### (1) Overview
+
+The scope of our Bug Bounty Program is described in the "In Scope" section. Reports outside of that which is described in "In Scope" will be determined as "Out of Scope" and closed regardless of their content. You must read and agree to this program terms before finding and reporting a vulnerability.
+
+### (2) Program Eligibility
+
+To be eligible to participate in our Bug Bounty Program, you must:
+
+- Not be employed by us or any of its affiliates or an immediate family member of a person employed by us or any of its affiliates.
+- Not be employed by us or any of its affiliates in the past.
+- Not be a resident of, or make Submissions from, a country against which the Japan has issued export sanctions or other trade restrictions.
+- Able to communicate in Japanese or English.
+- Agree to terms of use( https://issuehunt.jp/terms )
+
+
+If (i) you do not meet the eligibility requirements above; (ii) you breach any of these Program Terms or any other agreements you have with us or its affiliates; or (iii) we determine that your participation in the Bug Bounty Program could adversely impact us, our affiliates or any of our users, employees or agents, we, in our sole discretion, may remove you from the Bug Bounty Program and disqualify you from receiving any benefit of the Bug Bounty Program.
+
+### (3) Program Rules
+
+Do:
+
+- Do be patient & make a good faith effort to provide clarifications to any questions we may have about your report.
+- Do respect privacy & make a good faith effort not to access, process or destroy personal data.
+- Do be respectful when interacting with our team, and our team will do the same.
+- Do exercise caution when testing to avoid negative impact to customers and the services they depend on.
+- Do stop whenever unsure. If you think you may cause, or have caused, damage with testing a vulnerability, report your initial finding(s) and request authorization to continue testing.
+
+
+Do NOT:
+
+- Do not research outside of that outlined in "In Scope"
+- Do not publicly disclose a Vulnerability without our explicit review and consent.
+- Do not leave any system in a more vulnerable state than you found it.
+- Do not submit a report by automated tools without additional analysis as to how they are an issue
+- Do not brute force credentials or guess credentials to gain access to systems.
+- Do not engage in any form of social engineering of our employees, customers, or partners.
+- Do not engage or target any our employees, customers, or partners during your testing.
+- Do not attempt to extract, download, or otherwise exfiltrate data that may have PII or other sensitive data other than your own.
+- Do not do anything that would be considered a privacy violation, cause destruction of data, or interrupt or degrade our service.
+- Do not interact with accounts you do not own.
+- Do not do anything that is prohibited by the terms of use( https://issuehunt.jp/terms )
+
+Out of scope:
+
+- Reports without an accompanying proof-of-concept demonstrating vulnerability.
+- Vulnerabilities that do not substantially affect the security of the system.
+- Vulnerabilities caused by brute force attacks against passwords or tokens.
+- Trivial issues like inadequate email verification, password reset link expiration date or password complexity.
+- Login/Logout CSRF.
+- Missing CSRF tokens.
+- CSRF of forms available to anonymous users like ones for Q&A or public survey.
+- Missing or misconfigured security-related HTTP headers that do not directly lead to a vulnerability.
+- Vulnerabilities discovered from other domains than the specified target domains.
+- Vulnerabilities caused by outdated platforms like a browser or an OS of a client.
+- Vulnerabilities caused by autocompleting of a form.
+- Missing secure flags for unimportant cookies.
+- Insecure SSL/TLS ciphers.
+- Vulnerabilities allowing enumeration of usernames and emails.
+- Error messages like stack traces from client apps or server APIs.
+- Disclosure of server banner information.
+- Disclosure of software, library, or framework versions.
+- Misconfiguration os SPF record, DKIM, and DMARC records.
+- Invalid/Improper HTTP methods.
+
+## 2. Disclosure Policy and Confidentiality
+
+
+Any data you receive, obtain access to or collect about us, our affiliates or any our customers, employees or agents in connection with the Bug Bounty Program is considered our confidential information ("Confidential Information").
+Confidential Information must be kept confidential and only used: (i) to make the disclosure to us under the Bug Bounty Program; or (ii) to provide any additional information that may be required by us in relation to the submitted report. No further use or exploitation of Confidential Information is allowed. Upon our request, you will permanently erase all Confidential Information for any systems and devices.
+
+You may not use, disclose or distribute any such Confidential Information, including without limitation any information regarding your Bug Bounty submitted report, without our prior explicit consent.
+
+
+## 3. Legal
+
+
+Any activities conducted in a manner consistent with this policy will be considered authorized conduct, and we will not initiate legal action against you. If legal action is initiated by a third party against you in connection with activities conducted under this policy, we will make it known that your actions were conducted in compliance with this policy. We reserve all legal rights in the event of noncompliance with this policy.
+We also reserve the right to modify the terms and conditions of this program, and your participation in the Program constitutes acceptance of all terms.
+By making a Submission, you represent and warrant that the Submission is original to you and you have the right to submit the Submission. By making a Submission, you give us the right to use your Submission for any purpose.
+Please check this site regularly as we routinely update our program terms and eligibility, which are effective upon posting.
+
+## 4. Submitting Reports
+
+### (1) Report Quality
+
+
+High quality submissions allow our team to understand the issue better and engage the appropriate teams to fix. The best reports provide enough actionable information to verify and validate the issue without requiring any follow up questions for more information or clarification.
+
+- Check the scope before you begin writing your report to ensure the issue you are reporting is in scope for the program.
+- Think through the attack scenario and exploitability of the vulnerability and provide as many clear details as possible for our team to reproduce the issue. The report must be must be verifiable and reproducible for us. 
+- Video or Image only report will not be considered.
+- Submit one vulnerability per report unless otherwise required.
+
+***You may use generative AI for report creation, but please ensure that you carefully review the report before submission to avoid sending redundant, non-reproducible, or low-quality reports.***
+
+### (2) Not eligible for reward
+
+- If we have already received or are aware of a similar report, or if the report is outside of the scope, it is not eligible for the reward and will be closed regardless of its content.
+
+### (3) Calculation of Rewards
+
+- Rewards are paid based on the number of root causes corrected by our company. For example, even if multiple endpoints are reported, if the corrected location is the same, it is counted as a single report.
+
+### (4) Maintaining Reports
+
+- Even if a report is rejected, you can continue to exchange messages. If you disagree with the decision, please post a message within the relevant report instead of creating a new one, for proper management.
