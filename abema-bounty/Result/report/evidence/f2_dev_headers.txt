@@ -1,0 +1,11 @@
+HTTP/2 401 
+content-length: 45
+content-type: application/json
+vary: Accept, Accept-Encoding, Origin,Origin
+date: Wed, 30 Sep 2026 07:47:58 GMT
+x-envoy-upstream-service-time: 0
+server: istio-envoy
+x-envoy-decorator-operation: abema-gateway-cdn.default.svc.cluster.local:8000/*
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

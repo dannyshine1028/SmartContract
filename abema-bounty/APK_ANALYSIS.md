@@ -131,3 +131,43 @@ Key gateways identified:
 4. **PPV ticket bypass** - `X-Abema-PPV-Ticket` header behavior
 5. **Media token endpoint** - `MediaTokenResponse` could reveal token format
 6. **Certificate pinning bypass** - Network security config allows yospace.com cleartext
+
+## Session Findings (2026-09-30)
+
+### Dev API Publicly Accessible
+- `dev-api.d-c3-e.abema-tv.com` returns 200 for `/v1/channels` and `/v1/broadcast/slots` without auth
+- Contains test channels: Smaqtest, thorhammer, aaa, abema-activation, gemma
+- Contains test broadcast slots with full metadata (title, times, channel IDs, thumbnails, credits)
+
+### Internal K8s Service Names Leaked
+- `x-envoy-decorator-operation` header reveals: `abema-catalog-api.default.svc.cluster.local`, `abema-gateway-cdn.default.svc.cluster.local`
+
+### Auth Flow Details
+- Token exchange endpoint: `POST /v1/account/token-exchange/single-device`
+- Auth interceptor: `nqsAuthorizationInterceptor` adds `X-Abema-PAT`, `X-Abema-PPV-Ticket`, `X-Gateway-Authorization` headers
+- Bearer token extracted from `account.token?.bearerToken`
+- All auth endpoints return 401 without valid token
+
+### Additional API Paths Discovered
+- `/about/premium`, `/about/premium/register`, `/about/premium/registration`
+- `/account/change-from-device`, `/account/plan`, `/account/restore/email`, `/account/restore/otp`
+- `/feature/([^/\?#]*)` - feature flag pattern
+- `/channels/landing`
+- `/tokens/transfer/approved`
+- `/playbackResources/{arin}`
+- `/video/title/`
+- `/payperview/([^/\?#]*)`
+- `/1.1/guest/activate.json`
+- `/1.1/help/configuration.json`
+
+### Additional Proto Messages Discovered
+- `GetIPCheckResponse`, `GetNewsResponse`, `GetUserResponse`
+- `GiftMessage`, `GiftFile`, `BroadcastSlotStats`
+- `ChannelMediaStatus`, `ChannelPlayback`, `ContentlistContent`, `ContentlistSection`
+- `VideoLicenseStatus`, `VideoOnDemandType`, `VideoProgramCredit`, `VideoProgramInfo`
+- `VideoSeasonLabel`, `VideoSeriesLabel`, `VideoSeriesInfo`
+- `SectionFAQ`, `SectionFeatureItem`, `SectionFirstView`, `SectionPlanList`, `SectionPolicy`
+- `SlotMark`, `SlotPayperviewItem`, `SpotList`, `SpotListItem`
+- `SubscriptionPage`, `SubscriptionStatus`, `SupporterProfile`
+- `UserSubscriptionV2`, `Plan`, `Plan.Payment`, `Plan.PurchaseType`
+- `MylistNotification`, `Playlist`, `Popup`, `Question`
