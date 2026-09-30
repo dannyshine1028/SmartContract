@@ -39,12 +39,25 @@
 - **Impact**: Public exposure of internal development infrastructure, test fixtures, and internal corporate content.
 - **Evidence**: `Source/abema-bounty/Result/report/evidence/f2_*.json` + `poc-finding2.sh`
 
-#### Finding 3: Internal K8s Service Names Leaked via Envoy Headers (Low)
-- **Hosts**: All `*.abema-tv.com` API endpoints
-- **Header**: `x-envoy-decorator-operation` reveals internal service names like:
-  - `abema-catalog-api.default.svc.cluster.local`
-  - `abema-tv-api-tky.default.svc.cluster.local`
-- **Impact**: Information disclosure of internal infrastructure
+#### Finding 3: Internal K8s Service Names Leaked via Envoy Headers (Low) — SUBMISSION READY
+- **Header**: `x-envoy-decorator-operation` on **every** in-scope API host, unauthenticated
+- **Full list (14 identities / 11 unique services across 13 hosts, verified 2026-09-30)**:
+  - `api.abema.io` → `abema-gateway-cdn.default.svc.cluster.local:8000/*`
+  - `api.abema.tv` → `abema-tv-api-tky.default.svc.cluster.local:8300/*`
+  - `dev-api.d-c3-e.abema-tv.com` → `abema-gateway-cdn.default.svc.cluster.local:8000/*`
+  - `realtime-api.p-c3-e.abema-tv.com` → `abema-realtime-gateway.realtime.svc.cluster.local:8000/*`
+  - `dev-realtime-api.d-c3-e.abema-tv.com` → `abema-realtime-gateway.realtime.svc.cluster.local:8000/*`
+  - `user-content-api.p-c3-e.abema-tv.com` → `abema-user-content-gateway.user-content.svc.cluster.local:8000/*`
+  - `dev-user-content-api.d-c3-e.abema-tv.com` → `abema-user-content-gateway.user-content.svc.cluster.local:8000/*`
+  - `upload.abema.io` → `abema-user-upload-api.default.svc.cluster.local:8000/*`
+  - `dev-upload-api.d-c3-e.abema-tv.com` → `abema-user-upload-api.default.svc.cluster.local:8000/*`
+  - `bundle-api.p-c3-e.abema-tv.com` → `abema-bundle-plan-user-gateway.default.svc.cluster.local:8000/*`
+  - `dev-bundle-api.d-c3-e.abema-tv.com` → `abema-bundle-plan-user-gateway.default.svc.cluster.local:8000/*`
+  - `user-schedule-api.ep.c3.abema.io` → `abema-user-schedule-gateway.user-schedule.svc.cluster.local:8100/*`
+  - `zeus-api.p-c3-e.abema-tv.com` → `zeus-decider.zeus.svc.cluster.local:80/*`
+- **Impact**: Discloses internal Istio/Envoy service mesh topology (service name + namespace + port) for every ABEMA gateway, enabling an attacker to map the internal network and target the dev environment (Finding 2)
+- **Reproducibility**: Stable; PoC `poc-finding3.sh` prints all 13 hosts
+- **Evidence**: `Source/abema-bounty/Result/report/evidence/f3_envoy_leaks.txt` + `poc-finding3.sh` + `abema-envoy-service-names.md`
 
 #### Finding 4: Version/Build Info Leak (Low)
 - **Endpoint**: `/v1/version` (requires auth on prod, but accessible on dev)

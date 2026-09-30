@@ -34,23 +34,37 @@ curl -i -H "User-Agent: $UA" "https://api.abema.io/v1/media/token"
 
 **Observed output (abridged):**
 
-`GET /v1/broadcast/slots` → `HTTP/2 200`, 52 slots. Example:
+`GET /v1/broadcast/slots` → `HTTP/2 200`, 53–56 live production slots (the set rotates daily). Example:
 ```json
 {"slots":[
-  {"id":"C6hPcxgiXXS3eF","title":"【再放送】フリースタイルティーチャー：#118~#126",
-   "startAt":1790740800,"endAt":1790755200,"channelId":"hiphop",
-   "highlight":"RECTRUCK：毎週火曜にHIPHOPchで放送中",
-   "content":"芸人界最強ラッパー決定トーナントーナメントでを振り返る伝説のベストバウト集!!",
-   "shares":{"twitter":{"link":"https://abema.go.link/QsdwM"},...},
+  {"id":"Eb6zt6xqiS7ddh","title":"ダンjonに出会いを求めるのは間違っているだろうか 第3期 #1〜12+OVA",
+   "startAt":1790737200,"endAt":1790760600,"channelId":"isekai-anime-2",
+   "timeshiftEndAt":1793329200,"timeshiftFreeEndAt":1791365400,
+   "highlight":"ダンまち 第3期 #1〜12+OVA",
+   "content":"団長であるベル・クラネルの急速な成長...",
+   "chasePlayFeatureAuthorityIds":["d42dccf7-267d-4d75-88e1-587d851202c9"],
+   "chatId":"abm1.chat.chat.e7214d22-707f-4a2d-ab4d-47e37b219dd2",
+   "groupId":"BKcTbwUqEcD319",
+   "shares":{"twitter":{"link":"https://abema.go.link/geC8s"},...},
    "thumbnails":{"default":{"version":"1695701260","id":"88-96_s15_p1","name":"thumb001"}},
    "credit":{"casts":["【MC】","Zeebra","青山テルマ"],
              "crews":["企画協力:Ameba","プロデューサー:北田暢子(テレビ朝日)","制作:テレビ朝日 MMJ"],
              "copyrights":["(C)テレビ朝日"]},
-   "stats":{"view":2885,"comment":2}, ...}
+   "stats":{"view":19261,"comment":41}, ...}
 ]}
 ```
 
-`GET /v1/broadcast/slots/C6hPcxgiXXS3eF/stats` → `{"stats":{"view":2885,"comment":2}}`
+`GET /v1/broadcast/slots/C6hPcxgiXXS3eF` → `HTTP/2 200`, full slot metadata incl. casts, crews, copyrights, thumbnails, displayProgram (`{"id":"88-96_s15_p1","series":{"id":"88-96"},"season":{"id":"88-96_s15"}}`), externalContent, and stats.
+
+`GET /v1/broadcast/slots/C6hPcxgiXXS3eF/stats` → `{"stats":{"view":2885,"comment":2}}`.
+
+**Additional sensitive fields exposed (beyond program metadata):**
+- `chatId` — internal chat-room UUIDs (`abm1.chat.chat.<uuid>`), which serve as object identifiers for the live-chat service
+- `chasePlayFeatureAuthorityIds` — internal feature-authority UUIDs
+- `groupId` — internal grouping identifiers
+- `credit.copyrights` — third-party rights-holder copyright notices (e.g. `(C)テレビ朝日`, `(C)Channel A All Rights Reserved`)
+- `credit.crews` — production staff names and affiliations (e.g. `プロデューサー:北田暢子(テレビ朝日)`, `制作:テレビ朝日 MMJ`)
+- `stats.view` / `stats.comment` — aggregate, per-program audience metrics
 
 ## 4. Supporting Files / PoC
 
