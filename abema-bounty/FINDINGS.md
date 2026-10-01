@@ -27,7 +27,6 @@
 - **Differential proof**: Every other `/v1/*` path on the same host (e.g. `/v1/media/token`, `/v1/account/plan`, `/v1/subscription/status`) correctly returns `{"message":"authorization header must exist"}` (401)
 - **Impact**: Continuous, unauthenticated disclosure of ABEMA's live broadcast operations metadata; demonstrates an inconsistent auth boundary on the catalog API (`abema-catalog-api.default.svc.cluster.local`)
 - **Reproducibility**: Stable; PoC `poc-finding1.sh` runs end-to-end and prints 200/200/200 vs 401. Active slot set rotates, so the PoC derives a live slot id from the list rather than hard-coding one. `api.abema.io` intermittently resets connections (HTTP 000) — the PoC includes a 5x retry loop.
-- **Impact**: Continuous, unauthenticated disclosure of ABEMA's live broadcast operations metadata; demonstrates an inconsistent auth model on the catalog API that could protect a more sensitive endpoint.
 - **Evidence**: `Source/abema-bounty/Result/report/evidence/f1_*.json` + `poc-finding1.sh`
 
 #### Finding 2: Publicly Accessible Development API (Medium)
@@ -35,7 +34,7 @@
 - **Endpoints**: `/v1/channels` (56 channels), `/v1/broadcast/slots`, `/v1/broadcast/slots/{slotId}`, `/v1/broadcast/slots/{slotId}/stats`
 - **Status**: HTTP 200 without authentication
 - **Exposes**: Internal test channels (Smaqtest, thorhammer, aaa, abema-activation, gemma, qa-drm, qa-drm-personal), internal CDN hostnames (`dev-linear-abematv.akamaized.net`, `cyberagentdev01` Yospace tenant), test broadcast slots with full metadata including internal company content (e.g. "ABEMA Developer Principles" corporate values document)
-- **Reproducibility**: Stable; PoC `poc-finding2.sh` runs end-to-end and prints 200/200/200/200 vs 401.
+- **Reproducibility**: Stable; PoC `poc-finding2.sh` runs end-to-end and prints 200/200/200/200 vs 401. Slot ids rotate, so the PoC derives a live slot id from the list rather than hard-coding one (fixed 2026-09-30 — the earlier version hard-coded ids that had rotated to 404).
 - **Impact**: Public exposure of internal development infrastructure, test fixtures, and internal corporate content.
 - **Evidence**: `Source/abema-bounty/Result/report/evidence/f2_*.json` + `poc-finding2.sh`
 
@@ -73,10 +72,15 @@
 - **Impact**: If an attacker can redirect traffic to yospace.com, cleartext HTTP would bypass certificate pinning
 - **Caveat**: Requires man-in-the-middle position or DNS hijack
 
-#### Finding 7: Auth Flow Complexity (Informational)
+#### Finding 7: Auth Flow Details (Informational)
 - **Token Exchange**: `/v1/account/token-exchange/single-device` exists but requires valid auth header
 - **Auth Headers**: `X-Abema-PAT`, `X-Abema-PPV-Ticket`, `Authorization: Bearer`, `X-Gateway-Authorization`
-- **Token Storage**: `abema-native-access-token`, `abema-native-refresh-token`, `abema-native-user-token`
+- **Token Storage**: `abema-native-access-token`, `abema-native-refresh-token`, `abema-native-user-token`, `abema-native-refresh-token-revoked-user-id`, `abema-native-user-token-before-switching-auth`
+- **Auth interceptor**: `nqsAuthorizationInterceptor` (Kotlin lambda `$nqsAuthorizationInterceptor$lambda$2`) adds the auth headers; `account.token?.bearerToken?.take(10)` extracts the Bearer token
+- **Proto message types** (Google.protobuf.Any, `type.googleapis.com/auth.*`):
+  - `CreateAccessTokenRequest/Response`, `CreateSessionRequest/Response`, `LoginAsGuestRequest/Response`, `LoginWithEmailRequest/Response`, `LoginWithOneTimePasswordRequest/Response`, `LoginWithSingleDeviceOneTimeTokenRequest/Response`, `RegisterEmailRequest/Response`, `RestoreUserRequest/Response`, `IssueOneTimeTokenRequest/Response`, `StartAuthorizationRequest/Response`, `VerifyDeviceAuthorizationRequest/Response`, `VerifyKYCEmailOneTimePasscodeRequest/Response`
+- **Device binding**: `deviceTypeId` (`DefaultDeviceTypeIdService`), `GetMediaDeviceTypeIDResponse`, `SaveDeviceNotificationTokenRequest/Response`, `account_token_exchange_single_device`
+- **SSO/OAuth**: `auth_api_credentials_begin_sign_in`, `auth_api_credentials_authorize`, `auth_api_credentials_save_account_linking_token`, `auth_api_credentials_revoke_access`, `identityProviderType` (FB/VK OAuth patterns `^(fb|vk)[0-9]{5,}[^:]*://authorize.*access_token=.*`)
 - **Status**: Unable to obtain valid tokens without Japanese proxy or device registration
 
 ### What Was NOT Found
@@ -96,9 +100,9 @@
 - **API instability**: api.abema.io frequently returns HTTP 000 (connection reset) under load — ~50% of requests fail, requiring retry loops
 
 ### Recommendations for Future Work
-1. **Submit Findings 1 & 2** — both are stable, reproducible, in-scope, and demonstrate a real auth-boundary defect
+1. **Submit Findings 1, 2 & 3** — all are stable, reproducible, in-scope, and demonstrate real defects (auth-boundary failure, public dev environment, service-mesh fingerprinting)
 2. Obtain a Japanese proxy to test authenticated endpoints (token-exchange, user profile, PPV)
-3. Use an Android emulator to register a device and capture the auth flow
-4. Test the PPV ticket bypass more thoroughly
+3. Use an Android emulator to register a device and capture the auth flow (`LoginAsGuest` → `CreateAccessToken` → `token-exchange/single-device`)
+4. Test the PPV ticket bypass more thoroughly (`X-Abema-PPV-Ticket`)
 5. Investigate the MediaToken endpoint for token format vulnerabilities
 6. Test the realtime-api for SSE-based vulnerabilities

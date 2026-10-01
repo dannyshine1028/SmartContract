@@ -29,12 +29,17 @@ print('  -> sample:', d['slots'][0]['id'], '|', d['slots'][0]['title'][:45])
 
 echo ""
 echo "=== [3] Dev single slot detail (expect HTTP 200, no auth) ==="
+# Slot ids rotate, so derive a live id from the list fetched in step [2].
 SLOT=$(python3 -c "import json; print(json.load(open('/tmp/poc2_slots.json'))['slots'][0]['id'])")
+echo "  (using live slot id: $SLOT)"
 curl -s -m 30 -H "User-Agent: $UA" "https://dev-api.d-c3-e.abema-tv.com/v1/broadcast/slots/$SLOT" \
   -o /tmp/poc2_detail.json -w "HTTP %{http_code}\n"
 python3 -c "
-import json
-d=json.load(open('/tmp/poc2_detail.json'))['slot']
+import json,sys
+d=json.load(open('/tmp/poc2_detail.json'))
+if 'slot' not in d:
+    print('  -> ERROR: unexpected response:', str(d)[:150]); sys.exit(1)
+d=d['slot']
 print('  -> id:', d['id'], '| title:', d['title'][:45], '| channel:', d['channelId'])
 print('  -> content:', d.get('content','')[:120])
 "

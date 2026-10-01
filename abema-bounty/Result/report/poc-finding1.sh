@@ -52,6 +52,10 @@ except Exception as e:
 
 echo ""
 echo "=== [3] Fetch slot audience stats (expect HTTP 200, no auth) ==="
+# Re-derive a live slot id in case the set rotated since step 1
+LIVE=$(curl -s -m 25 -H "User-Agent: $UA" "https://api.abema.io/v1/broadcast/slots" 2>/dev/null \
+  | python3 -c "import sys,json;print(json.load(sys.stdin)['slots'][0]['id'])" 2>/dev/null || cat /tmp/poc_live_slot.txt)
+echo "  (using live slot id: $LIVE)"
 c=$(fetch "https://api.abema.io/v1/broadcast/slots/$LIVE/stats")
 echo "HTTP $c"
 cat /tmp/poc_out.json
