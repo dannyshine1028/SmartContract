@@ -1,0 +1,10 @@
+{
+  "name": "USX",
+  "address": "0xbc9d71426d612c28220d95033f4e47ad135bbfef",
+  "kind": "impl",
+  "match": "match",
+  "verifiedAt": "2024-08-08T10:35:57Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/msd/MSD.sol:MSD",
+  "files": 6
+}

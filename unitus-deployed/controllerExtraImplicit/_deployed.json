@@ -1,0 +1,10 @@
+{
+  "name": "controllerExtraImplicit",
+  "address": "0x95c06b4b6902b0aE37dDFf281d2c785313C86691",
+  "kind": "direct",
+  "match": "exact_match",
+  "verifiedAt": "2026-05-05T10:12:04Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "src/ControllerV2ExtraImplicit.sol:ControllerV2ExtraImplicit",
+  "files": 21
+}

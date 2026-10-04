@@ -1,0 +1,10 @@
+{
+  "name": "timelock",
+  "address": "0xa4e5ebEdcD1129Ed30C77644a70F4dd3c2d482cc",
+  "kind": "direct",
+  "match": "exact_match",
+  "verifiedAt": "2024-08-08T13:15:50Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/governance/TimeLock.sol:Timelock",
+  "files": 2
+}

@@ -1,0 +1,10 @@
+{
+  "name": "controller",
+  "address": "0x3d65f496353c93d28a2c78240206cef5c807c56a",
+  "kind": "impl",
+  "match": "exact_match",
+  "verifiedAt": "2024-10-24T15:12:08Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "src/ControllerV2BLP.sol:ControllerV2BLP",
+  "files": 22
+}

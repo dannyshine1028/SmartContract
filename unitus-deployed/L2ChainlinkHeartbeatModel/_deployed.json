@@ -1,0 +1,10 @@
+{
+  "name": "L2ChainlinkHeartbeatModel",
+  "address": "0x9913Ed5DD13E507D94d4118d96bd057F825e04f8",
+  "kind": "direct",
+  "match": "exact_match",
+  "verifiedAt": "2026-05-05T10:18:11Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/priceModel/layer2/Layer2ChainlinkHeartbeatModel.sol:Layer2ChainlinkHeartbeatModel",
+  "files": 13
+}

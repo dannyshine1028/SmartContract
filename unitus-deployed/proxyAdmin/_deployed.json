@@ -1,0 +1,10 @@
+{
+  "name": "proxyAdmin",
+  "address": "0x3BbB16351059D7405b2C41D9Fb9B89d71A8A1A4f",
+  "kind": "direct",
+  "match": "match",
+  "verifiedAt": "2024-08-08T16:39:41Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/library/ProxyAdmin.sol:ProxyAdmin",
+  "files": 6
+}

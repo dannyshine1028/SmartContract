@@ -1,0 +1,8 @@
+{
+  "name": "rewardDistributor_live",
+  "proxy": "0x2dcCE99fbd573Fabdbf3314aC885414B7051f9Cb",
+  "address": "0xec71c5826cb12b22a4db4afee2fc35e710e904f8",
+  "match": "exact_match",
+  "fullyQualifiedName": "src/RewardDistributorManager.sol:RewardDistributorManager",
+  "files": 11
+}

@@ -1,0 +1,10 @@
+{
+  "name": "msdController",
+  "address": "0x9d18008da36a66c7535d8fdbef36465e535ed148",
+  "kind": "impl",
+  "match": "exact_match",
+  "verifiedAt": "2024-08-08T10:43:21Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/msd/MSDControllerV2.sol:MSDControllerV2",
+  "files": 7
+}

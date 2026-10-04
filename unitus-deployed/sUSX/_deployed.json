@@ -1,0 +1,8 @@
+{
+  "name": "sUSX",
+  "proxy": "0xbC404429558292eE2D769E57d57D6E74bbd2792d",
+  "address": "0x78458ceae8210d8a843eb32ec42304c77f58330c",
+  "match": "exact_match",
+  "fullyQualifiedName": "src/sUSX.sol:sUSX",
+  "files": 32
+}

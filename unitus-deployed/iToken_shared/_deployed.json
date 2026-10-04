@@ -1,0 +1,10 @@
+{
+  "name": "iToken_shared",
+  "address": "0xb4ead680dce1bf49cde2ea21c0f52d66b6458067",
+  "kind": "impl",
+  "match": "exact_match",
+  "verifiedAt": "2026-06-22T02:29:00Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "src/iTokenV2BLP.sol:iTokenV2BLP",
+  "files": 21
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mainPrimaryInterestSecondModel",
+  "address": "0xb3800Bfb3EC116330F4bb083a3ea30d677c50155",
+  "kind": "direct",
+  "match": "exact_match",
+  "verifiedAt": "2026-06-26T16:40:34Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "src/InterestRateModel/InterestRateSecondModelV2.sol:MainPrimaryInterestSecondModel",
+  "files": 3
+}

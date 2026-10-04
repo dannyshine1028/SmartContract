@@ -1,0 +1,10 @@
+{
+  "name": "iETH",
+  "address": "0xddcdf0f00d81a540ed9b7e6824fc1165b27fb397",
+  "kind": "impl",
+  "match": "exact_match",
+  "verifiedAt": "2026-07-09T12:14:01Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "src/iETHV2BLP.sol:iETHV2BLP",
+  "files": 20
+}

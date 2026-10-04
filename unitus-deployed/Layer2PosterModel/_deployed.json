@@ -1,0 +1,10 @@
+{
+  "name": "Layer2PosterModel",
+  "address": "0x4640DdDD85583D19460f3abAd3ce032EFcF9CCe5",
+  "kind": "direct",
+  "match": "exact_match",
+  "verifiedAt": "2026-05-29T16:42:22Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/priceModel/layer2/Layer2PosterModel.sol:Layer2PosterModel",
+  "files": 11
+}

@@ -1,0 +1,10 @@
+{
+  "name": "oracleV3",
+  "address": "0x56e398faf30d8d3f48ad4d3c3b9bd8f6e324e141",
+  "kind": "impl",
+  "match": "exact_match",
+  "verifiedAt": "2026-06-26T15:28:24Z",
+  "compilerVersion": "0.6.12+commit.27d51765",
+  "fullyQualifiedName": "contracts/Oracle.sol:Oracle",
+  "files": 5
+}
