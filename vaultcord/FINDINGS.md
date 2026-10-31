@@ -10,6 +10,7 @@ Researcher UA used for all automated traffic: `Mozilla/5.0 ResponsibleReporter G
 
 **Status:** Confirmed end-to-end in a real Chrome against production.
 **Submitted:** 2026-10-29 to BugBase as report **#15421980** (CWE-79 Reflected Cross-Site Scripting, Moderate) — status New / Program Review Requested; evidence ZIP attached as "Attachment 1".
+**Current status (2026-10-31):** BugBase shows **Resolved / Pending Close** — the sink is fixed in production (see "Third pass" below). Do not resubmit.
 **Asset:** `https://vaultcord.win/hi` (in-scope, Web)
 **Severity estimate:** Medium (CVSS 3.1: AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N = 6.1), potentially High for victims with stored server passwords.
 
@@ -129,7 +130,17 @@ The same sink is also a client-side open redirect for `http(s)` targets
 
 ---
 
-## Second pass (2026-10-30) — no additional Level-3 bug
+## F3 — Unauthenticated path traversal in `api.vaultcord.com/market/invites` (VERIFIED, fixed during testing; SUBMITTED #17727911)
+
+**Submitted:** 2026-10-31 to BugBase as report **#17727911** — CWE-22 Path Traversal, Medium, status New / Program Review Requested. Draft: `Result(only BugReport)/vaultcord-01-invites-path-traversal.md`. Evidence: `evidence/vaultcord-invite-traversal-evidence.zip`.
+
+`GET /market/invites/{code}` concatenated `{code}` into `https://discord.com/api/v10/invites/{code}` with VaultCord's Discord bot token. `..%2F` escaped the prefix, giving unauthenticated callers arbitrary Discord API v10 GET requests as the "Vault Dashboard" bot (reproduced 2026-10-30: bot account, private application object incl. redirect URIs/verify key/owner identity, gateway session limits). Read-only, host pinned to discord.com, no customer data (bot in 0 guilds).
+
+**Fixed during testing.** Re-verified 2026-10-31: `..%2F`, `%2e%2e%2f`, `..%252F`, `..%5C`, `....%2F%2F`, nested variants → `400 {"success":false,"message":"Invalid invite code"}`; legit code `python` still 200. Residual action requested: rotate the bot token (it was usable by unauthenticated parties during the exposure window). Original raw capture files were not retained; the archive contains the 2026-10-31 raw captures plus a clearly-labelled transcription of the 2026-10-30 outputs.
+
+---
+
+
 
 Same required User-Agent. No scanners. No other user's data was read. `https://vaultcord.win/hi` now returns Cloudflare `cf-mitigated: challenge` to this client, so that host was not re-executed. The same Next.js app answered on `https://customers.vaultcord.com/hi` (`x-matched-path: /[[...slug]]`), which is inside `*.vaultcord.com`.
 
@@ -143,6 +154,30 @@ Checked, and not a second confirmed bug:
 6. **Open Graph `pic`.** Three public `pic` values (`cdn.vaultcord.com` logo, `https://example.com/`, `https://example.com/favicon.ico`) with the same name/description returned the same PNG (132248 bytes, same SHA-256 prefix). The parameter did not change the image. Internal addresses were not requested.
 
 `postMessage` preview updates accept `*.vaultcord.com` and `*.vercel.app`, and the listener is installed only when `isPreview` is true. On the public page `isPreview` is false. `?preview=1` and `?isPreview=1` were not readable on `vaultcord.win` because of the Cloudflare challenge.
+
+---
+
+## Third pass (2026-10-31) — fixes re-verified; new leads all below reporting bar
+
+Same required UA `Mozilla/5.0 ResponsibleReporter Gecko/20100101`; no scanners, no state changes, no other user's data read. Current production assets: verification app is Next.js **14.2.33** / React **18.3.1** (so CVE-2025-29927 middleware bypass is not applicable); page chunk `pages/[[...slug]]-23b3af5025c6235e.js` is the live build (`buildId sLd7RGlaNHGjJ3ch0VgCb`).
+
+### Fix re-verification (both prior findings are now fixed — do not resubmit)
+
+1. **F1 `to` sink is fixed.** `getServerSideProps` now allowlists the destination host (`vaultcord.win`) and relative paths. Probes of `to=javascript:...`, `to=//evil.example`, `to=https://evil.example/...`, and double-encoded variants all come back as `to:null` in `pageProps`. The client no longer calls `decodeURIComponent`; the waiting room now does `window.location.replace(r)` only when `r` is present (`l>0||(window.clearInterval(e),!n.current&&(n.current=!0,r&&window.location.replace(r)))`). No script execution remains. **#15421980 should not be resubmitted; if the triager asks, this is the fix evidence.**
+2. **Invite path traversal is fixed.** Alternate encodings (`..%2F`, `%2e%2e%2f`, `%5C`, overlong `%c0%ae`, `....%2F%2F`) against the invite endpoint all return `400 "Invalid invite code"`. Original `..%2F` also rejected.
+
+### New observations — checked to Level 2/3, all NOT reportable
+
+| # | Observation | Why it is not reported |
+|---|---|---|
+| P1 | `?previewToken=<anything>` (token unvalidated) sets `isPreview:true`; the page then installs a `message` listener with **no `event.source` check** and accepts `vaultcord:preview-update` from origins whose hostname is `localhost`, `dash.vaultcord.com`, `*.vaultcord.com`, `*.vercel.app`; the injected layout is zod-parsed and rendered (bio text, customCode iframe with whatever sandbox the layout supplies). | Level 3 not reached. On `vaultcord.win/hi` Cloudflare serves an interactive challenge to this client (`cf-mitigated: challenge`, 403) and bypassing it is out of bounds. On `customers.vaultcord.com/?previewToken=x` the real-browser PoC (Puppeteer, local attacker page + `window.open` + `postMessage`) rendered "Server not found" with no iframe and no injected text, because that URL has no server/vanity slug context. Content-spoofing only (no origin XSS: customCode iframe keeps `allow-scripts` without `allow-same-origin` in the server-sent layout). Needs a resolvable in-scope page that honors preview and is not CF-challenged before it could be considered. |
+| P2 | `/auth?error_description=` is reflected into `/hi?error=` (`vaultcord.win/hi?error=...`), and `success`/`error`/`warn` land in `pageProps`. | Text-only: rendered through the markdown renderer with the `["http:","https:","mailto:"]` protocol allowlist and proper URL/handling encoding. `<` is emitted as `\u003c` / `&lt;`. No tag breakout, no script. Best-practice/encoding observation only. |
+| P3 | `/donate` copies `access`, `userid`, `email`, `url`, `tier`, `invoiceid`, `orderId`, etc. into `pageProps` and writes `discord_access`/`discord_user`/`discord_email` to localStorage. | Deprecated page: it states "Donation payments are shut down… Fanbasis.com decided to terminate our contract". Values are `atob`-decoded/postMessaged only as a redirect string; no injection into HTML or script. No impact on current functionality. |
+| P4 | Unauthenticated `POST /api/realtime/auth?cluster=us` signs arbitrary `private-cache-verify-<reference>` channels with the public Pusher/Abinator key. | Channel `reference` is a 32-hex private value that exists only while a verification is `inProgress`, and the payload is progress status only. No way to enumerate/derive references, so no cross-user data exposure. Not a bug on its own. |
+
+Also ruled out this pass: owner-controlled `links`/`socialLinks` `javascript:` URLs (rendered `target="_blank"`, and Chrome blocks `javascript:` navigation for `_blank` — verified locally); `theme.cursor` CSS injection (value applied via CSSOM, not markup); avatar `verifyHref` (app-computed, not owner-controlled); `componentEmbed` URL buttons (rendered as escaped JSON via `dangerouslySetInnerHTML` with `<`→`\u003c`, no raw href sink); `_next/image` SSRF (400 `INVALID_IMAGE_OPTIMIZE_REQUEST`); dashboard `dangerouslySetInnerHTML` (static Radix style only); `dash.vaultcord.com` admin chunk (Cloudflare Access / Zero Trust, `nelsec.cloudflareaccess.com`).
+
+**Net result: no new Level-3-confirmed, reportable bug this pass.** Both earlier findings are confirmed fixed in production.
 
 ---
 

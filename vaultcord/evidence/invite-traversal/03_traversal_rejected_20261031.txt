@@ -1,0 +1,38 @@
+GET https://api.vaultcord.com/market/invites/%2e%2e%2fusers%2f%40me
+UTC: 2026-10-31T13:32:24.977649Z
+User-Agent: Mozilla/5.0 ResponsibleReporter Gecko/20100101
+Referer: https://dash.vaultcord.com/
+
+HTTP 400
+Date: Sat, 31 Oct 2026 13:32:24 GMT
+Content-Type: application/json
+Content-Length: 49
+Connection: keep-alive
+CF-Ray: a533068e2a8ac764-NRT
+Access-Control-Allow-Origin: https://dash.vaultcord.com
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: X-Request-Id, X-Phonesig
+Cf-Placement: remote-LAX
+Cross-Origin-Embedder-Policy: unsafe-none, unsafe-none
+Cross-Origin-Opener-Policy: same-site, same-site
+Cross-Origin-Resource-Policy: cross-origin, cross-origin
+X-Request-Id: 1ad4b13e-8ec3-4008-8c4e-0a481cde7b38
+X-Robots-Tag: noindex
+X-XSS-Protection: 0, 0
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross, upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA, Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+expect-ct: max-age=86400, enforce, max-age=86400, enforce
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*, accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+referrer-policy: no-referrer-when-downgrade
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross", csp-sentry="https://vaultcord.com/icross"
+x-content-type-options: nosniff
+x-dash-version: 2ce3fc3b-db13-4e9e-b00e-ccd1e547025a
+x-frame-options: SAMEORIGIN, SAMEORIGIN
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Fqg8vu3LrTirtbZBgiC9YNlHryIfNqPlQxei8BDpxrsEOm59g6vPE4uAe6DOejBu9565CmRQb7tnygeXAAjICPymOhEDji3%2BCVjIgpniYwgmQEz%2Ba4QO3mtyaXTgMcPR%2FoXfGA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+{"success":false,"message":"Invalid invite code"}

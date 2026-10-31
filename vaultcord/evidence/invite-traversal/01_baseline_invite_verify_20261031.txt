@@ -1,0 +1,39 @@
+GET https://api.vaultcord.com/market/invites/python
+UTC: 2026-10-31T13:32:19.843005Z
+User-Agent: Mozilla/5.0 ResponsibleReporter Gecko/20100101
+Referer: https://dash.vaultcord.com/
+
+HTTP 200
+Date: Sat, 31 Oct 2026 13:32:19 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: a533066dfef8eacd-NRT
+Access-Control-Allow-Origin: https://dash.vaultcord.com
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: X-Request-Id, X-Phonesig
+Cf-Placement: remote-LAX
+Cross-Origin-Embedder-Policy: unsafe-none, unsafe-none
+Cross-Origin-Opener-Policy: same-site, same-site
+Cross-Origin-Resource-Policy: cross-origin, cross-origin
+X-Request-Id: f3010ac9-af21-42d3-9282-04c37da90aa8
+X-Robots-Tag: noindex
+X-XSS-Protection: 0, 0
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross, upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA, Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+expect-ct: max-age=86400, enforce, max-age=86400, enforce
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*, accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+referrer-policy: no-referrer-when-downgrade
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross", csp-sentry="https://vaultcord.com/icross"
+x-content-type-options: nosniff
+x-dash-version: 2ce3fc3b-db13-4e9e-b00e-ccd1e547025a
+x-frame-options: SAMEORIGIN, SAMEORIGIN
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HPnnMOA7aGrTT01oX8gpbtcFGc3gSIH3IshuVngPQhdaDQlYjlRnWMrIZ9TzmHmmqLafH7rQapq6TORgcEPCrl0W3MpMa1NuRdLdbPKV%2F5jitKi2ODZokS9yiBIgmiZ3h7jdzQ%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{"success":true,"data":{"type":0,"code":"python","expires_at":null,"id":0,"flags":2,"guild":{"id":"267624335836053506","name":"Python","splash":"b7099fe221153a7faff76048dc2e63ef","banner":"425dce24875c0fcd92262e10c0688379","description":"We're a large community focused around the Python programming language. We believe that anyone can learn to code.","icon":"e877632344f2bd9952890c88cf9bc468","features":["SOUNDBOARD","VIP_REGIONS","GUILD_ONBOARDING_EVER_ENABLED","GUILD_TAGS_BADGE_PACK_CREEPY_CRAWLIES","DISCOVERABLE","TIERLESS_BOOSTING","BANNER","GUILD_SERVER_GUIDE","GUILD_ONBOARDING","AUDIO_BITRATE_128_KBPS","PREVIEW_ENABLED","VIDEO_QUALITY_720_60FPS","RELAY_ENABLED","AGE_VERIFICATION_LARGE_GUILD","CONSIDERED_EXTERNALLY_DISCOVERABLE","GUILD_TAGS_BADGE_PACK_PETS","GUILD_ONBOARDING_HAS_PROMPTS","VIDEO_QUALITY_1080_60FPS","GUILD_TAGS","AUDIO_BITRATE_384_KBPS","STAGE_CHANNEL_VIEWERS_50","GUILD_MEMBER_VERIFICATION_EXPERIMENT","GUILD_WEB_PAGE_VANITY_URL","NEWS","ANIMATED_ICON","VANITY_URL","COMMUNITY","ANIMATED_BANNER","ENHANCED_ROLE_COLORS","ROLE_ICONS","TIERLESS_BOOSTING_SYSTEM_MESSAGE","MAX_FILE_SIZE_100_MB","THREADS_ENABLED","NEW_THREAD_PERMISSIONS","AUTO_MODERATION","SWP_CHANNEL_SUMMARIES_DISABLED","SWP_CHANNEL_MESSAGES_DISABLED","MEMBER_VERIFICATION_GATE_ENABLED","VIDEO_BITRATE_ENHANCED","AUDIO_BITRATE_256_KBPS","CHANNEL_ICON_EMOJIS_GENERATED","AUTOMOD_TRIGGER_ML_SPAM_FILTER","GUILD_HOME_TEST","INVITE_SPLASH","WELCOME_SCREEN_ENABLED","BYPASS_SLOWMODE_PERMISSION_MIGRATION_COMPLETE","PIN_PERMISSION_MIGRATION_COMPLETE","STAGE_CHANNEL_VIEWERS_150","STAGE_CHANNEL_VIEWERS_300","THREADS_ONLY_CHANNEL","MAX_FILE_SIZE_50_MB"],"verification_level":2,"vanity_url_code":"python","nsfw_level":0,"nsfw":false,"premium_subscription_count":27,"premium_tier":3},"guild_id":"267624335836053506","channel":{"id":"267631170882240512","type":0,"name":"welcome"},"profile":{"id":"267624335836053506","name":"Python","icon_hash":"e877632344f2bd9952890c88cf9bc468","member_count":428166,"online_count":40149,"description":"We're a large community focused around the Python programming language. We believe that anyone can learn to code.","banner_hash":null,"game_application_ids":[],"game_activity":{},"tag":"snek","badge":0,"badge_color_primary":"#008cff","badge_color_secondary":"#fdf300","badge_hash":"fd3549e1a1a692afda2a7b4cf6b6cad6","traits":[],"features":["MEMBER_VERIFICATION_GATE_ENABLED","DISCOVERABLE","COMMUNITY"],"visibility":1,"custom_banner_hash":"99f4a269f925d0c495dc2711e78e00df","premium_subscription_count":27,"premium_tier":3},"approximate_member_count":428166,"approximate_presence_count":40149,"presence_hash":"e68d9f2210345b162614121f014be977f551eca9d57b2520780a73835bd51c6f"}}
