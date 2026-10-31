@@ -1,0 +1,11 @@
+# Served client sink (extracted from /_next/static/chunks/pages/%5B%5B...slug%5D%5D-cc3e49f0c08263d0.js)
+
+function U(e){let{serverId:t,to:r}=e,[a,s]=(0,n.useState)(55),i=(0,n.useRef)(!1);(0,n.useEffect)(()=>{let e;let t=Date.now()+55e3,l=()=>{let l=Math.max(0,Math.ceil((t-Date.now())/1e3));s(l),l>0||(window.clearInterval(e),i.current||(i.current=!0,window.location.replace(decodeURIComponent(r))))};return e=window.setInterval(l,250),l(),()=>window.clearInterval(e)},[r]);let o=a<=0,d=`${a} ${1===a?"second":"seconds"}`;return(0,l.jsx)("div",{className:"fixed inset-0 z-50 w-full flex items-center justify-center p-4 bg-black/60 backdrop-blur-md",role:"dialog","aria-modal":"true","aria-labelledby":"waiting-room-title",children:(0,l.jsx)(c.q.div,{className:"bg-black/40 backdrop-blur-md p-8 w-full max-w-md flex flex-col justify-between it
+
+
+# Rendering condition (wait must be "1")
+
+[I]=(0,n.useState)("1"===v);
+
+
+I?(0,l.jsx)(U,{serverId:r?.id,to:j})

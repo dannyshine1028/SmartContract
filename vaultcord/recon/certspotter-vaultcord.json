@@ -1,0 +1,970 @@
+[
+	{
+		"id": "16207401966",
+		"tbs_sha256": "6471f80b6a92e5a513a025bdf0872f82d496c532f6f94ad05bc0ba1fb3a70d1e",
+		"cert_sha256": "c60f0f64cfb034d578ee6ca9083677d42f36177894e450c4f9bb9c25c9b74412",
+		"dns_names": [
+			"*.ai.vaultcord.com",
+			"ai.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "489d172e3b75c7afb21a95e99c4692eb9259bd1d698ac355fef504b3dbd1e812",
+		"not_before": "2026-08-01T00:53:32Z",
+		"not_after": "2026-10-30T01:53:27Z",
+		"revoked": false
+	},
+	{
+		"id": "16207403330",
+		"tbs_sha256": "8c8051dc14c98319479f5fc1b5186f43b6bf92aadce8f7490460128a08d6c9e0",
+		"cert_sha256": "ed567eb21907ab6db291f3392dd5e97bc452770a4e1079093f0e95c75cf417b7",
+		"dns_names": [
+			"*.ai.vaultcord.com",
+			"ai.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "f272b0b85f28b7a51f02aae5c347904a7fd660ffa5bad5a7598a160093f8b503",
+		"not_before": "2026-08-01T00:53:19Z",
+		"not_after": "2026-10-30T01:51:02Z",
+		"revoked": false
+	},
+	{
+		"id": "16240450570",
+		"tbs_sha256": "292223a538579fc57432424ce66215e2297576f191c73da873ef4e0145ba9d36",
+		"cert_sha256": "8ccb09e7f37353cf12a3fc551542947fdc22998a9730bbfb5e96ec0e7afb4575",
+		"dns_names": [
+			"support-dash.vaultcord.com"
+		],
+		"pubkey_sha256": "126f1771facc3f9de111545cbd7c48f46944d7537272fcb048cfdc3dfbec5870",
+		"not_before": "2026-08-02T17:47:33Z",
+		"not_after": "2026-10-31T18:47:28Z",
+		"revoked": false
+	},
+	{
+		"id": "16240476157",
+		"tbs_sha256": "6c9ca4c20ec332e6080e411c7ea353a0a2426ab47a8b2f71e244c62802c05366",
+		"cert_sha256": "98bc87fccf299bbd06b911eeeb301460a2697f6c18546c57858f07e2a35fd3dd",
+		"dns_names": [
+			"support-dash.vaultcord.com"
+		],
+		"pubkey_sha256": "3b6cc9f9a063f4dfeb46b1396648f12e767712521f54763adc457a53ee1c5f7b",
+		"not_before": "2026-08-02T17:47:22Z",
+		"not_after": "2026-10-31T18:45:52Z",
+		"revoked": false
+	},
+	{
+		"id": "16276758879",
+		"tbs_sha256": "89d380fbe2de11d62a0fff6ad8ba7255ac5f7fe2bb71da5482483784d21489ee",
+		"cert_sha256": "afcd6961201b6333b86f4652582e8edd0b65672274954938c3338bf2d0fbe4aa",
+		"dns_names": [
+			"customers.vaultcord.com"
+		],
+		"pubkey_sha256": "2f4955ecda2e07cd43c15e02e92da2a55dc32a95202c628d8a21eba41bcc2140",
+		"not_before": "2026-08-04T07:07:42Z",
+		"not_after": "2026-11-02T07:07:41Z",
+		"revoked": false
+	},
+	{
+		"id": "16277291636",
+		"tbs_sha256": "5311b2d62e52a0d55bcd0c5f512cbfcb5f10cc7cbdff4f1384f0ddf38b377fc3",
+		"cert_sha256": "8ef8f99a3f49a926bc5abeb71ac6effcc79fccd9bb97a495969e5000e1ba00df",
+		"dns_names": [
+			"*.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "026d317400d65fa628c06f3c5f7c5db8e3f124ad35b5b992e7d26d50488138d4",
+		"not_before": "2026-08-04T08:23:27Z",
+		"not_after": "2026-11-02T08:31:05Z",
+		"revoked": false
+	},
+	{
+		"id": "16280174348",
+		"tbs_sha256": "f40528b380ee52aecc09ae807f2573be4ca0c052291d176277bd7362218df6a6",
+		"cert_sha256": "eff49cb5bee90088b380e9a6de03266184024b04910682d485d542648251e416",
+		"dns_names": [
+			"docs.vaultcord.com"
+		],
+		"pubkey_sha256": "6f21bc130c277cd8867067454ee0ef631503067e9d5b96f26e32c887c6c5748a",
+		"not_before": "2026-08-04T10:28:08Z",
+		"not_after": "2026-11-02T10:28:07Z",
+		"revoked": false
+	},
+	{
+		"id": "16340579225",
+		"tbs_sha256": "414e33eedec970e9e4309c5d9eab7f437eaf9952c77954d56a57d223b966597f",
+		"cert_sha256": "fc6a50cdd3cce22e24917fc384a71803589be49cedd68fbacdb6e0f09efcf72d",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "97a125478823f5904b5d916a09c62292d693aee3974519fe6771a00445e3b729",
+		"not_before": "2026-08-06T22:55:48Z",
+		"not_after": "2026-11-04T23:53:20Z",
+		"revoked": false
+	},
+	{
+		"id": "16340581418",
+		"tbs_sha256": "dcba5628066c41535c937547416c4c542a2fb14e281bd0a5b558a6beb7ef0a1c",
+		"cert_sha256": "258cc7b7dff01af482bbdedab58b168da1cc8d74c00582713df0a4bc5f990bb3",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "b7cfc115b33834e88ef1591b1c4245df578b9beeb549a88aa422f2489a9c813e",
+		"not_before": "2026-08-06T22:56:12Z",
+		"not_after": "2026-11-04T23:55:55Z",
+		"revoked": false
+	},
+	{
+		"id": "16368241855",
+		"tbs_sha256": "5cf639041822f028eec7abe6be22f9d98e2252287f194d7187026568b0affa6e",
+		"cert_sha256": "99b83d5211859956a893b66dcb6b6e4976a8f415974da3ce3b37b48261e759b4",
+		"dns_names": [
+			"status.vaultcord.com"
+		],
+		"pubkey_sha256": "62f540294b04d251255c8b6424148a737f64da578f287e8cb4f1f0ecdab6c555",
+		"not_before": "2026-08-08T07:47:30Z",
+		"not_after": "2026-11-06T07:47:29Z",
+		"revoked": false
+	},
+	{
+		"id": "16380983008",
+		"tbs_sha256": "2382dc666804aa18df709d779f5f921333bb5af27ad42629d5a2bb0a7299a321",
+		"cert_sha256": "134fa1f25f0faf18a2ec04f736af613e096762dfe246afb528680a597a3b9696",
+		"dns_names": [
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "4ddb2c70bf2b87ec779d01fec84d8f9c29b51f4d3b8bfe9c9f57de7afa53bf2b",
+		"not_before": "2026-08-08T21:56:04Z",
+		"not_after": "2026-11-06T22:52:15Z",
+		"revoked": false
+	},
+	{
+		"id": "16381012082",
+		"tbs_sha256": "d01095f4d193eac729c8ef1bb2ee8711a2f6fe4d8fd19ebb0de84187e4cd7634",
+		"cert_sha256": "f9cb0aba74a99a142d7e97b7690661d744e741b84452c5f37431311d9d4018af",
+		"dns_names": [
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "65c4003e09346a134ee0c87d74fff07c59fe6b9e42f15b6b104aced4c730a14f",
+		"not_before": "2026-08-08T21:56:24Z",
+		"not_after": "2026-11-06T22:56:10Z",
+		"revoked": false
+	},
+	{
+		"id": "16381406881",
+		"tbs_sha256": "cda305899954d81a539a4e2c615e17a960b4fd1b5705872c0e66dcb809ce6969",
+		"cert_sha256": "1a29d27197da7ded144a73cf32034512302ec871fdc49f3e96b5d653247e8d77",
+		"dns_names": [
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "96d3730ccbc1bd6832e1911f6c5f4084603776cf44ca2c265d3962f402cf912c",
+		"not_before": "2026-08-08T22:26:36Z",
+		"not_after": "2026-11-06T23:25:45Z",
+		"revoked": false
+	},
+	{
+		"id": "16381446476",
+		"tbs_sha256": "70393f518d499d7f0c818c26fac668aa71caf84954027049a08bd7f04a756406",
+		"cert_sha256": "e454c36b5e0d7c5e8cc9fe5a35c3353c891aa167927b6672fedcaf398e719935",
+		"dns_names": [
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "672abecf8341a2a75f1ea2219c6e6b89001ba06aa08b77159f5db8618728789c",
+		"not_before": "2026-08-08T22:27:50Z",
+		"not_after": "2026-11-06T23:26:42Z",
+		"revoked": false
+	},
+	{
+		"id": "16382465959",
+		"tbs_sha256": "7bb6800c4d9536a390a77e896b9f2e26487ffa391f609f81b34df60274c0efb5",
+		"cert_sha256": "84167eb511238e13d3e54ed16069395acc6c2831a4214f255625fa5c45dcdcc7",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "d8fb954ca5862cc0129f1f398e9e61e687a62c1a3645adfcfde7a59690c9bed3",
+		"not_before": "2026-08-08T23:33:11Z",
+		"not_after": "2026-11-07T00:31:11Z",
+		"revoked": false
+	},
+	{
+		"id": "16382498148",
+		"tbs_sha256": "5b2d80e59f5388bc1c27107439c3103a39bc00d953f0fd261cef59dfeac5b649",
+		"cert_sha256": "b281fb1cf63947a8322ff01afde9b4c44561715b5ebdc26cacf9a6840181a6fb",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "5b3c290c460371c6aa8627cef538fc9c95bb6c82c0f795e53900c3f32c2a5939",
+		"not_before": "2026-08-08T23:33:20Z",
+		"not_after": "2026-11-07T00:33:18Z",
+		"revoked": false
+	},
+	{
+		"id": "16382864188",
+		"tbs_sha256": "0ecbb7dbd3c1537df9e97c19310514b9cc63f0d4ddd7f356851b75cc6b101e7e",
+		"cert_sha256": "18daab4af3bd6d1036e508c3cd3a56b5b106c340021ae4025304658b9a13fcee",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "de70ecff0fda465d14427bddef7ba89fd2e03ea732767da24f97aa9b70ae49e1",
+		"not_before": "2026-08-08T23:57:17Z",
+		"not_after": "2026-11-07T00:56:32Z",
+		"revoked": false
+	},
+	{
+		"id": "16382866270",
+		"tbs_sha256": "c895c01845f1f4cf950be55f749c9c7deeeff6427a590cc662c624d863b324c0",
+		"cert_sha256": "201075703593be6d584a6a0334190f36d81435f6b1567e37262f8d86c8a0f5d9",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "c96105afbef70773b621d8c0f21e1c6b5e7a21b68d142d162605dcf2a6e1c9fb",
+		"not_before": "2026-08-08T23:56:26Z",
+		"not_after": "2026-11-07T00:55:49Z",
+		"revoked": false
+	},
+	{
+		"id": "16437315002",
+		"tbs_sha256": "8b525c7f9df96e8867a009f92f1de04973ae772c99b98c52077f2286e1688919",
+		"cert_sha256": "e849f00a9158242d28fbc9ce0c8747d54e3933d9f1f63d24acef605330002899",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "e1249e88a3d173238d208bfe9b2dd54a5c994891dea82466f1def4644653401d",
+		"not_before": "2026-08-11T10:50:19Z",
+		"not_after": "2026-11-09T11:49:08Z",
+		"revoked": false
+	},
+	{
+		"id": "16437316440",
+		"tbs_sha256": "eddff04527733672eafc5c3e14e1480bcb8c69260587c44d779154614363172b",
+		"cert_sha256": "f2970be01a9c9cff4084f3f18a8aa170b7a1db680206ec00a28575e262a995bb",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "d78abafc3ccfa8b07f65de59d18b35835377539513f48a294a84a685876d1d07",
+		"not_before": "2026-08-11T10:50:27Z",
+		"not_after": "2026-11-09T11:50:25Z",
+		"revoked": false
+	},
+	{
+		"id": "16512123804",
+		"tbs_sha256": "eb066efc723cf954838ee322eccb1ee7699d8ce6bb322f5c757f301d30287f69",
+		"cert_sha256": "896268468adf3e9f60f85ed203320e987338a8d53f8be93bc0d7739d6ae83950",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "d51cf04c6f74a696f7072001e164d83ca3813a22ffc1bc801ecd7bc3c5b0cde4",
+		"not_before": "2026-08-14T21:23:06Z",
+		"not_after": "2026-11-12T22:23:03Z",
+		"revoked": false
+	},
+	{
+		"id": "16512133647",
+		"tbs_sha256": "bd33dac6858bef8963b37871027863d1bfe40d5fd4cb63caf38523a009cbd844",
+		"cert_sha256": "ab460608a66349c40db17a790bb871d6143717fe15e22c3beeb86e8bb3602f57",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "de2492d4d1fa7c5773aa24612b90b19f7636aba303c27f1631834937d5e1bd91",
+		"not_before": "2026-08-14T21:22:57Z",
+		"not_after": "2026-11-12T22:21:43Z",
+		"revoked": false
+	},
+	{
+		"id": "16512437974",
+		"tbs_sha256": "3589e21f2161742f6fb9bec7c9265e331a12b04f93b6b2fadd60322cf0dd1a04",
+		"cert_sha256": "b8b8be18f65a9f97f04455334675fc48ad658c012afd2a9d1d5444e18567a623",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "855481b12a897fcfd0f5690bccccd4bdc303b89fa7464062df631f59e79ea1aa",
+		"not_before": "2026-08-14T21:46:07Z",
+		"not_after": "2026-11-12T22:46:06Z",
+		"revoked": false
+	},
+	{
+		"id": "16512439624",
+		"tbs_sha256": "a09d78781303c5fb7e9ecb42a68e149fe3f6b25763210d7652375fba9aeee77a",
+		"cert_sha256": "1065f7951ff5d801e84a32b4dc458635bd33d79faa7c199dcb38ad9c8b2812ef",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "f1533613f68eab5fab6b8a2ce786eab386e072a9b321ca682f0f82c163cc7e79",
+		"not_before": "2026-08-14T21:46:17Z",
+		"not_after": "2026-11-12T22:46:14Z",
+		"revoked": false
+	},
+	{
+		"id": "16678009804",
+		"tbs_sha256": "817d0d32cb0e5a20c873c41e0db0183b842c4bfa552f678bb2ed5b1c09396698",
+		"cert_sha256": "d71c35619e9c6b02b5d506cf78b7a2cb0f116e577ebe22f85b2daa5bb0df7683",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "46f5c1ef6949e6509386ecc81e67538707c2b4be066e894097d9fa6dc486bb1e",
+		"not_before": "2026-08-22T05:14:36Z",
+		"not_after": "2026-11-20T06:13:25Z",
+		"revoked": false
+	},
+	{
+		"id": "16678023019",
+		"tbs_sha256": "c7f6a64d358b32c9a95e658dd71a4117e57109b51b5d5cae577d14395546a0be",
+		"cert_sha256": "9ff87ba479c406525919c71900bafc91cef7463a45172dbae856d88f2995bc03",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "288f90fcd2c6ba0eb9da2fa455f5e519df253e39f6606f37eab715e3c997cb15",
+		"not_before": "2026-08-22T05:14:49Z",
+		"not_after": "2026-11-20T06:14:42Z",
+		"revoked": false
+	},
+	{
+		"id": "16678728775",
+		"tbs_sha256": "74659f455470edc58d33fc0376a61cb1d809bab9e2c87d4962ccd844d8293bec",
+		"cert_sha256": "272d6dca9473436185acdb331c0a9a24881b004e089505c7276da3e9a43792f0",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "ad81006f4dafd2103c4756fe6385618d32fe28e5666ec088736a7ea30ecd0f98",
+		"not_before": "2026-08-22T05:52:08Z",
+		"not_after": "2026-11-20T06:52:00Z",
+		"revoked": false
+	},
+	{
+		"id": "16678760787",
+		"tbs_sha256": "f78d0ce4b60fd705deab7dda8f44b9f77e11794eb69a4f5589503c8b307c5fc6",
+		"cert_sha256": "fb703bc6956bca5dd885bbfb95846de0a94d9773632663694c15aa5122dba732",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "f972084350a560ae742c3e6ebf01ebbacc268927d3ccc689127c4fb69c66bbcd",
+		"not_before": "2026-08-22T05:52:20Z",
+		"not_after": "2026-11-20T06:52:14Z",
+		"revoked": false
+	},
+	{
+		"id": "16904873860",
+		"tbs_sha256": "17b58fea5758950c51de03ddfefac3ae00a2dde484352c226af0ba55edd01b38",
+		"cert_sha256": "9d0c8fadb1f17e6cd6332294fa239b658512f957593abbd8a88c8a3b8a48da51",
+		"dns_names": [
+			"77167efa.sni.cloudflaressl.com",
+			"r2.vaultcord.com"
+		],
+		"pubkey_sha256": "bb0506ad1a9d1a3f29ce4fafe8483a7f2c01ad7daf33d51b5c9a9b1fe208ebf9",
+		"not_before": "2026-08-31T12:25:35Z",
+		"not_after": "2026-11-29T13:24:18Z",
+		"revoked": false
+	},
+	{
+		"id": "16904875597",
+		"tbs_sha256": "b4012260167cb6fb4500bc8353e6c3388117a3d4ac5e61df3223b5059517109e",
+		"cert_sha256": "78c881fe27db2f18a1e9a5c397f4d2698df052a1fa2732205c7a77284a37ab11",
+		"dns_names": [
+			"77167efa.sni.cloudflaressl.com",
+			"r2.vaultcord.com"
+		],
+		"pubkey_sha256": "0919052d2cc09746e89378485dfe85dd3c5dd27e2167d83a8f8dd392ed5e555e",
+		"not_before": "2026-08-31T12:25:48Z",
+		"not_after": "2026-11-29T13:25:42Z",
+		"revoked": false
+	},
+	{
+		"id": "16905177216",
+		"tbs_sha256": "febdf2f07bcde5e51b83457f64adffc8420585b4b982bc1c3128eb0863ece578",
+		"cert_sha256": "eefebe9b6fa5a4ed4a19dfe22ba428c7e4301b3cfc25c65ea1fc775f5d7d22aa",
+		"dns_names": [
+			"77167efa.sni.cloudflaressl.com",
+			"r2.vaultcord.com"
+		],
+		"pubkey_sha256": "633f1d0603aed2db172e51edc9fce90678d3594cfcda9c8d7485afb080571e1f",
+		"not_before": "2026-08-31T12:51:09Z",
+		"not_after": "2026-11-29T13:51:05Z",
+		"revoked": false
+	},
+	{
+		"id": "16905190493",
+		"tbs_sha256": "1e6f4169fb9e2437bf36523b275962584003b1d62454edf6d21e3eaea8bc85dd",
+		"cert_sha256": "e0392d20dff90c91728c730d94468b6165fb2dd6520e871d1e3db018029a5444",
+		"dns_names": [
+			"77167efa.sni.cloudflaressl.com",
+			"r2.vaultcord.com"
+		],
+		"pubkey_sha256": "d1ff429699e5e696112585fa9b81eec43c74235d8e9e03f3a89121c0c4bf8383",
+		"not_before": "2026-08-31T12:50:59Z",
+		"not_after": "2026-11-29T13:50:54Z",
+		"revoked": false
+	},
+	{
+		"id": "17033863998",
+		"tbs_sha256": "950e23805d02a171e24c83a9ee9f05e738b7a548f624af0b5c4fc8092a558377",
+		"cert_sha256": "0fd9126f79f28ccd513345e156821dfac481ede970258466da0bd5ca1de9b682",
+		"dns_names": [
+			"907752aa.sni.cloudflaressl.com",
+			"audio.vaultcord.com"
+		],
+		"pubkey_sha256": "1ee79659b58706eb0f85f4e5b9836eb4f646b4e80d951629542d5ace3474cc10",
+		"not_before": "2026-09-07T05:10:22Z",
+		"not_after": "2026-12-06T06:10:16Z",
+		"revoked": false
+	},
+	{
+		"id": "17033871300",
+		"tbs_sha256": "aa0e720547206c0d0b3d3116c6c7c7777cfe973aaf6ea5eaba12671284578933",
+		"cert_sha256": "6f7922e22fe915b79242c550631ee5560a04cc68e8203625a20843baac6aca2a",
+		"dns_names": [
+			"907752aa.sni.cloudflaressl.com",
+			"audio.vaultcord.com"
+		],
+		"pubkey_sha256": "8549dee58893864904875c2fa0fa496130c4d11cb0c698074fa1135a4c061cd2",
+		"not_before": "2026-09-07T05:10:09Z",
+		"not_after": "2026-12-06T06:08:55Z",
+		"revoked": false
+	},
+	{
+		"id": "17037596501",
+		"tbs_sha256": "f0a78aac34d8b59d45e59983c57f1d0b225ca6fdc2b8211617db8d172ee5185a",
+		"cert_sha256": "768a5582b6840eec836740d7b9ecfd5587c83a3d9e9730b81f70a38b5b685304",
+		"dns_names": [
+			"907752aa.sni.cloudflaressl.com",
+			"audio.vaultcord.com"
+		],
+		"pubkey_sha256": "a8a7bf40b69d9fa1ca8cd0a736373e58c5793800faf8621c2e4349be64c736d4",
+		"not_before": "2026-09-07T09:48:45Z",
+		"not_after": "2026-12-06T10:48:36Z",
+		"revoked": false
+	},
+	{
+		"id": "17037597529",
+		"tbs_sha256": "53d7a5278966c3ead31d282722d9cfdb12a38355fd94639d3f532d4f9f9c4aa0",
+		"cert_sha256": "90ce7550c2c51b91fde8b4c66da2ff5f5a7948d7434f90bb61ff800ab110fc8f",
+		"dns_names": [
+			"907752aa.sni.cloudflaressl.com",
+			"audio.vaultcord.com"
+		],
+		"pubkey_sha256": "de2097b7cede39cebc6a3d7e8c4cca424fddd7a745185044fc8731e8067e279e",
+		"not_before": "2026-09-07T09:48:58Z",
+		"not_after": "2026-12-06T10:48:52Z",
+		"revoked": false
+	},
+	{
+		"id": "17125808029",
+		"tbs_sha256": "304a944ce204af9eb6df3fb46647dcc894eb413470614bce2170f162b240dbc4",
+		"cert_sha256": "271861ab345ee0856305c9b6c8a3caf710b1d1409c4d765ec27ae47ddac88c6f",
+		"dns_names": [
+			"kauth1.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "c9e994722de9c97ad1433ef59d8a3a4b59e92a844981b6c36668e7681b168ba6",
+		"not_before": "2026-09-11T19:13:33Z",
+		"not_after": "2026-12-10T20:13:31Z",
+		"revoked": false
+	},
+	{
+		"id": "17125817670",
+		"tbs_sha256": "76d7dca6e02426c6eb9839934b4f4882959d354c337473f36873d711138d3acd",
+		"cert_sha256": "27c225e6371d04078cff5a98a8c0159ded8e776bc6910525121da34d5d15d969",
+		"dns_names": [
+			"kauth1.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "f3a704270938d9daf8eed82651ebc604c5b924fc163e7efded8b1c2ca9c09347",
+		"not_before": "2026-09-11T19:13:24Z",
+		"not_after": "2026-12-10T20:10:58Z",
+		"revoked": false
+	},
+	{
+		"id": "17153434781",
+		"tbs_sha256": "44b4013d86e6ba2b4da365c3e390738ba97590b902b5608c3eb426087bac49df",
+		"cert_sha256": "2b9993c6d28150cae88b62d901fcf0c5c660970d2cdb84524fc7b7eae7c6e663",
+		"dns_names": [
+			"help.vaultcord.com"
+		],
+		"pubkey_sha256": "5622bb0ea132db5185becc731bba1d6d4afeaed3febc92f28408761465d1d2f8",
+		"not_before": "2026-09-13T10:54:39Z",
+		"not_after": "2026-12-12T11:54:33Z",
+		"revoked": false
+	},
+	{
+		"id": "17153458863",
+		"tbs_sha256": "1cbccac3ceaf39aff0247ad804c15cc02d525fc7c3b4dbe471334bb540cd7885",
+		"cert_sha256": "7958edff2ef6ec53fa5b421a87a759a6b54c8e9e84f0383c2313097c1b314fc3",
+		"dns_names": [
+			"help.vaultcord.com"
+		],
+		"pubkey_sha256": "8ae03b449b8ce7c6a55a228debdf40b862e06befe5cbe09567662d7043561bb0",
+		"not_before": "2026-09-13T10:54:26Z",
+		"not_after": "2026-12-12T11:53:17Z",
+		"revoked": false
+	},
+	{
+		"id": "17393271590",
+		"tbs_sha256": "b88a8b0bd57ce50cb834b8acac339e0009378ed9d68033b99341222e4ac2c1d6",
+		"cert_sha256": "9f5067ba4e51d6c3d586abe822836c646072d2bdf8a21e6cc9d3bec76da78b18",
+		"dns_names": [
+			"*.intercom-cdn.vaultcord.com",
+			"intercom-cdn.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "80c0bd62d86ecc7d2541deb1329265a37bc575b84eaa46dfe22ed302c8ef9238",
+		"not_before": "2026-09-24T20:04:00Z",
+		"not_after": "2026-12-23T21:01:43Z",
+		"revoked": false
+	},
+	{
+		"id": "17393274724",
+		"tbs_sha256": "014ed8e699169c33f07ab77b15b58258b718cf9fba2bda4d891a9500ac8fb4e2",
+		"cert_sha256": "4c6b8601ec0e4754033bdba09741fa0ed2a6ff2996ad2ca4028356c252ae4c09",
+		"dns_names": [
+			"*.intercom-cdn.vaultcord.com",
+			"intercom-cdn.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "5bd69859af18c53d058fc2735e8df4eb0855611f91ad8863961d0d7b18a1fd6b",
+		"not_before": "2026-09-24T20:04:10Z",
+		"not_after": "2026-12-23T21:04:07Z",
+		"revoked": false
+	},
+	{
+		"id": "17445765803",
+		"tbs_sha256": "a2267edfd6884e70a4d3028a2fc18b12dce0bf0ec87b738717d184c0677cca31",
+		"cert_sha256": "149ab76ac213a7850fc6b2127fe55ac13fa7ddd3487755f8b76641621596ccf7",
+		"dns_names": [
+			"*.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "13a7a0e30a795f3df1b42f33b43957b4a858367e54e2cd0fe5d66deb0208e4c2",
+		"not_before": "2026-09-27T15:22:07Z",
+		"not_after": "2026-12-26T16:20:37Z",
+		"revoked": false
+	},
+	{
+		"id": "17446269165",
+		"tbs_sha256": "e48e2e87ef40d28f2f9bdb1ec8b2fd46bb258665a6b55aeec82dfb7977461eb2",
+		"cert_sha256": "13d320ffe1ae5843fe8f18622b1c18fe7d1cb9bfc0dafb3605d9452be720153a",
+		"dns_names": [
+			"*.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "f79eea49b580a06df951ee015c6a3cbf9a35d0c4271069ddcb1649c0304a2f38",
+		"not_before": "2026-09-27T16:03:15Z",
+		"not_after": "2026-12-26T17:03:10Z",
+		"revoked": false
+	},
+	{
+		"id": "17449673886",
+		"tbs_sha256": "7369843bff3b20cc2bdb012e01fbff24f9dc2750d9632c8eac8e5ab55c10f978",
+		"cert_sha256": "d2ddc50b97a618da6def49aaf21360d7b85eb16bb37f8abcc51d3f2e468a287d",
+		"dns_names": [
+			"invoice.vaultcord.com"
+		],
+		"pubkey_sha256": "0c165d14a5ee2e34b7665b6f24e1b03f3f7c84d372c1d5463ffab416874a0483",
+		"not_before": "2026-09-27T20:34:25Z",
+		"not_after": "2026-12-26T21:34:19Z",
+		"revoked": false
+	},
+	{
+		"id": "17449686514",
+		"tbs_sha256": "0fb8d8692e2ee7e4be470f5c278882ecb9566b0e28fde32b13444bfa199fa219",
+		"cert_sha256": "579edec8ae473d8ad7c94e2537b663ede505ea8114af82dbe89ec57f1a26ee05",
+		"dns_names": [
+			"invoice.vaultcord.com"
+		],
+		"pubkey_sha256": "708a1939073239206d673d3de03d688392b30110ac2de1a4e73ad3a664aeb569",
+		"not_before": "2026-09-27T20:34:13Z",
+		"not_after": "2026-12-26T21:33:01Z",
+		"revoked": false
+	},
+	{
+		"id": "17472375432",
+		"tbs_sha256": "d12eef5eb1f251a37f5b5f11f0f7257be01e6fd3a9f7407bfbf617926af344b4",
+		"cert_sha256": "c0f64b89d0e8aba10b8cb79cde4b14ab985473796373f75b5d546d8b7fc00c48",
+		"dns_names": [
+			"*.ai.vaultcord.com",
+			"ai.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "3b32e6547bdf9a7b7ebf8d0d38d4d785fb96f087e3c7858f7064d497d056582b",
+		"not_before": "2026-09-29T01:15:24Z",
+		"not_after": "2026-12-28T02:12:52Z",
+		"revoked": false
+	},
+	{
+		"id": "17472376110",
+		"tbs_sha256": "60606e9b71871852992c9c138b6d6a6112c39ba653ce994e0b65fe78a760e2e4",
+		"cert_sha256": "f5e6789988c5cbfee7d157aa48be9ecbf94bc5787b0aeac8a688e9c401f7c31c",
+		"dns_names": [
+			"*.ai.vaultcord.com",
+			"ai.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "a8e18e286d98c4dce7fcb591cc886eb7f9d6183a084de6e7c0db4f3cf32b1d35",
+		"not_before": "2026-09-29T01:15:34Z",
+		"not_after": "2026-12-28T02:15:31Z",
+		"revoked": false
+	},
+	{
+		"id": "17505505805",
+		"tbs_sha256": "2c48ea446d3aa0b77178bf3e317ddc7ba809cf21560804ad7ad66ba0eb916b1e",
+		"cert_sha256": "aee5df90ade0dc2c92d7026d2773610609248913fb829b03af4129476a08edbc",
+		"dns_names": [
+			"support-dash.vaultcord.com"
+		],
+		"pubkey_sha256": "964b80526df41540f88642eb97a839a35fc6e6d38789d6468b1718b9cca07758",
+		"not_before": "2026-09-30T18:18:04Z",
+		"not_after": "2026-12-29T19:18:01Z",
+		"revoked": false
+	},
+	{
+		"id": "17505513234",
+		"tbs_sha256": "217716e08d296a821bbd11d50955f13aafb8dfcb769ec9054a3a076b8e48f5b6",
+		"cert_sha256": "9c80ecaceb8e6ba29bdd9bae72d15e43da803af103c0d53d186c43ec3bf28b27",
+		"dns_names": [
+			"support-dash.vaultcord.com"
+		],
+		"pubkey_sha256": "ffcfbada6d12b320a4479df6e462043ed92ab0dac521f03617be4cc24f7805fe",
+		"not_before": "2026-09-30T18:17:55Z",
+		"not_after": "2026-12-29T19:16:48Z",
+		"revoked": false
+	},
+	{
+		"id": "17519995558",
+		"tbs_sha256": "5538fcb39e7362554ff471cabe1694422e07a34a12c9c078124c879995c3ab7d",
+		"cert_sha256": "b4cb7fec66ba1670afd6421f13ba95fceb7447d5ed351ff8c01d0e6acf9c0589",
+		"dns_names": [
+			"*.ip.vaultcord.com",
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "19145a72685b7c32e4cc35a42c7439a53294139441bbbe742f741079879378e9",
+		"not_before": "2026-10-01T11:11:48Z",
+		"not_after": "2026-12-30T12:09:32Z",
+		"revoked": false
+	},
+	{
+		"id": "17520008070",
+		"tbs_sha256": "8a7b4548a7f255cc968f0b513f8e5d9f8d49fd996ea6438f3d1a3b8473319fbc",
+		"cert_sha256": "946062e1bbbf81780331fc5b9e4bbc588103b0549a931067717c801c23be007e",
+		"dns_names": [
+			"*.ip.vaultcord.com",
+			"ip.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "2ffec866bc5e2daf2eda84a85c63da951828fae7c6a26cdf52d74f52d265951f",
+		"not_before": "2026-10-01T11:11:59Z",
+		"not_after": "2026-12-30T12:11:55Z",
+		"revoked": false
+	},
+	{
+		"id": "17588619009",
+		"tbs_sha256": "4ead8621f08484429d5fa5152e80d6b8e90a749a2f54f46a7d340d88e20ccbd6",
+		"cert_sha256": "87ee88a0918847601cdb00d0c7b7666d3a417088154206f231da57a5fce80022",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "f63038dfc7ee507144731ee8549942702298d4d2a50ef2a21565d34bdfc76ed2",
+		"not_before": "2026-10-04T23:25:46Z",
+		"not_after": "2027-01-03T00:24:17Z",
+		"revoked": false
+	},
+	{
+		"id": "17588619724",
+		"tbs_sha256": "a34512678862f56c6bdd63b906ae9e1b2b60b549e732c6a31ad292e1077c5fc6",
+		"cert_sha256": "9f768c299fa08e7c0b30d5b5b4ba9f0cf29942ca7cc0c50bc429e6a8d6cb94b4",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "8cc3f822e8c64e87935496fa50409c62187f950086912e3217f6075c45a254fa",
+		"not_before": "2026-10-04T23:25:55Z",
+		"not_after": "2027-01-03T00:25:52Z",
+		"revoked": false
+	},
+	{
+		"id": "17588796472",
+		"tbs_sha256": "30246551660e0c4a3acff73cad672537e61c83dfa353bb55db7c063b238e98dd",
+		"cert_sha256": "7f856d4c902b8bb55d2df71abc62392cbd4af24c3fb2a5707d8566afec0b28a7",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "b1e20f3e7f3dd71d77f790f740424b9262c25cd4d3b56bf3d96c7bc6e8aa6ca8",
+		"not_before": "2026-10-04T23:35:29Z",
+		"not_after": "2027-01-03T00:35:08Z",
+		"revoked": false
+	},
+	{
+		"id": "17588807068",
+		"tbs_sha256": "7063cba5a5cd944c0594611501cd680a5c7c8ff1a408991cf2107b330b3cf644",
+		"cert_sha256": "d1a7aade56b76783c44e688176151a665540300d169bddf21ee7fa4863511229",
+		"dns_names": [
+			"api.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "c18d57392cb60a9ec2e4172ee35c6f6607a0bc1c4038d64e0b9a5eeeeee72a96",
+		"not_before": "2026-10-04T23:36:00Z",
+		"not_after": "2027-01-03T00:35:36Z",
+		"revoked": false
+	},
+	{
+		"id": "17590744432",
+		"tbs_sha256": "2993ea0d9bf0c483296b2a5457a1f3802d940920d6704d7ca51e23c83a3952d6",
+		"cert_sha256": "929f9d08acb272494b7b82bf11a6bec28ef9bc15dd8a6f65897dd3faeb5a0ecb",
+		"dns_names": [
+			"*.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "44c591cca3865a8b9c9340d4f2e2f62885aafed078bbe8d15d573f07ff5791ee",
+		"not_before": "2026-10-05T02:32:23Z",
+		"not_after": "2027-01-03T00:42:51Z",
+		"revoked": false
+	},
+	{
+		"id": "17612394829",
+		"tbs_sha256": "11b48b26f394167bedf0ea170c15047246f27fc759065b9d69ae0d55fbe7b7a1",
+		"cert_sha256": "33c04bb0a759c7d89bfb867fdec650b798274efb83dc17b22dd014f7bb6a7697",
+		"dns_names": [
+			"customers.vaultcord.com"
+		],
+		"pubkey_sha256": "2817f65aa7fec4b975b79eb019135134d4d77080e59ced1e2c36a0fe64c83c8b",
+		"not_before": "2026-10-06T03:01:29Z",
+		"not_after": "2027-01-04T03:01:28Z",
+		"revoked": false
+	},
+	{
+		"id": "17618606421",
+		"tbs_sha256": "6b556e7fcc7072bb4e8efa9cbc5f8deed8115936be1483c8de7ad76ccfade793",
+		"cert_sha256": "2d786cd11abb23c3619d25655364acc37546d23fd13df764b3b1ab44e2f194ba",
+		"dns_names": [
+			"docs.vaultcord.com"
+		],
+		"pubkey_sha256": "8d0ba363867cfb5b8c667a23708f4d897c2cd4199a0bb73d44e5042d1bed2613",
+		"not_before": "2026-10-06T10:33:05Z",
+		"not_after": "2027-01-04T10:33:04Z",
+		"revoked": false
+	},
+	{
+		"id": "17630844251",
+		"tbs_sha256": "1fd65bec5062113158778d01b567a5f81067739a3e8e2cd5ffc6d784737e0f0f",
+		"cert_sha256": "82e0a1d012e81a119fc6c2e3779665f94e0a251a4ddf383d1de7f531f7b21d3b",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "923558cbb819e39e5714d3b94de86465296b01a5fc149620c413707ff3e346fc",
+		"not_before": "2026-10-07T00:25:14Z",
+		"not_after": "2027-01-05T01:23:40Z",
+		"revoked": false
+	},
+	{
+		"id": "17630859769",
+		"tbs_sha256": "698921dee26a8edc415a89c186c1c668a008ded7307dc742d3a9032bd268e5a5",
+		"cert_sha256": "8f4210221259b2d7090d531805bb226c6f596861cfea31089e8cb7734b46ef3e",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "4567b1a1ef3a133cf0a8b73330f9ea5d7cbe7f12ee7caee87f7c72ea00ae976a",
+		"not_before": "2026-10-07T00:25:39Z",
+		"not_after": "2027-01-05T01:25:21Z",
+		"revoked": false
+	},
+	{
+		"id": "17631078767",
+		"tbs_sha256": "2e11902ca614c87e69109c5f817ff6f0d00dc2cd5ec5ba2aa23afb4e25180c6b",
+		"cert_sha256": "f3dbf82a7b4928d53f85302d4cfb92b13d4f238618e6602823f90b7b66608280",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "61034f1653d0b6602ada1d868b0977458b3c31b11814b2acb0ad2e035f1c051f",
+		"not_before": "2026-10-07T00:39:51Z",
+		"not_after": "2027-01-05T01:39:23Z",
+		"revoked": false
+	},
+	{
+		"id": "17631085351",
+		"tbs_sha256": "205744092fe6716163be98e6260bb27ad7fed87c8e0c71d261082b8673209e7a",
+		"cert_sha256": "d00c034e70bf672c7f0ee1bc3ad62a0b26c2f4cdb5381b48c2a52ac5425f0fec",
+		"dns_names": [
+			"keyauth.vaultcord.com",
+			"vaultcord.com"
+		],
+		"pubkey_sha256": "5328dcaeff9e4219d63899592bedbe859900b482bf0a682c660426c1e2775649",
+		"not_before": "2026-10-07T00:40:16Z",
+		"not_after": "2027-01-05T01:39:57Z",
+		"revoked": false
+	},
+	{
+		"id": "17634247089",
+		"tbs_sha256": "30744932258529095ce6763bd1ed2b1ad06ff11af2a95726fdab52b615781394",
+		"cert_sha256": "15c9c81b5c93bd29d5b27245e0fa6ab1fa82bf1dd5ad99c2d06593ab2b80cb65",
+		"dns_names": [
+			"status.vaultcord.com"
+		],
+		"pubkey_sha256": "39ecf8a1696bbb7d346773afb64330cb150b1e9023cf6f9f5cdce1d87cf77ffa",
+		"not_before": "2026-10-07T04:27:43Z",
+		"not_after": "2027-01-05T04:27:42Z",
+		"revoked": false
+	},
+	{
+		"id": "17683951060",
+		"tbs_sha256": "b7e9a3096b74e3aa7329588d10e292b13208acfe728f30a7e3d7f55d31462ecf",
+		"cert_sha256": "489c635a30524932d8c78ac60ff1928f80be4ce94f9ce790633ee55f471f87f3",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "b0c28afd7eee61fe9fd3dd5ac2ea62c4d1e4f630b66f9bdc9024cde01a855f63",
+		"not_before": "2026-10-09T12:07:56Z",
+		"not_after": "2027-01-07T13:05:41Z",
+		"revoked": false
+	},
+	{
+		"id": "17683971398",
+		"tbs_sha256": "f401a11102228573342993941ffd2cc09e9ca8e00671c4c8c9eac309ba9dfb21",
+		"cert_sha256": "ffe2d62b7f36bc77a3e70870cc866e7d7f1d86ad25bfbaa925ad7d3517a38b23",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "db623546888790d1aec8ae23f5863a7f6fbd3f1acd3c623534236b86fe5ba420",
+		"not_before": "2026-10-09T12:08:07Z",
+		"not_after": "2027-01-07T13:08:02Z",
+		"revoked": false
+	},
+	{
+		"id": "17684986566",
+		"tbs_sha256": "d35697a39a8898c78f3a965e03cd58c6b2f982491d6f748090814cafc92a6d1b",
+		"cert_sha256": "58bc489536e6aa578782ec70ef8ad4db469862d2b76a9367df1476cefdf730de",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "ae514fdb1c68ea8ebc92c3b1bcc80c4d62162d4eae03c66899c5bed425b4e051",
+		"not_before": "2026-10-09T13:15:11Z",
+		"not_after": "2027-01-07T14:15:07Z",
+		"revoked": false
+	},
+	{
+		"id": "17684999283",
+		"tbs_sha256": "48a39168bb6b83f4263da9abab8f14d56bd1416a82f6371d0a805e28275e8e7c",
+		"cert_sha256": "67b41b918c66cb58f21b150e03dc2d3eff60462bf6aec41c7c6fea3e165a6832",
+		"dns_names": [
+			"dash.vaultcord.com"
+		],
+		"pubkey_sha256": "7323cb16307c213386652770e0cd03099dbd4dc33c72e5ee70fbcb163ba31833",
+		"not_before": "2026-10-09T13:15:00Z",
+		"not_after": "2027-01-07T14:14:53Z",
+		"revoked": false
+	},
+	{
+		"id": "17749392099",
+		"tbs_sha256": "13bc3a0180caca680d7a64df876bf84a1827dbe6e7a071da0d039124df096ade",
+		"cert_sha256": "dc1661cf8e8062f806ecbdc3bb45eb5235adcfaf1f466e70da96668fa480cba0",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "f9547921c40e4bc8763a3df548c655339bcdaea27d50885e279fcbe3ceaf9beb",
+		"not_before": "2026-10-12T22:10:35Z",
+		"not_after": "2027-01-10T23:09:31Z",
+		"revoked": false
+	},
+	{
+		"id": "17749393281",
+		"tbs_sha256": "eba0435f979140c26784659d050373de3cc30e43a48237c671b4bcc6c74ccf01",
+		"cert_sha256": "12ea55c3b8163b6faab8799e81be2745870ff28f74e31b578bd1d1c5ad43dae6",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "79cd1c84c7f63ef44b21b40a872c65c52e9f3b7809f09d36cc6c8d6afdb7e58a",
+		"not_before": "2026-10-12T22:10:44Z",
+		"not_after": "2027-01-10T23:10:41Z",
+		"revoked": false
+	},
+	{
+		"id": "17749577334",
+		"tbs_sha256": "12e50cb92d8398840b9b4f77451a8f12b269d837bef307bd6f59008fffe5be5c",
+		"cert_sha256": "6b67bcca9d6f0eceba580a835e2d1c4504343e4599b0c228c87a1767084bdf45",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "927d2b3fe460f2569313da7ae03a5ac398bda54901451473b3419858625ea945",
+		"not_before": "2026-10-12T22:26:07Z",
+		"not_after": "2027-01-10T23:26:05Z",
+		"revoked": false
+	},
+	{
+		"id": "17749585372",
+		"tbs_sha256": "217b2a1d5fa788eac757bad6774a4a74715946c23ebda011e3b8c9ddd55bddce",
+		"cert_sha256": "70df1fab3aac5164ec8b2409c137a278c597b65088a001634fc7cc512b4f2d7e",
+		"dns_names": [
+			"cdn.vaultcord.com"
+		],
+		"pubkey_sha256": "4da89bcdd9f0ee980e5c32c8011f9b67e19fc3d497ac669e581d1555d17df7df",
+		"not_before": "2026-10-12T22:26:15Z",
+		"not_after": "2027-01-10T23:26:13Z",
+		"revoked": false
+	},
+	{
+		"id": "17882616346",
+		"tbs_sha256": "5c0e608d6d1fc8b1d125fb11ff850432f75ac20108dff8d4d1a72fe06b41207c",
+		"cert_sha256": "cd5a85257d1a712dc77b812a09736c05e0564143f9e19b5fdb20c50913c74f56",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "9c70834c74faa569986c96cac5176bb380bd15fb73e70a9b6ac41c14232de356",
+		"not_before": "2026-10-20T06:30:02Z",
+		"not_after": "2027-01-18T07:28:56Z",
+		"revoked": false
+	},
+	{
+		"id": "17882617488",
+		"tbs_sha256": "3feba1b5693c3f0b09a7e7fdad762c97dc9b95163d9ef0d2adad3a5d9fcf4704",
+		"cert_sha256": "dea049b9bd1be2a3e7b8f3d9fbf7c9c7164e12fa0c6baf9a6d1c441a901bc7f1",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "9316e31ee205a948a433be58cb264e7b5974e0c788bf9742acf8c2284711025e",
+		"not_before": "2026-10-20T06:30:11Z",
+		"not_after": "2027-01-18T07:30:09Z",
+		"revoked": false
+	},
+	{
+		"id": "17882866156",
+		"tbs_sha256": "dc5f6e869870cde429f5e0325b3c797d9083155f9623e6cca5d6aa0db93897c3",
+		"cert_sha256": "ea548756b78d37aa634962925f3f988618c89501d6fe32781374cacd1b36747c",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "c8e6a6d639eff6599e652ce420a52027c381082f28ad3bd3735748b8289ba753",
+		"not_before": "2026-10-20T06:49:39Z",
+		"not_after": "2027-01-18T07:49:36Z",
+		"revoked": false
+	},
+	{
+		"id": "17882867090",
+		"tbs_sha256": "66fd29e7d680f8f1e0591e8f5edec87e4f2ef7f29eafb185e328aa737d927d2e",
+		"cert_sha256": "e2398ba958f9ee08c83be499d7bb973d83e5440ef29c62c7d871de5b716e1306",
+		"dns_names": [
+			"e1eda4dd.sni.cloudflaressl.com",
+			"img.vaultcord.com"
+		],
+		"pubkey_sha256": "7b4578c43086b98ad983b6e9d70ed9848ab61a6ca18a34da568a48a2438b3e8d",
+		"not_before": "2026-10-20T06:49:48Z",
+		"not_after": "2027-01-18T07:49:45Z",
+		"revoked": false
+	}
+]

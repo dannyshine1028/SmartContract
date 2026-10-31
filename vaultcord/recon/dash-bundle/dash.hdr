@@ -1,0 +1,24 @@
+HTTP/2 200 
+date: Fri, 30 Oct 2026 14:24:25 GMT
+content-type: text/html; charset=utf-8
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MxhH1YCc2Uce%2BzIED3AKaEhrwgxDgBwEYNRJ9nuk4pejKArDDmHz2f%2BcbyVrajT2wDv9LJityx6KjGgHWIBiKh9YOzCLs5i4dxP%2FMP1I5OM4GbqgPa8eK1BcVBKHi8jQPDEQtgQ%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cache-control: no-store
+referrer-policy: no-referrer-when-downgrade
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross"
+server: cloudflare
+x-frame-options: SAMEORIGIN
+cf-cache-status: DYNAMIC
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+cross-origin-embedder-policy: unsafe-none
+cross-origin-opener-policy: same-site
+cross-origin-resource-policy: cross-origin
+x-xss-protection: 0
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+expect-ct: max-age=86400, enforce
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+cf-ray: a52b155e7d91b200-NRT
+alt-svc: h3=":443"; ma=86400
+

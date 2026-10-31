@@ -1,0 +1,26 @@
+HTTP/2 200 
+date: Thu, 29 Oct 2026 01:59:14 GMT
+content-type: text/html; charset=utf-8
+age: 0
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+cdn-cache-control: public, max-age=86400
+referrer-policy: no-referrer-when-downgrade
+content-security-policy: upgrade-insecure-requests; frame-ancestors http://localhost:5173 https://dash.vaultcord.com;
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+server: cloudflare
+set-cookie: vc_bt=cabf7124-2955-4561-9d9c-9126d37eba4b; Path=/; Expires=Fri, 29 Oct 2027 01:59:14 GMT; Max-Age=31536000; Secure; SameSite=lax
+strict-transport-security: max-age=15552000; preload
+x-matched-path: /[[...slug]]
+x-powered-by: Next.js
+x-vercel-cache: MISS
+x-vercel-id: sfo1::iad1::qdb62-1793239154414-2f0a24bec7ad
+cf-cache-status: DYNAMIC
+vary: accept-encoding
+x-content-type-options: nosniff
+server-timing: cfCacheStatus;desc="DYNAMIC"
+server-timing: cfEdge;dur=55,cfOrigin;dur=940
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PKSDvT3KqNAEotJIj4Zx5MYWzFiuQoPQxxTV%2Bo8jGhr1DMCACD9GTffHEuA7yvnVaTEg47GuN%2BAHXthR8%2FyWbfr6TjBhidnfhk6ZlVpUeZFZfsiHHv1LNaKIYwPAju%2BJ"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: a51e94681f8008d3-LAX
+alt-svc: h3=":443"; ma=86400
+

