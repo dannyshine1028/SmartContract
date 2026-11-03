@@ -1,0 +1,5 @@
+URL https://bugbase.ai/register/testtoken?copilotLogin=true&copilotState=bbxcanary&token=testtoken
+STATUS 200
+CT text/html; charset=utf-8
+LEN 24147
+LOC None
