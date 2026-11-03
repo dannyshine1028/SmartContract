@@ -1,0 +1,39 @@
+HTTP/2 200 
+date: Sun, 01 Nov 2026 08:25:34 GMT
+content-type: application/json
+content-length: 52
+cf-ray: a53982741cc390eb-LAX
+access-control-allow-origin: https://dash.vaultcord.com
+server: cloudflare
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+access-control-expose-headers: X-Request-Id, X-Phonesig
+cf-placement: local-LAX
+cross-origin-embedder-policy: unsafe-none
+cross-origin-embedder-policy: unsafe-none
+cross-origin-opener-policy: same-site
+cross-origin-opener-policy: same-site
+cross-origin-resource-policy: cross-origin
+cross-origin-resource-policy: cross-origin
+x-request-id: a9812389-3ce9-4857-8f2a-3f6a57c5f016
+x-robots-tag: noindex
+x-xss-protection: 0
+x-xss-protection: 0
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+content-security-policy: upgrade-insecure-requests;report-to csp-sentry; report-uri https://vaultcord.com/icross
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+expect-ct: max-age=86400, enforce
+expect-ct: max-age=86400, enforce
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+permissions-policy: accelerometer=(), camera=(), fullscreen=*, geolocation=(self), gyroscope=(), microphone=(), payment=*
+referrer-policy: no-referrer-when-downgrade
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross"
+reporting-endpoints: csp-sentry="https://vaultcord.com/icross"
+x-content-type-options: nosniff
+x-dash-version: 50f145d6-8bb0-44c1-9288-ef511062fadc
+x-frame-options: SAMEORIGIN
+x-frame-options: SAMEORIGIN
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9vyZwqZNOUlOvmBX6QeVKLEiq7Wd1nmz8QXjysIEBmRMuSpAZAAJU6i41m9hZmF3rZo%2F7ZhH%2FEmgAWj1jk%2FEOeT14A6ohG02lMSNoS5XY7HU9zYDuxrqXKkya62xaIy59oXsmw%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
