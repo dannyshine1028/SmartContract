@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bug Bounty - Xeovo VPN</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/bug-bounty/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+
+    <link href="/static/css/landing.css" rel="stylesheet">
+
+<link href="/static/css/bug-bounty.css" rel="stylesheet">
+<!-- The Open Graph protocol -->
+<meta property="og:title" content="Bug Bounty - Xeovo VPN" />
+<meta name="description" content="Help us improve our security. Learn about our bug bounty policy, scope and rewards for responsible vulnerability disclosure." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xeovo.com/bug-bounty" />
+<meta property="og:image" content="https://xeovo.com/static/images/open-graph.png" />
+<!-- Twitter Graph -->
+<meta name="twitter:title" content="Bug Bounty - Xeovo VPN">
+<meta name="twitter:description" content="Help us improve our security. Learn about our bug bounty policy, scope and rewards for responsible vulnerability disclosure.">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@xeovo" />
+<meta name="twitter:creator" content="@xeovo" />
+<meta name="twitter:image" content="https://xeovo.com/static/images/open-graph.png">
+
+    
+
+    <meta name="x-csrf-token" content="2SbUhDAObhe2pwMOFjZ2puy1gbi9IuDeF0ZCkswf12o3ZcO7ZTFjmg5ksf6WEtTS" />
+</head>
+<body>
+  
+  <div id="navbar-wrapper" class="">
+  <nav id="navbar">
+    <div class="header">
+      <a class="logo" href="/">
+        <img class="base" src="/static/images/logo.svg" />
+        <img class="hidden" src="/static/images/logo_hidden.svg" />
+      </a>
+
+      <div class="space"></div>
+
+      <input type="image" class="toggle-button active" src="/static/images/icon-burger.svg" />
+      <input type="image" class="toggle-button" src="/static/images/icon-close-green.svg" />
+      
+    </div>
+
+    <div class="menu">
+      <div class="content">
+        
+        <div class="drop-down">
+          <div class="menu-item">
+            Products <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/products/vpn">VPN</a>
+            <a class="menu-item" href="/products/stealth-proxy">Stealth Proxy</a>
+          </div>
+        </div>
+        <a class="menu-item" href="/pricing">Pricing</a>
+        <a class="menu-item" href="/features">Features</a>
+        <div class="drop-down">
+          <div class="menu-item">
+            Resources <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/guides">Guides</a>
+            <a class="menu-item" href="/faq">FAQ</a>
+            <a class="menu-item" href="https://status.xeovo.com">Status</a>
+            <a class="menu-item" href="https://hub.xeovo.com">Hub</a>
+            <a class="menu-item" href="/referrals">Referrals</a>
+          </div>
+        </div>
+        <div class="drop-down">
+          <div class="menu-item">
+            Company <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/about">About</a>
+            <a class="menu-item" href="/press">Press</a>
+            <a class="menu-item" href="/contact">Contact</a>
+            <a class="menu-item" href="/bug-bounty">Bug Bounty</a>
+          </div>
+        </div>
+        <div class="account">
+          
+          <a href="/login/">Log In</a>
+          <a class="filled" href="/signup/">Sign Up</a>
+          
+        </div>
+        
+      </div>
+      <div class="space"></div>
+      <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+    </div>
+  </nav>
+</div>
+<!-- /.navbar -->
+
+
+  
+  <div class="content-wrapper">
+    
+<h5>&gt; Bug Bounty</h5>
+<p class="header">Security is a core value for us, and we appreciate the help of security researchers to keep our users safe. We encourage responsible vulnerability research and disclosure. This policy outlines what we consider good-faith security research — and what you can expect from us in return.</p>
+
+<h3>IN-SCOPE</h3>
+<div class="content">
+  <p>The following domains/services are included in the scope of the program:</p>
+  <ul class="bracket">
+    <li>Website <a href="https://xeovo.com">https://xeovo.com</a></li>
+    <li>Core <a href="https://core.xeovo.com">https://core.xeovo.com</a></li>
+    <li>VPN or Stealth Proxy gateways</li>
+  </ul>
+</div>
+
+<h3>OUT-OF-SCOPE</h3>
+<div class="content">
+  <p>Exploits/flaws that are not eligible for this program:</p>
+  <ul class="bracket">
+    <li>Usage of large-scale vulnerability scanners, scrapers, or automated tools that produce excessive amounts of traffic</li>
+    <li>Phishing attacks</li>
+    <li>Denial of service attacks or other volume-based attacks</li>
+    <li>Methods to reveal information about other running processes.</li>
+    <li>Timing attacks which reveal information.</li>
+    <li>Security bugs that do not affect our default application configuration.</li>
+    <li>Rate limiting or brute force issues.</li>
+    <li>Cross-Site Request Forgery (CSRF) on unauthenticated forms or forms with no sensitive actions.</li>
+    <li>Any physical attempts against our property, data centers, or infrastructure providers.</li>
+    <li>Missing security headers that do not directly lead to a vulnerability.</li>
+    <li>Social engineering of our employees or clients.</li>
+    <li>Vulnerabilities in the WireGuard, OpenVPN or V2Ray protocols should be reported to their official maintainers.</li>
+  </ul>
+</div>
+
+<h3>REWARDS</h3>
+<div class="content rewards">
+  <table class="dark-rounded">
+    <thead>
+      <tr>
+        <th>EXPLOITS</th>
+        <th>REWARD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>XSS</td>
+        <td>€ 200</td>
+      </tr>
+      <tr>
+        <td>XSS (Bypassing CSP)</td>
+        <td>€ 400</td>
+      </tr>
+      <tr>
+        <td>CSRF</td>
+        <td>€ 400</td>
+      </tr>
+      <tr>
+        <td>Authentication Bypass</td>
+        <td>€ 1000</td>
+      </tr>
+      <tr>
+        <td>SQL Injection</td>
+        <td>€ 2000</td>
+      </tr>
+      <tr>
+        <td>Arbitrary code execution</td>
+        <td>€ 2000</td>
+      </tr>
+      <tr>
+        <td>Arbitrary code execution (with privilege escalation)</td>
+        <td>€ 4000</td>
+      </tr>
+      <tr>
+        <td>Persistent code change</td>
+        <td>€ 2000</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>RECEIVING YOUR AWARD</h3>
+<div class="content">
+  <p>We only offer payouts in Monero (XMR).</p>
+  <p>Ground Rules:</p>
+  <ul class="bracket">
+    <li>Only use the ticket system to contact us with the technical details of discovered vulnerabilities.</li>
+    <li>Report any vulnerability you’ve discovered promptly.</li>
+    <li>Avoid violating the privacy of others, disrupting our systems, destroying data, and/or harming user experience.</li>
+    <li>Perform testing only on in-scope systems, and respect systems and activities which are out-of-scope.</li>
+    <li>You should only interact with test accounts you own.</li>
+    <li>Do not engage in extortion.</li>
+  </ul>
+</div>
+
+<h3>SAFE HARBOR</h3>
+<div class="content">
+  <p>When conducting vulnerability research under this policy, we consider it to be:</p>
+  <ul class="bracket">
+    <li>Authorized in view of any applicable anti-hacking laws, and we will not initiate or support legal action against you for accidental, good faith violations of this policy</li>
+    <li>Authorized in view of relevant anti-circumvention laws, and we will not bring a claim against you for circumvention of technology controls</li>
+    <li>Exempt from restrictions in our policies that would interfere with conducting security research, and we waive those restrictions on a limited basis</li>
+    <li>Lawful, helpful to the overall security of the Internet, and conducted in good faith.</li>
+  </ul>
+  <p>You must comply with all applicable laws. If a third party takes legal action against you and you've followed this policy, we'll support you by clarifying that you've complied. If you're ever unsure about the consistency of your security research with this policy, please submit a report through the ticket system before proceeding further.</p>
+</div>
+
+<h3>DISCLOSURE POLICY</h3>
+<div class="content">
+  <p>If you believe you have discovered a vulnerability, please create a ticket through the ticket system.</p>
+  <ul class="bracket">
+    <li>The report of your research must include exact steps to reproduce the vulnerability with clear descriptions. You may use this <a href="https://files.xeovo.com/misc/bug-bounty-template.md">template</a> to submit your report.</li>
+    <li>Only use our official ticket system for any inquiries regarding the program.</li>
+    <li>Publicly disclosing your research/submission without explicit, written permission from Xeovo and evaluation is a direct violation of the Rules of this bug bounty program, and you’ll be ineligible for a reward.</li>
+  </ul>
+</div>
+
+<div class="open-a-ticket">
+  <p>Looking to report a vulnerability?</p>
+  <a href="/tickets/new" class="arrow" target="_blank">Open a Ticket</a>
+</div>
+
+  </div> <!-- /.content-wrapper -->
+  
+
+  
+  <footer>
+  <div class="top">
+    <div class="banner">
+      <img src="/static/images/footer-logo.svg">
+      <div>
+        <p>Silence censorship.<br class="large"> Protect your privacy<br>and bypass restrictions.</p>
+      </div>
+    </div>
+    <div class="pages">
+      <section>
+        <p>PRODUCTS</p>
+        <a href="/products/vpn">VPN</a>
+        <a href="/products/stealth-proxy">Stealth Proxy</a>
+        <a href="/features">Features</a>
+        <a href="/pricing">Pricing</a>
+      </section>
+      <section>
+        <p>RESOURCES</p>
+        <a href="/guides">Guides</a>
+        <a href="/faq">FAQ</a>
+        <a href="https://status.xeovo.com">Status</a>
+        <a href="https://hub.xeovo.com">Hub</a>
+        <a href="/referrals">Referrals</a>
+      </section>
+      <section>
+        <p>COMPANY</p>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/press">Press</a>
+        <a href="/bug-bounty">Bug Bounty</a>
+      </section>
+      <section>
+        <p>LEGAL</p>
+        <a href="/tos">Terms of Service</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/cookies">Cookies Policy</a>
+        <a href="/refund">Refund Policy</a>
+      </section>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>From Finland © 2026 Xeovo Oy.</p>
+    <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>WireGuard - Xeovo VPN</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/wireguard/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+    
+    
+      
+    <link href="/static/css/billing.css" rel="stylesheet">
+    <script src="/static/js/billing.js" defer></script>
+    
+    <link href="/static/css/choices.min.css" rel="stylesheet" />
+    <link href="/static/css/select.css" rel="stylesheet" />
+    <script src="/static/js/choices.min.js" defer></script>
+    <script src="/static/js/select.js" defer></script>
+    
+
+    
+    <link href="/static/css/vpn.css" rel="stylesheet">
+    <script src="/static/js/vpn.js" defer></script>
+
+    <link href="/static/css/wireguard.css" rel="stylesheet">
+    <script src="/static/js/qrcode.min.js" defer></script>
+    <script src="/static/js/wireguard.js" defer></script>
+
+    
+
+    <meta name="x-csrf-token" content="cj7vjzQ5XFaTVnChE5wTqh35ntfIb1hmo4rv69GE5skZd8zhLOviz2sEfU5rIqa1" />
+</head>
+<body>
+  
+  
+  <div id="navbar-wrapper" class="authenticated">
+  <nav id="navbar">
+    <div class="header">
+      <a class="logo" href="/">
+        <img class="base" src="/static/images/logo.svg" />
+        <img class="hidden" src="/static/images/logo_hidden.svg" />
+      </a>
+
+      <div class="space"></div>
+
+      <input type="image" class="toggle-button active" src="/static/images/icon-burger.svg" />
+      <input type="image" class="toggle-button" src="/static/images/icon-close-green.svg" />
+      
+      <div id="authenticated-menu">
+        <div class="space"></div>
+        <div class="drop-down clickable site">
+          <div class="menu-item">
+            
+            <input type="image" src="/static/images/icon-dashboard.svg" />
+            
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            
+            <a href="/" class="menu-item">
+              <img src="/static/images/icon-home-darker.svg" />
+            
+              Home
+            </a>
+            
+            <a href="/dashboard/" class="menu-item selected">
+              <img src="/static/images/icon-dashboard.svg" />
+            
+              Dashboard
+            </a>
+          </div>
+        </div>
+        <div class="drop-down clickable profile">
+          <div class="menu-item">
+            
+            <div class="user-info">
+              <p class="username">xvthw7fln</p>
+              <p>xvthw7fln@fldubai.com</p>
+            </div>
+            
+            <input type="image" src="/static/images/icon-profile.svg" />
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <div class="infos">
+              <p class="username">xvthw7fln</p>
+              <p class="email">xvthw7fln@fldubai.com</p>
+            </div>
+            <div class="separator"></div>
+            <a href="/account/" class="menu-item">
+              <img src="/static/images/icon-account-settings.svg" />
+              Account Settings
+            </a>
+            <a href="/payments/" class="menu-item">
+              <img src="/static/images/icon-billing.svg" />
+              Billing
+            </a>
+            <a href="/referrals-stats/" class="menu-item">
+              <img src="/static/images/icon-referrals.svg" />
+              Referrals
+            </a>
+            
+            <div class="separator"></div>
+            <a href="https://hub.xeovo.com/channels/updates" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-updates.svg" />
+              Updates
+            </a>
+            <a href="https://hub.xeovo.com/channels/feedback" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-feedback.svg" />
+              Feedback
+            </a>
+            <a href="https://status.xeovo.com" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-status.svg" />
+              Status
+            </a>
+            <div class="separator"></div>
+            <a href="/logout" class="menu-item">
+              <img src="/static/images/icon-logout.svg" />
+              Log out
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="menu">
+      <div class="content">
+        
+              <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard active">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+        
+      </div>
+      <div class="space"></div>
+      <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+    </div>
+  </nav>
+</div>
+<!-- /.navbar -->
+
+  
+  
+  <div id="page-content" class="cols2">
+    <div id="side-menu-wrapper">
+            <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard active">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+    </div>
+
+    
+
+
+
+
+
+    <main class="">
+      
+  
+  <h5>&gt; WireGuard</h5>
+
+  
+    <p class="warn"><a href="/order/">Subscribe</a> to activate your account.</p>
+  
+
+
+  <form method="get" action="/_vpn/wireguard_dl" target="_blank">
+     
+    
+      <h2>Select Country</h2>
+      <select class="searchable" name="cluster">
+        <option value="all">All countries in .zip</option>
+        
+        <option value="al" data-nop2p="1">Albania, Tirana</option>
+        
+        <option value="au" data-nop2p="1">Australia, Sydney</option>
+        
+        <option value="br" data-nop2p="1">Brazil, São Paulo</option>
+        
+        <option value="ca" data-nop2p="0">Canada, Montreal</option>
+        
+        <option value="ch" data-nop2p="0">Switzerland, Zurich</option>
+        
+        <option value="de" data-nop2p="1">Germany, Nuremberg</option>
+        
+        <option value="es" data-nop2p="0">Spain, Madrid</option>
+        
+        <option value="fi" data-nop2p="0">Finland, Helsinki</option>
+        
+        <option value="fi-tku" data-nop2p="0">Finland, Turku</option>
+        
+        <option value="fr" data-nop2p="0">France, Paris</option>
+        
+        <option value="ie" data-nop2p="0">Ireland, Dublin</option>
+        
+        <option value="it" data-nop2p="0">Italy, Milan</option>
+        
+        <option value="jp" data-nop2p="1">Japan, Tokyo</option>
+        
+        <option value="lu" data-nop2p="0">Luxembourg, Roost</option>
+        
+        <option value="lv" data-nop2p="0">Latvia, Riga</option>
+        
+        <option value="nl" data-nop2p="0">Netherlands, Amsterdam</option>
+        
+        <option value="no" data-nop2p="0">Norway, Sandefjord</option>
+        
+        <option value="pl" data-nop2p="0">Poland, Warsaw</option>
+        
+        <option value="ro" data-nop2p="0">Romania, Bucharest</option>
+        
+        <option value="se" data-nop2p="0">Sweden, Stockholm</option>
+        
+        <option value="sg" data-nop2p="1">Singapore</option>
+        
+        <option value="tr" data-nop2p="1">Turkey, Istanbul</option>
+        
+        <option value="ua" data-nop2p="0">Ukraine, Kyiv</option>
+        
+        <option value="uk" data-nop2p="0">UK, London</option>
+        
+        <option value="us-lv" data-nop2p="0">USA, Las Vegas</option>
+        
+        <option value="us-mia" data-nop2p="0">USA, Miami</option>
+        
+        <option value="us-nyc" data-nop2p="0">USA, New York</option>
+        
+      </select>
+
+    
+
+    <h2 class="select-key">Select Key<span class="count">0/5</span></h2>
+    <table class="keys">
+      <tr>
+        <th>PUBLIC ID</th>
+        <th>NAME</th>
+      </tr>
+      
+      <tr class="gen-new">
+        <td>
+          <input type="radio" name="id" value="" id="wg-key-new" disabled>
+          <label for="wg-key-new">Generate New Key</label>
+        </td>
+      </tr>
+    </table>
+
+    
+    
+      <div class="horizontal-separator end"></div>
+
+      <div class="advanced-settings drop-down expandable">
+        <h3>ADVANCED SETTINGS</h3>
+        <div class="content">
+          <div class="horizontal-separator"></div>
+          
+   
+  
+          <h2>DNS</h2>
+          <input type="radio" id="dns__default" value="default" name="dns" checked>
+          <label for="dns__default" class="block">Default</label>
+
+          <input type="radio" id="dns__block" value="adblock" name="dns">
+          <label for="dns__block" class="block">Block ads &amp; trackers</label>
+
+          <p class="custom-dns">Custom DNS:</p>
+          <input type="text" name="custom_dns" placeholder="0.0.0.0" pattern="(((((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)\.?\b){4})|([0-9a-fA-F:]{3,39})),?)+">
+
+  
+  <h2 class="port">Port</h2>
+  <input type="radio" id="port51820" value="51820" name="gw_port" checked required>
+  <label for="port51820" class="block">51820</label>
+  <input type="radio" id="port53" value="53" name="gw_port">
+  <label for="port53" class="block">53</label>
+  <input type="radio" id="port80" value="80" name="gw_port">
+  <label for="port80" class="block">80</label>
+  <input type="radio" id="port443" value="443" name="gw_port">
+  <label for="port443" class="block">443</label>
+
+  <h2>IP</h2>
+  <input type="radio" id="ip__both" value="both" name="ip" checked required>
+  <label for="ip__both" class="block">Both</label>
+  <input type="radio" id="ipv4" value="v4" name="ip">
+  <label for="ipv4" class="block">IPv4</label>
+  <input type="radio" id="ipv6" value="v6" name="ip">
+  <label for="ipv6" class="block">IPv6</label>
+
+  <h2>Client</h2>
+  <input type="radio" id="client__none" value="" name="special" checked required>
+  <label for="client__none" class="block">WireGuard</label>
+  <input type="radio" id="client__awgc" value="amnezia-c" name="special" >
+  <label for="client__awgc" class="block">AmneziaWG
+    <input type="image" src="/static/images/question-mark.svg" class="tooltip">
+    <div class="tooltip-content">
+      AmneziaWG setup guide can be found on <a href="https://hub.xeovo.com/">Hub</a>.
+      <input type="image" src="/static/images/icon-close-green.svg" class="close">
+    </div>
+  </label>
+
+        </div>
+      </div>
+
+    
+
+    <button type="submit" class="form-submit-button download" disabled>
+      Download
+      <div class="img">
+        <img class="hover" src="/static/images/icon-download.svg">
+        <img src="/static/images/icon-download-dark.svg">
+      </div>
+    </button>
+    <button class="form-submit-button qrcode" disabled>
+      Show QR
+      <div class="img">
+        <img class="hover" src="/static/images/icon-qrcode-green.svg">
+        <img src="/static/images/icon-qrcode.svg">
+      </div>
+    </button>
+  </form>
+  <div class="qr-popup">
+    <div class="frame">
+      <div class="img"></div>
+      <input type="image" src="/static/images/icon-close-green.svg" class="close">
+    </div>
+  </div>
+
+    </main>
+
+    <div class="right">
+      
+    </div>
+  </div>
+
+  <footer>
+  <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+{"category": ["Select a valid choice. \u003C/script\u003E\u003Csvg onload=alert(1)\u003E is not one of the available choices."]}
+{}

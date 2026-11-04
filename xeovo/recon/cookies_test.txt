@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+xeovo.com	FALSE	/	FALSE	1825208520	csrftoken	mVuaXK0JiXkgsV7ahT9zjVzJ2B0THz3P
+xeovo.com	FALSE	/	FALSE	1793931616	sessionid	cosbnmwb8p76k7s6w87mldmqbiim1fcm

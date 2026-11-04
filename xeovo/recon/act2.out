@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html
+    lang="en" data-theme="dark" class="no-js not-logged-in"
+>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="turbo-refresh-method" content="morph" />
+        <meta name="turbo-refresh-scroll" content="preserve" />
+
+        
+        <title>Xeovo Hub</title>
+
+                    <meta name="description" content="Join Xeovo Hub to expand your knowledge, discuss privacy topics and share your ideas." />
+        
+        
+        <meta property="og:title" content="Xeovo Hub" />
+                    <meta property="og:description" content="Join Xeovo Hub to expand your knowledge, discuss privacy topics and share your ideas." />
+        
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hub.xeovo.com/actions/menu?actionable=Waterhole%5CModels%5CPost&amp;id=198&amp;return=https%3A%2F%2Fevil.example.com%2Fx" />
+                    <meta property="og:site_name" content="Xeovo Hub" />
+        
+                    <meta property="og:image" content="https://hub.xeovo.com/open-graph-v2.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Xeovo Hub" />
+                    <meta name="twitter:description" content="Join Xeovo Hub to expand your knowledge, discuss privacy topics and share your ideas." />
+        
+                    <meta name="twitter:image" content="https://hub.xeovo.com/open-graph-v2.png" />
+        
+                    <script type="application/ld+json">
+                {"@context":"https://schema.org","@type":"WebSite","name":"Xeovo Hub","description":"Join Xeovo Hub to expand your knowledge, discuss privacy topics and share your ideas.","url":"https://hub.xeovo.com/actions/menu?actionable=Waterhole%5CModels%5CPost&amp;id=198&amp;return=https%3A%2F%2Fevil.example.com%2Fx","image":"https://hub.xeovo.com/open-graph-v2.png"}            </script>
+        
+        <script>
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+                    </script>
+
+                    <link href="https://hub.xeovo.com/storage/css/default-8b4a0f4c.css" rel="stylesheet" data-turbo-track="dynamic" />
+        
+                    <script src="https://hub.xeovo.com/storage/js/default-15dcea28.js" defer data-turbo-track="dynamic"></script>
+        
+        <script>
+            window.Waterhole = {"userId":null,"debug":false,"echoConfig":{"broadcaster":null}};
+        </script>
+
+        
+
+        <link rel="shortcut icon" href="/favicon2.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_16x16.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    </head>
+
+    <body data-route="waterhole.actions.menu">
+        <div class="waterhole" data-controller="page">
+        <a href="#main" class="skip-link">
+            Skip to main content
+        </a>
+
+        <header
+    id="header"
+    class="header"
+    role="banner"
+    data-controller="watch-sticky"
+    data-page-target="header"
+>
+    <div class="container row">
+        <a href="https://hub.xeovo.com" class="row">
+    <svg width="110" height="17" viewBox="0 0 230 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <title>Xeovo Hub</title>
+        <path d="M6.19476 11.9731V17.9804H0V11.9731H6.19476ZM12.4325 6.00728V11.9731H6.19476V6.00728H12.4325ZM12.4325 17.9804V23.9462H6.19476V17.9804H12.4325ZM18.6273 0V6.00728H12.4325V0H18.6273ZM18.6273 23.9462V29.9535H12.4325V23.9462H18.6273Z" fill="#DCF9F9"/>
+        <path d="M203.705 15.4117C203.705 17.7732 203.318 19.8447 202.501 21.6261C201.683 23.4076 200.608 24.9405 199.274 26.1834C197.941 27.4263 196.392 28.3377 194.585 29.0006C192.778 29.6634 190.929 29.9534 188.993 29.9534C187.057 29.9534 185.164 29.622 183.4 29.0006C181.636 28.3377 180.088 27.4263 178.754 26.1834C177.421 24.9405 176.345 23.449 175.528 21.6261C174.71 19.8447 174.323 17.7318 174.323 15.4117V14.7489C174.323 12.4288 174.71 10.3988 175.528 8.57589C176.345 6.79442 177.421 5.26154 178.754 4.01866C180.131 2.77577 181.68 1.8229 183.443 1.16003C185.207 0.497159 187.057 0.207153 188.993 0.207153C190.929 0.207153 192.778 0.538588 194.542 1.16003C196.306 1.8229 197.898 2.73435 199.231 4.01866C200.608 5.26154 201.683 6.79442 202.458 8.57589C203.275 10.3574 203.662 12.4288 203.662 14.7489V15.4117H203.705ZM188.993 25.7691C190.412 25.7691 191.703 25.5205 192.908 25.0648C194.112 24.6091 195.145 23.9048 196.048 22.9933C196.951 22.0819 197.683 21.0047 198.156 19.7204C198.672 18.4361 198.93 17.0275 198.93 15.4117V14.7489C198.93 13.216 198.672 11.8488 198.156 10.5645C197.64 9.28019 196.951 8.20302 196.048 7.29158C195.145 6.38013 194.069 5.67583 192.864 5.17868C191.66 4.68153 190.326 4.39152 188.95 4.39152C187.573 4.39152 186.283 4.6401 185.035 5.17868C183.83 5.67583 182.755 6.42156 181.852 7.29158C180.948 8.20302 180.217 9.28019 179.744 10.5645C179.227 11.8488 178.969 13.216 178.969 14.7489V15.4117C178.969 16.9861 179.227 18.4361 179.744 19.7204C180.26 21.0047 180.948 22.0819 181.852 22.9933C182.755 23.9048 183.83 24.6091 184.992 25.0648C186.197 25.5205 187.487 25.7691 188.907 25.7691H188.993Z" fill="#718AE3"/>
+        <path d="M142.747 0H136.466V6.04868H142.747V0Z" fill="#718AE3"/>
+        <path d="M142.747 6.04871H136.466V12.0974H142.747V6.04871Z" fill="#718AE3"/>
+        <path d="M149.028 24.1533V18.1046H142.747V24.1533H149.028Z" fill="#718AE3"/>
+        <path d="M155.266 30.1606V24.1119H148.985V30.1606H155.266Z" fill="#718AE3"/>
+        <path d="M149.028 18.1461V12.0974H142.747V18.1461H149.028Z" fill="#718AE3"/>
+        <path d="M167.827 0H161.546V6.04868H167.827V0Z" fill="#718AE3"/>
+        <path d="M167.827 6.04871H161.546V12.0974H167.827V6.04871Z" fill="#718AE3"/>
+        <path d="M161.546 24.1533V18.1046H155.266V24.1533H161.546Z" fill="#718AE3"/>
+        <path d="M161.546 18.1046V12.0559H155.266V18.1046H161.546Z" fill="#718AE3"/>
+        <path d="M129.67 15.3705C129.67 17.7319 129.283 19.8034 128.465 21.5849C127.648 23.3663 126.572 24.8992 125.239 26.1421C123.905 27.385 122.356 28.2964 120.55 28.9593C118.743 29.6222 116.893 29.9122 114.957 29.9122C113.021 29.9122 111.128 29.5808 109.365 28.9593C107.601 28.2964 106.052 27.385 104.719 26.1421C103.385 24.8992 102.31 23.4078 101.492 21.5849C100.675 19.8034 100.288 17.6905 100.288 15.3705V14.7076C100.288 12.3876 100.675 10.3575 101.492 8.53463C102.31 6.75316 103.385 5.22028 104.719 3.9774C106.095 2.73451 107.644 1.78164 109.408 1.11877C111.171 0.455899 113.021 0.165894 114.957 0.165894C116.893 0.165894 118.743 0.497329 120.507 1.11877C122.27 1.78164 123.862 2.69309 125.196 3.9774C126.572 5.22028 127.648 6.75316 128.422 8.53463C129.239 10.3161 129.627 12.3876 129.627 14.7076V15.3705H129.67ZM114.957 25.7278C116.377 25.7278 117.667 25.4792 118.872 25.0235C120.076 24.5678 121.109 23.8635 122.012 22.9521C122.916 22.0406 123.647 20.9634 124.12 19.6791C124.636 18.3948 124.895 16.9862 124.895 15.3705V14.7076C124.895 13.1747 124.636 11.8075 124.12 10.5232C123.604 9.23893 122.916 8.16176 122.012 7.25032C121.109 6.33887 120.033 5.63457 118.829 5.13742C117.624 4.64027 116.291 4.35026 114.914 4.35026C113.537 4.35026 112.247 4.59884 110.999 5.13742C109.795 5.63457 108.719 6.3803 107.816 7.25032C106.913 8.16176 106.181 9.23893 105.708 10.5232C105.192 11.8075 104.934 13.1747 104.934 14.7076V15.3705C104.934 16.9448 105.192 18.3948 105.708 19.6791C106.224 20.9634 106.913 22.0406 107.816 22.9521C108.719 23.8635 109.795 24.5678 110.956 25.0235C112.161 25.4792 113.451 25.7278 114.871 25.7278H114.957Z" fill="#718AE3"/>
+        <path d="M68.4966 16.4062C68.6257 19.2234 69.5291 21.4606 71.2068 23.1592C72.8846 24.8578 75.2506 25.7278 78.305 25.7278C79.6816 25.7278 80.8861 25.5621 81.9186 25.2721C82.9511 24.9821 83.8114 24.5678 84.5428 24.0292C85.2741 23.4906 85.8764 22.8692 86.3066 22.1649C86.7798 21.4606 87.1239 20.7149 87.382 19.9277L91.77 21.0463C90.9526 23.6563 89.4039 25.8107 87.21 27.4264C84.973 29.0836 82.0046 29.9122 78.219 29.9122C76.111 29.9122 74.2182 29.5808 72.4544 28.8765C70.6906 28.1722 69.1849 27.1778 67.9374 25.8935C66.6898 24.6092 65.7004 23.0763 64.969 21.2949C64.2807 19.5134 63.8936 17.5248 63.8936 15.3705V14.0033C63.8936 12.0147 64.2377 10.1918 64.969 8.4932C65.7004 6.79459 66.6898 5.30314 68.0234 4.10168C69.314 2.8588 70.8627 1.90593 72.5834 1.20163C74.3472 0.497329 76.2401 0.165894 78.262 0.165894C80.6711 0.165894 82.736 0.580187 84.4998 1.4502C86.2635 2.32022 87.6832 3.35596 88.8017 4.59884C89.9202 5.84172 90.7375 7.20889 91.2968 8.70034C91.813 10.1918 92.1142 11.559 92.1142 12.8019V16.4476H68.4966V16.4062ZM78.305 4.35026C77.0144 4.35026 75.8099 4.55741 74.6914 4.93027C73.5729 5.34457 72.5834 5.88315 71.7231 6.58745C70.8627 7.29175 70.1744 8.16176 69.6581 9.11464C69.1419 10.0675 68.7977 11.1447 68.6257 12.2633H87.5111C87.4251 11.0618 87.1239 9.94323 86.6077 8.94892C86.0915 7.95462 85.4032 7.12603 84.5428 6.46316C83.6824 5.80029 82.736 5.26171 81.6605 4.88884C80.585 4.51598 79.4665 4.30883 78.305 4.30883V4.35026Z" fill="#718AE3"/>
+        <path d="M32.5752 0H26.2944V6.04868H32.5752V0Z" fill="#718AE3"/>
+        <path d="M38.856 6.04871H32.5752V12.0974H38.856V6.04871Z" fill="#718AE3"/>
+        <path d="M45.1368 12.0559H38.856V18.1046H45.1368V12.0559Z" fill="#718AE3"/>
+        <path d="M51.4175 18.1046H45.1367V24.1533H51.4175V18.1046Z" fill="#718AE3"/>
+        <path d="M57.6553 24.1533H51.3745V30.202H57.6553V24.1533Z" fill="#718AE3"/>
+        <path d="M57.6553 6.04868V0L51.3745 0V6.04868H57.6553Z" fill="#718AE3"/>
+        <path d="M51.3745 12.0974V6.04871H45.0937V12.0974H51.3745Z" fill="#718AE3"/>
+        <path d="M38.856 24.1533V18.1046H32.5752V24.1533H38.856Z" fill="#718AE3"/>
+        <path d="M32.5752 30.1606V24.1119H26.2944V30.1606H32.5752Z" fill="#718AE3"/>
+        <path d="M217.567 0V6.00728H211.373V0H217.567ZM217.567 23.9462V29.9535H211.373V23.9462H217.567ZM223.805 6.00728V11.9731H217.567V6.00728H223.805ZM223.805 17.9804V23.9462H217.567V17.9804H223.805ZM230 11.9731V17.9804H223.805V11.9731H230Z" fill="#DCF9F9"/>
+    </svg>
+</a>
+<span
+    class="header-breadcrumb hide-md-down overflow-ellipsis shrink"
+    data-page-target="breadcrumb"
+    data-turbo-permanent
+    id="header-breadcrumb"
+    hidden
+></span>
+<div class="grow"></div>
+<a
+    href="https://hub.xeovo.com/search"
+    class="btn btn--icon btn--transparent header-search__button hide-lg-up"
+>
+    <svg class="icon icon-tabler-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-search"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M21 21l-6 -6" />
+</svg>    <ui-tooltip>Search</ui-tooltip>
+</a>
+
+<form
+    action="https://hub.xeovo.com/search"
+    role="search"
+    class="input-container header-search__form hide-md-down"
+>
+    <svg class="no-pointer color-muted icon icon-tabler-search"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-search"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M21 21l-6 -6" />
+</svg>
+    <input
+        class="pill"
+        type="text"
+        name="q"
+        placeholder="Search all discussions"
+        aria-label="Search all discussions"
+        required
+        data-hotkey="/"
+    />
+
+    <div class="hide-if-invalid">
+        <button
+            type="submit"
+            class="btn btn--icon btn--transparent btn--sm color-accent"
+            aria-label="Search"
+        >
+            <svg class="icon icon-tabler-arrow-right"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l14 0" />
+  <path d="M13 18l6 -6" />
+  <path d="M13 6l6 6" />
+</svg>        </button>
+    </div>
+</form>
+<a href="https://hub.xeovo.com/login" class="btn btn--icon btn--transparent hide-md-up">
+        <svg class="icon icon-tabler-user-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-user-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+</svg>        <ui-tooltip>Log In</ui-tooltip>
+    </a>
+
+    <div class="row hide-sm">
+        <a
+            href="https://hub.xeovo.com/login"
+            class="header-login btn btn--transparent btn--narrow color-accent"
+        >
+            Log In
+        </a>
+
+                    <a
+                href="https://hub.xeovo.com/register"
+                class="header-register btn btn--transparent btn--narrow color-accent"
+            >
+                Sign Up
+            </a>
+            </div>
+    </div>
+</header>
+
+        <main id="main" class="waterhole__main" tabindex="-1">
+            <div class="section container">
+        <div class="dialog dialog--sm dialog__body">
+            <turbo-frame id="actions">
+                <form action="https://hub.xeovo.com/actions/run" method="POST">
+                    <input type="hidden" name="_token" value="Pw5eiFRlVsKHfAGXGBsJ58zUP2i9Xw9Ef2EzCMQC" autocomplete="off">                    <input type="hidden" name="actionable" value="Waterhole\Models\Post" />
+                    <input type="hidden" name="id[]" value="198" />
+                                            <input type="hidden" name="return" value="https://evil.example.com/x" />
+                    
+                                                                            <a href="https://hub.xeovo.com/posts/198-xeovo-donates-to-tor-x-funding-the-commons" data-turbo-frame="_parent" data-controller="copy-link" data-action="copy-link#copy" data-copy-link-message-value="Link copied to clipboard." class="menu-item" role="menuitem"><svg class="icon icon-tabler-link"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-link"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 15l6 -6" />
+  <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+  <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+</svg> <span>Copy Link</span></a>
+                                                            </form>
+            </turbo-frame>
+        </div>
+    </div>
+        </main>
+
+            </div>
+
+        
+        <ui-modal
+            id="modal-element"
+            class="modal"
+            hidden
+            data-controller="modal"
+            data-action="
+                turbo:before-stream-render@document->modal#hide
+                turbo:before-render@document->modal#hide"
+            data-turbo-permanent
+        >
+            
+            <turbo-frame
+                data-id="modal"
+                data-controller="turbo-frame"
+                class="modal__frame"
+                data-modal-target="frame"
+                data-action="
+                    turbo:submit-start->modal#loading
+                    turbo:before-fetch-request->modal#loading
+                    turbo:frame-render->modal#loaded"
+                aria-labelledby="dialog-title"
+                disabled
+            ></turbo-frame>
+
+            <div class="dialog dialog__body dialog--sm" data-modal-target="loading">
+                <div role="status" aria-label="Loading" class="spinner spinner--block"></div>            </div>
+        </ui-modal>
+
+        
+        <ui-alerts id="alerts" class="alerts" data-turbo-permanent>
+                                                                                                        </ui-alerts>
+
+        
+                    <template id="forbidden-alert">
+                <div
+    class="alert alert--danger bg-danger" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        You don&#039;t have permission to do this.
+    </div>
+
+    </div>
+            </template>
+                    <template id="too-many-requests-alert">
+                <div
+    class="alert alert--danger bg-danger" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        You&#039;re going a bit too fast! Take a break and try again in a moment.
+    </div>
+
+    </div>
+            </template>
+                    <template id="fatal-error-alert">
+                <div
+    class="alert alert--danger bg-danger" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        Something went wrong! Please reload the page and try again.
+    </div>
+
+    </div>
+            </template>
+                    <template id="session-expired-alert">
+                <div
+    class="alert alert--danger bg-danger" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        Your session has expired. Please reload the page and try again.
+    </div>
+
+    </div>
+            </template>
+        
+                    <template id="template-alert-success">
+                <div
+    class="alert alert--success bg-success" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-check"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-check"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 12l5 5l10 -10" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        
+    </div>
+
+    </div>
+            </template>
+                    <template id="template-alert-warning">
+                <div
+    class="alert alert--warning bg-warning" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-triangle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-triangle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 9v4" />
+  <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        
+    </div>
+
+    </div>
+            </template>
+                    <template id="template-alert-danger">
+                <div
+    class="alert alert--danger bg-danger" role="alert" data-controller="alert"
+>
+            <div class="alert__icon">
+            <svg class="icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>        </div>
+    
+    <div class="alert__message content">
+        
+    </div>
+
+    </div>
+            </template>
+        
+        <template id="frame-error">
+            <div class="placeholder">
+                <svg class="placeholder__icon icon icon-tabler-alert-circle"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alert-circle"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+  <path d="M12 8v4" />
+  <path d="M12 16h.01" />
+</svg>                <p class="h4">Something Went Wrong</p>
+                <button class="btn btn--transparent color-accent">
+                    Try Again
+                </button>
+            </div>
+        </template>
+    </body>
+</html>

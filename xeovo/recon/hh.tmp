@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Xeovo VPN - Key to your privacy</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+    <link href="/static/css/landing.css" rel="stylesheet">
+
+    
+<meta name="description" content="Silence censorship. Protect your privacy and bypass restrictions with Xeovo VPN. Starting from 2,99€/mo.">
+<!-- The Open Graph protocol -->
+<meta property="og:title" content="Xeovo VPN - Key to your privacy" />
+<meta property="og:description" content="Silence censorship. Protect your privacy and bypass restrictions with Xeovo VPN. Starting from 2,99€/mo." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xeovo.com/" />
+<meta property="og:image" content="https://xeovo.com/static/images/open-graph.png" />
+<!-- Twitter Graph -->
+<meta name="twitter:title" content="Xeovo VPN - Key to your privacy">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@xeovo" />
+<meta name="twitter:creator" content="@xeovo" />
+<meta name="twitter:description" content="Silence censorship. Protect your privacy and bypass restrictions with Xeovo VPN. Starting from 2,99€/mo.">
+<meta name="twitter:image" content="https://xeovo.com/static/images/open-graph.png">
+<link href="/static/css/reasons-cards.css" rel="stylesheet">
+<link href="/static/css/index.css" rel="stylesheet">
+<script src="/static/js/index.js" defer></script>
+
+
+    <meta name="x-csrf-token" content="hkrhaP1TqCOApHzNinEuXjF1FNcVSppQjvXWFb1jrzL7j5NN1D9Xqv957AZUmZpO" />
+</head>
+<body>
+  
+  <div id="navbar-wrapper" class="">
+  <nav id="navbar">
+    <div class="header">
+      <a class="logo" href="/">
+        <img class="base" src="/static/images/logo.svg" />
+        <img class="hidden" src="/static/images/logo_hidden.svg" />
+      </a>
+
+      <div class="space"></div>
+
+      <input type="image" class="toggle-button active" src="/static/images/icon-burger.svg" />
+      <input type="image" class="toggle-button" src="/static/images/icon-close-green.svg" />
+      
+    </div>
+
+    <div class="menu">
+      <div class="content">
+        
+        <div class="drop-down">
+          <div class="menu-item">
+            Products <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/products/vpn">VPN</a>
+            <a class="menu-item" href="/products/stealth-proxy">Stealth Proxy</a>
+          </div>
+        </div>
+        <a class="menu-item" href="/pricing">Pricing</a>
+        <a class="menu-item" href="/features">Features</a>
+        <div class="drop-down">
+          <div class="menu-item">
+            Resources <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/guides">Guides</a>
+            <a class="menu-item" href="/faq">FAQ</a>
+            <a class="menu-item" href="https://status.xeovo.com">Status</a>
+            <a class="menu-item" href="https://hub.xeovo.com">Hub</a>
+            <a class="menu-item" href="/referrals">Referrals</a>
+          </div>
+        </div>
+        <div class="drop-down">
+          <div class="menu-item">
+            Company <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <a class="menu-item" href="/about">About</a>
+            <a class="menu-item" href="/press">Press</a>
+            <a class="menu-item" href="/contact">Contact</a>
+            <a class="menu-item" href="/bug-bounty">Bug Bounty</a>
+          </div>
+        </div>
+        <div class="account">
+          
+          <a href="/login/">Log In</a>
+          <a class="filled" href="/signup/">Sign Up</a>
+          
+        </div>
+        
+      </div>
+      <div class="space"></div>
+      <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+    </div>
+  </nav>
+</div>
+<!-- /.navbar -->
+
+
+  
+  <div class="content-wrapper">
+    
+<header class="head">
+  <img src="/static/images/illustrations/homepage.png">
+  <div class="group">
+    <a class="update" href="https://hub.xeovo.com/posts/214-new-locations-italy-ireland-turkey">
+      <span class="type">Update</span>
+      <span class="title">New locations: Italy, Ireland &amp; Turkey</span>
+    </a>
+    <h1 class="card">Key to Your &lt;Privacy&gt;</h1>
+    <p class="card">Silence censorship. Protect your privacy and bypass restrictions with Xeovo VPN.</p>
+    <div class="card signup">
+      
+      <a href="/signup/" class="green-round-button">Create Account</a>
+      
+      <p>No email needed.</p>
+    </div>
+  </div>
+</header>
+
+<h1>How It Works</h1>
+<div class="tabs">
+  <div class="titles">
+    <span class="active">
+      <span class="short">VPN</span>
+      <span class="long">Virtual Private Network</span>
+    </span>
+    <span>
+      <span class="short">Proxy</span>
+      <span class="long">Stealth Proxy</span>
+    </span>
+  </div>
+  <div class="contents">
+    <div class="vpn active">
+      <div class="text">
+        <p>By encrypting the traffic, your internet provider won't be able to monitor and log which websites you have visited.</p>
+        <div class="drop-down expandable">
+          <div class="content">
+            <p>Your ISP and mobile operator can store your data for many years. This data can be used for law enforcement, targeted advertising or even sold to third parties.</p>
+            <p>With VPN you can bypass simple internet censorship or geographical restrictions.</p>
+          </div>
+          <div class="expand-button">
+            <span class="more">Read More</span>
+            <span class="less">Read Less</span>
+          </div>
+        </div>
+      </div>
+      <img class="illustration">
+    </div>
+    <div class="proxy">
+      <div class="text">
+        <p>Stealth Proxies are designed to bypass advanced censorship and restrictions imposed by authoritarian regimes.</p>
+        <div class="drop-down expandable">
+          <div class="content">
+            <p>Stealth Proxies obfuscate traffic by making it appear as common internet protocols such as HTTPS.</p>
+          </div>
+          <div class="expand-button">
+            <span class="more">Read More</span>
+            <span class="less">Read Less</span>
+          </div>
+        </div>
+      </div>
+      <img class="illustration" src="/static/images/illustrations/stealth-proxy.svg">
+    </div>
+  </div>
+</div>
+
+<h1>Why Xeovo?</h1>
+
+<div class="reasons-cards mobile">
+  <div class="row">
+    <div class="card independent">
+  <h3>Independent</h3>
+  <p>
+    Our customers come first because they’re our only investors. We're proudly
+    independent and bootstrapped, without venture capital, bank loans or outside
+    shareholders.
+  </p>
+</div>
+<div class="card no-logs">
+  <h3>No Logs</h3>
+  <p>
+    We have a strict no-log policy. This means we don't keep any data that can
+    be taken by court orders.
+  </p>
+</div>
+<div class="card location">
+  <h3>Based in Finland</h3>
+  <p>
+    Our company, headquartered in Finland, benefits from strong
+    privacy laws ensuring your privacy and peace of mind.
+  </p>
+</div>
+
+  </div>
+  <div class="row">
+    <div class="card payment-methods">
+  <h3>Privacy Payment Methods</h3>
+  <p>We accept cash, Monero, Bitcoin and Litecoin.</p>
+  <div class="space"></div>
+  <div id="payment-methods">
+    <p>Cash</p>
+    <img src="/static/images/payments/monero.svg" />
+    <img src="/static/images/payments/bitcoin.svg" />
+    <img src="/static/images/payments/litecoin.svg" />
+  </div>
+</div>
+<div class="card transparency">
+  <h3>Transparency</h3>
+  <p>
+    Each year we publish transparency reports on our
+    <a href="https://hub.xeovo.com/channels/updates" class="arrow" target="_blank">Hub</a>
+  </p>
+  <div class="space"></div>
+  <img class="icon" src="/static/images/icon-transparency.svg" />
+</div>
+<div class="card trackers turquoise">
+  <h3>No Trackers or Analytics</h3>
+  <p>Tracking and analytics are against our principles.</p>
+  <div class="space"></div>
+  <img class="icon" src="/static/images/icon-privacy.svg" />
+</div>
+
+<div class="card more-reasons">
+  <h3>More Reasons</h3>
+  <p>Find out more about Xeovo’s history and products.</p>
+  <div class="space"></div>
+  <a href="/about" class="green-round-button">About Us</a>
+</div>
+
+
+  </div>
+</div>
+
+<div class="reasons-cards desktop">
+  <div class="card independent">
+  <h3>Independent</h3>
+  <p>
+    Our customers come first because they’re our only investors. We're proudly
+    independent and bootstrapped, without venture capital, bank loans or outside
+    shareholders.
+  </p>
+</div>
+<div class="card no-logs">
+  <h3>No Logs</h3>
+  <p>
+    We have a strict no-log policy. This means we don't keep any data that can
+    be taken by court orders.
+  </p>
+</div>
+<div class="card location">
+  <h3>Based in Finland</h3>
+  <p>
+    Our company, headquartered in Finland, benefits from strong
+    privacy laws ensuring your privacy and peace of mind.
+  </p>
+</div>
+
+  <div class="card payment-methods">
+  <h3>Privacy Payment Methods</h3>
+  <p>We accept cash, Monero, Bitcoin and Litecoin.</p>
+  <div class="space"></div>
+  <div id="payment-methods">
+    <p>Cash</p>
+    <img src="/static/images/payments/monero.svg" />
+    <img src="/static/images/payments/bitcoin.svg" />
+    <img src="/static/images/payments/litecoin.svg" />
+  </div>
+</div>
+<div class="card transparency">
+  <h3>Transparency</h3>
+  <p>
+    Each year we publish transparency reports on our
+    <a href="https://hub.xeovo.com/channels/updates" class="arrow" target="_blank">Hub</a>
+  </p>
+  <div class="space"></div>
+  <img class="icon" src="/static/images/icon-transparency.svg" />
+</div>
+<div class="card trackers turquoise">
+  <h3>No Trackers or Analytics</h3>
+  <p>Tracking and analytics are against our principles.</p>
+  <div class="space"></div>
+  <img class="icon" src="/static/images/icon-privacy.svg" />
+</div>
+
+<div class="card more-reasons">
+  <h3>More Reasons</h3>
+  <p>Find out more about Xeovo’s history and products.</p>
+  <div class="space"></div>
+  <a href="/about" class="green-round-button">About Us</a>
+</div>
+
+
+</div>
+
+
+
+<h1>Features</h1>
+<div class="features">
+  <div>
+    <img src="/static/images/features/vpn.svg">
+    <h2>VPN Protocols</h2>
+    <p>We use trusted, open-source VPN protocols WireGuard® and OpenVPN. Supported on all major platforms.</p>
+  </div>
+  <div>
+    <img src="/static/images/features/encryption.svg">
+    <h2>Strong Encryption</h2>
+    <p>We use one of the most modern, robust and state-of-the-art cryptographic cipher suites to protect your internet connection: ChaCha20 and AES-256.</p>
+  </div>
+  <div>
+    <img src="/static/images/features/device.svg">
+    <h2>Up to 5 Devices</h2>
+    <p>Enjoy our VPN or stealth proxies on up to 5 devices at the same time.</p>
+  </div>
+  <div>
+    <img src="/static/images/features/proxy.svg">
+    <h2>Bypass Censorship</h2>
+    <p>VPN protocols are blocked in your country? We got you covered with Shadowsocks, AmneziaWG, VMess, Trojan and VLESS.</p>
+  </div>
+  <div>
+    <img src="/static/images/features/bandwidth.svg">
+    <h2>Unlimited Bandwidth</h2>
+    <p>We never limit your connection. Browse, stream, download or upload as much as you want since there are no data limits.</p>
+  </div>
+  <div class="support">
+    <img src="/static/images/features/support.svg">
+    <h2>Human Support</h2>
+    <p>We have a dedicated team to help you out. No outsourcing or using AI to answer your questions.</p>
+  </div>
+</div>
+<div class="more-features">
+  <a href="/features">More Features</a>
+</div>
+
+<div class="locations">
+  <h2>27 Countries</h2>
+  <h2>60 Servers</h2>
+  <div class="content">
+    <p>We focus on quality<br>over quantity.</p>
+    <a href="https://status.xeovo.com" class="green-round-button" target="_blank">View All Locations</a>
+  </div>
+</div>
+
+<div class="pricing">
+  <h1>Pricing</h1>
+  <div class="currency">
+    <input id="eur" name="currency" type="radio" value="€" checked>
+    <label for="eur"><span class="content">€ EUR</span></label>
+    <input id="gbp" name="currency" type="radio" value="£" data-rate="0.8346051868">
+    <label for="gbp">£ GBP</label>
+    <input id="usd" name="currency" type="radio" value="$" data-rate="1.1191351113">
+    <label for="usd">$ USD</label>
+  </div>
+</div>
+<div class="plans">
+  <div>
+    <img src="/static/images/illustrations/plan-1month.png">
+    <div class="content">
+      <h4>1 Month</h4>
+      <p class="price"><span class="currency-symbol">€</span><span class="amount" data-eur-amount="4.99">4,99</span>/mo</p>
+      <ul>
+        <li>Save 0%</li>
+        <li>Billed <span class="currency-symbol">€</span><span class="amount" data-eur-amount="4.99">4,99</span> monthly</li>
+        <li>5 devices</li>
+      </ul>
+      <a href="/order/" class="form-submit-button">Get Started</a>
+      <p class="warranty">*30-day money-back guarantee</p>
+    </div>
+  </div>
+  <div>
+    <img src="/static/images/illustrations/plan-6months.png">
+    <div class="content">
+      <h4>6 Months</h4>
+      <p class="price"><span class="currency-symbol">€</span><span class="amount" data-eur-amount="3.99">3,99</span>/mo</p>
+      <ul>
+        <li>Save 20%</li>
+        <li>Billed <span class="currency-symbol">€</span><span class="amount" data-eur-amount="23.94">23,94</span> biannually</li>
+        <li>5 devices</li>
+      </ul>
+      <a href="/order/" class="form-submit-button">Get Started</a>
+      <p class="warranty">*30-day money-back guarantee</p>
+    </div>
+  </div>
+  <div>
+    <img src="/static/images/illustrations/plan-12months.png">
+    <div class="content">
+      <h4>12 Months</h4>
+      <p class="price"><span class="currency-symbol">€</span><span class="amount" data-eur-amount="2.99">2,99</span>/mo</p>
+      <ul>
+        <li>Save 40%</li>
+        <li>Billed <span class="currency-symbol">€</span><span class="amount" data-eur-amount="35.88">35,88</span> yearly</li>
+        <li>5 devices</li>
+      </ul>
+      <a href="/order/" class="form-submit-button">Get Started</a>
+      <p class="warranty">*30-day money-back guarantee</p>
+    </div>
+  </div>
+</div>
+<div class="we-accept">
+  <p>We Accept</p>
+  <div class="line"></div>
+  <div class="payment-methods">
+    <p>Cash</p>
+    <img src="/static/images/payments/mastercard.svg" />
+    <img src="/static/images/payments/visa.svg" />
+    <img src="/static/images/payments/paypal.png" />
+    <img src="/static/images/payments/amex.svg" />
+    <img src="/static/images/payments/google-pay.svg" />
+    <img src="/static/images/payments/apple-pay.svg" />
+    <img class="litecoin" src="/static/images/payments/litecoin.svg" />
+    <img src="/static/images/payments/bitcoin.svg" />
+    <img src="/static/images/payments/monero.svg" />
+  </div>
+</div>
+<div id="got-questions">
+  <h2>Got Questions?</h2>
+  <div>
+    <a class="button" href="/faq">Read FAQ</a>
+    <a class="button" href="/contact">Contact Us</a>
+  </div>
+</div>
+
+
+  </div> <!-- /.content-wrapper -->
+  
+
+  
+  <footer>
+  <div class="top">
+    <div class="banner">
+      <img src="/static/images/footer-logo.svg">
+      <div>
+        <p>Silence censorship.<br class="large"> Protect your privacy<br>and bypass restrictions.</p>
+      </div>
+    </div>
+    <div class="pages">
+      <section>
+        <p>PRODUCTS</p>
+        <a href="/products/vpn">VPN</a>
+        <a href="/products/stealth-proxy">Stealth Proxy</a>
+        <a href="/features">Features</a>
+        <a href="/pricing">Pricing</a>
+      </section>
+      <section>
+        <p>RESOURCES</p>
+        <a href="/guides">Guides</a>
+        <a href="/faq">FAQ</a>
+        <a href="https://status.xeovo.com">Status</a>
+        <a href="https://hub.xeovo.com">Hub</a>
+        <a href="/referrals">Referrals</a>
+      </section>
+      <section>
+        <p>COMPANY</p>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/press">Press</a>
+        <a href="/bug-bounty">Bug Bounty</a>
+      </section>
+      <section>
+        <p>LEGAL</p>
+        <a href="/tos">Terms of Service</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/cookies">Cookies Policy</a>
+        <a href="/refund">Refund Policy</a>
+      </section>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>From Finland © 2026 Xeovo Oy.</p>
+    <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

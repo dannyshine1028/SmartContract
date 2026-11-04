@@ -1,0 +1,1 @@
+{"@context":"\/contexts\/Domain","@id":"\/domains","@type":"hydra:Collection","hydra:totalItems":1,"hydra:member":[{"@id":"\/domains\/6ae538a82ba780d3ee788e8b","@type":"Domain","id":"6ae538a82ba780d3ee788e8b","domain":"fldubai.com","isActive":true,"isPrivate":false,"createdAt":"2026-10-30T00:00:00+00:00","updatedAt":"2026-10-30T00:00:00+00:00"}]}

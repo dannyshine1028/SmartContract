@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Sign Up - Xeovo VPN</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/signup/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+<link href="/static/css/form-page.css" rel="stylesheet">
+<script src="/static/js/form-page.js" defer></script>
+
+    
+    <meta name="description" content="Create your Xeovo VPN account — no email required.">
+    <!-- The Open Graph protocol -->
+    <meta property="og:title" content="Sign Up - Xeovo VPN" />
+    <meta property="og:description" content="Create your Xeovo VPN account — no email required." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xeovo.com/signup" />
+    <meta property="og:image" content="https://xeovo.com/static/images/open-graph.png" />
+    <!-- Twitter Graph -->
+    <meta name="twitter:title" content="Sign Up - Xeovo VPN">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@xeovo" />
+    <meta name="twitter:creator" content="@xeovo" />
+    <meta name="twitter:description" content="Create your Xeovo VPN account — no email required.">
+    <meta name="twitter:image" content="https://xeovo.com/static/images/open-graph.png">
+    <link href="/static/css/signup.css" rel="stylesheet">
+    <script src="/static/js/signup.js" defer></script>
+
+
+    <meta name="x-csrf-token" content="kJ9RdwMFszwDeA1IDM9WaMPVfdrKZt8HhP7SlyEZBT3yOFyRerRxx1lDgag5ySct" />
+</head>
+<body>
+  
+<main>
+  
+<div class="server-messages ">
+  
+</div>
+
+<h1>Create Account</h1>
+
+
+  <form action="" method="post">
+    <input type="hidden" name="csrfmiddlewaretoken" value="kJ9RdwMFszwDeA1IDM9WaMPVfdrKZt8HhP7SlyEZBT3yOFyRerRxx1lDgag5ySct">
+    <script id="form-errors-json" type="application/json">{"username": ["Enter a valid value."], "password": ["Passwords are not the same"], "email": ["Enter a valid email address."]}</script>
+
+    
+    <div class="field-wrapper username">
+      <div class="field username">
+        <input type="text" name="username" placeholder="Username" value="&lt;i&gt;XSS&lt;/i&gt;" maxlength=16>
+        <button id="randomize" type="button">Generate</button>
+      </div>
+    </div>
+    <div class="field-wrapper email">
+      <div class="field"><input type="email" name="email" placeholder="Email (optional)" value="zzz"></div>
+    </div>
+    <div class="field-wrapper password">
+      <div class="field"><input type="password" name="password" placeholder="Password" minlength="6" maxlength="256"></div>
+    </div>
+    <div class="field-wrapper password2">
+      <div class="field"><input type="password" name="password2" placeholder="Repeat password"></div>
+    </div>
+
+    <button type="submit" class="green-round-button">Sign Up</button>
+
+  </form>
+
+  
+  <p class="agreement">By signing up, you agree to the <a href="/tos/">Terms of Service</a> and <a href="/privacy/">Privacy Policy</a></p>
+
+  <p class="login">Already have an account? <a href="/login/">Log In</a></p>
+
+</main>
+<a href="/">
+  <img id="footer-logo" src="/static/images/logo.svg">
+</a>
+
+</body>
+</html>

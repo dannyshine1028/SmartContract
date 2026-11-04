@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>
+    
+        Order
+    
+ - Xeovo VPN</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/order/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+  
+    <link href="/static/css/billing.css" rel="stylesheet">
+    <script src="/static/js/billing.js" defer></script>
+    
+
+  <link href="/static/css/order.css" rel="stylesheet">
+  <script src="https://checkout.stripe.com/checkout.js" async></script>
+  <script id="order-plans" type="application/json">{"1m": {"total": 4.99}, "6m": {"total": 23.94}, "12m": {"total": 35.88}}</script>
+  <script src="/static/js/order.js" defer></script>
+
+    
+
+    <meta name="x-csrf-token" content="gjdrZtrnber7jhlVnqc4GIMlDjV6soQr5zxFjawkewGYewMXGwcBIN7Rt8TteqNY" />
+</head>
+<body>
+  
+  
+  <div id="navbar-wrapper" class="authenticated">
+  <nav id="navbar">
+    <div class="header">
+      <a class="logo" href="/">
+        <img class="base" src="/static/images/logo.svg" />
+        <img class="hidden" src="/static/images/logo_hidden.svg" />
+      </a>
+
+      <div class="space"></div>
+
+      <input type="image" class="toggle-button active" src="/static/images/icon-burger.svg" />
+      <input type="image" class="toggle-button" src="/static/images/icon-close-green.svg" />
+      
+      <div id="authenticated-menu">
+        <div class="space"></div>
+        <div class="drop-down clickable site">
+          <div class="menu-item">
+            
+            <input type="image" src="/static/images/icon-dashboard.svg" />
+            
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            
+            <a href="/" class="menu-item">
+              <img src="/static/images/icon-home-darker.svg" />
+            
+              Home
+            </a>
+            
+            <a href="/dashboard/" class="menu-item selected">
+              <img src="/static/images/icon-dashboard.svg" />
+            
+              Dashboard
+            </a>
+          </div>
+        </div>
+        <div class="drop-down clickable profile">
+          <div class="menu-item">
+            
+            <div class="user-info">
+              <p class="username">xvthw7fln</p>
+              <p>xvthw7fln@fldubai.com</p>
+            </div>
+            
+            <input type="image" src="/static/images/icon-profile.svg" />
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <div class="infos">
+              <p class="username">xvthw7fln</p>
+              <p class="email">xvthw7fln@fldubai.com</p>
+            </div>
+            <div class="separator"></div>
+            <a href="/account/" class="menu-item">
+              <img src="/static/images/icon-account-settings.svg" />
+              Account Settings
+            </a>
+            <a href="/payments/" class="menu-item">
+              <img src="/static/images/icon-billing.svg" />
+              Billing
+            </a>
+            <a href="/referrals-stats/" class="menu-item">
+              <img src="/static/images/icon-referrals.svg" />
+              Referrals
+            </a>
+            
+            <div class="separator"></div>
+            <a href="https://hub.xeovo.com/channels/updates" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-updates.svg" />
+              Updates
+            </a>
+            <a href="https://hub.xeovo.com/channels/feedback" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-feedback.svg" />
+              Feedback
+            </a>
+            <a href="https://status.xeovo.com" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-status.svg" />
+              Status
+            </a>
+            <div class="separator"></div>
+            <a href="/logout" class="menu-item">
+              <img src="/static/images/icon-logout.svg" />
+              Log out
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="menu">
+      <div class="content">
+        
+              <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order active">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+        
+      </div>
+      <div class="space"></div>
+      <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+    </div>
+  </nav>
+</div>
+<!-- /.navbar -->
+
+  
+  
+  <div id="page-content" class="cols3">
+    <div id="side-menu-wrapper">
+            <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order active">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+    </div>
+
+    
+
+    <main class="">
+      
+  
+    
+    <div class="server-messages popup">
+  
+</div>
+
+    
+  
+  <h5>&gt; Order</h5>
+  <form action="" method="post" id="order-form">
+    <input type="hidden" name="csrfmiddlewaretoken" value="gjdrZtrnber7jhlVnqc4GIMlDjV6soQr5zxFjawkewGYewMXGwcBIN7Rt8TteqNY">
+    <h2>Select your plan</h2>
+    <p>You can change or cancel your plan anytime</p>
+    <table class="plan">
+      
+      <tr>
+        <td>
+          <input type="radio" id="plan_1m" value="1m" name="plan" required >
+          <label for="plan_1m">
+            <div class="info">
+              <span>1 month</span>
+              
+              
+              <span><span class="currency">€</span>4.99</span>
+              
+              
+              
+              
+              
+              
+              <span class="saving">Save 0%</span>
+            </div>
+          </label>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <input type="radio" id="plan_6m" value="6m" name="plan" required >
+          <label for="plan_6m">
+            <div class="info">
+              <span>6 months</span>
+              
+              
+              
+              
+              <span><span class="currency">€</span>23.94</span>
+              
+              
+              
+              
+              <span class="saving">Save 20%</span>
+            </div>
+          </label>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <input type="radio" id="plan_12m" value="12m" name="plan" required checked>
+          <label for="plan_12m">
+            <div class="info">
+              <span>12 months</span>
+              
+              
+              
+              
+              
+              
+              <span><span class="currency">€</span>35.88</span>
+              
+              
+              <span class="saving">Save 40%</span>
+            </div>
+          </label>
+        </td>
+      </tr>
+      
+    </table>
+
+    <h2>Payment method</h2>
+    <p>All transactions are secure and encrypted</p>
+
+    <input type="radio" id="credit-card" value="stripe" name="payment-method" required checked>
+    <label for="credit-card">
+      <div class="content">
+        <h3>Stripe</h3>
+        <img src="/static/images/payments/visa.svg" />
+        <img src="/static/images/payments/mastercard.svg" />
+        <img src="/static/images/payments/amex.svg" />
+        <img src="/static/images/payments/apple-pay.svg" />
+        <img src="/static/images/payments/google-pay.svg" />
+      </div>
+      <div class="recurring">
+        <div class="horizontal-separator"></div>
+        <input type="checkbox" id="stripe-recurring-prompt" name="recurring">
+        <label for="stripe-recurring-prompt">Subscribe (Auto-renew)</label>
+      </div>
+    </label>
+
+    <input type="radio" id="PayPal" value="paypal" name="payment-method">
+    <label for="PayPal">
+      <div class="content">
+        <h3>PayPal</h3>
+        <img src="/static/images/payments/paypal.png" />
+      </div>
+      <div class="recurring">
+        <div class="horizontal-separator"></div>
+        <input type="checkbox" id="paypal-recurring-prompt" name="recurring">
+        <label for="paypal-recurring-prompt">Subscribe (Auto-renew)</label>
+      </div>
+    </label>
+
+    
+    <input type="radio" id="BTCPay" value="btcpay" name="payment-method">
+    <label for="BTCPay">
+      <div class="content">
+        <h3>BTCPay</h3>
+        <img src="/static/images/payments/bitcoin.svg" />
+        <img src="/static/images/payments/litecoin.svg" />
+        <img src="/static/images/payments/monero.svg" />
+      </div>
+      <div class="no-refund">
+        <div class="horizontal-separator"></div>
+        <p>No refunds</p>
+      </div>
+    </label>
+    
+
+    
+
+    
+    <input type="radio" id="cash" value="manual" name="payment-method">
+    <label for="cash">
+      <h3>Cash</h3>
+      <div class="no-refund">
+        <div class="horizontal-separator"></div>
+        <p>No refunds or discounts</p>
+      </div>
+    </label>
+    
+  </form>
+
+    </main>
+
+    <div class="right">
+      
+<div class="card">
+  <h2>Discount code</h2>
+  <p>Available only for one-time payments</p>
+  <div id="coupon">
+    <input type="text" placeholder="Discount code" name="coupon" form="order-form">
+    <button disabled>Apply</button>
+  </div>
+  <p class="value">Subtotal: <span id="order-subtotal"></span></p>
+  <p class="value">Discount: <span id="order-discount"></span></p>
+  <p class="value">Taxes: <span>Included</span></p>
+  <div class="horizontal-separator"></div>
+  <h2 class="value">Total: <span id="order-total"></span></h2>
+</div>
+<button type="submit" form="order-form" class="confirm">Continue</button>
+
+    </div>
+  </div>
+
+  <footer>
+  <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Profile - Xeovo VPN</title>
+
+    <!-- Xeovo Website v1.5.3 -->
+
+    <link rel="canonical" href="https://xeovo.com/account/" />
+    <link rel="shortcut icon" href="/static/favicon2.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+    <link href="/static/css/common.css" rel="stylesheet">
+    <link href="/static/fonts/inter/inter.css" rel="stylesheet">
+    <link href="/static/fonts/Material_Icons.css" rel="stylesheet">
+
+    <script src="/static/js/common.js" defer></script>
+
+    
+
+    <link href="/static/css/billing.css" rel="stylesheet">
+    <script src="/static/js/billing.js" defer></script>
+    
+
+    <link href="/static/css/profile.css" rel="stylesheet">
+    <script src="/static/js/profile.js" defer></script>
+
+    
+
+    <meta name="x-csrf-token" content="gNyX38iKRkYC9Pe4DcbZ8OrvKADr6IYx53SbnPnHUCdt44F6WibwaTM1ApBOSKV4" />
+</head>
+<body>
+  
+  
+  <div id="navbar-wrapper" class="authenticated">
+  <nav id="navbar">
+    <div class="header">
+      <a class="logo" href="/">
+        <img class="base" src="/static/images/logo.svg" />
+        <img class="hidden" src="/static/images/logo_hidden.svg" />
+      </a>
+
+      <div class="space"></div>
+
+      <input type="image" class="toggle-button active" src="/static/images/icon-burger.svg" />
+      <input type="image" class="toggle-button" src="/static/images/icon-close-green.svg" />
+      
+      <div id="authenticated-menu">
+        <div class="space"></div>
+        <div class="drop-down clickable site">
+          <div class="menu-item">
+            
+            <input type="image" src="/static/images/icon-dashboard.svg" />
+            
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            
+            <a href="/" class="menu-item">
+              <img src="/static/images/icon-home-darker.svg" />
+            
+              Home
+            </a>
+            
+            <a href="/dashboard/" class="menu-item selected">
+              <img src="/static/images/icon-dashboard.svg" />
+            
+              Dashboard
+            </a>
+          </div>
+        </div>
+        <div class="drop-down clickable profile">
+          <div class="menu-item">
+            
+            <div class="user-info">
+              <p class="username">xvthw7fln</p>
+              <p>xvthw7fln@fldubai.com</p>
+            </div>
+            
+            <input type="image" src="/static/images/icon-profile.svg" />
+            <div class="chevron"></div>
+          </div>
+          <div class="content">
+            <div class="infos">
+              <p class="username">xvthw7fln</p>
+              <p class="email">xvthw7fln@fldubai.com</p>
+            </div>
+            <div class="separator"></div>
+            <a href="/account/" class="menu-item">
+              <img src="/static/images/icon-account-settings.svg" />
+              Account Settings
+            </a>
+            <a href="/payments/" class="menu-item">
+              <img src="/static/images/icon-billing.svg" />
+              Billing
+            </a>
+            <a href="/referrals-stats/" class="menu-item">
+              <img src="/static/images/icon-referrals.svg" />
+              Referrals
+            </a>
+            
+            <div class="separator"></div>
+            <a href="https://hub.xeovo.com/channels/updates" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-updates.svg" />
+              Updates
+            </a>
+            <a href="https://hub.xeovo.com/channels/feedback" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-feedback.svg" />
+              Feedback
+            </a>
+            <a href="https://status.xeovo.com" class="menu-item arrow" target="_blank">
+              <img src="/static/images/icon-status.svg" />
+              Status
+            </a>
+            <div class="separator"></div>
+            <a href="/logout" class="menu-item">
+              <img src="/static/images/icon-logout.svg" />
+              Log out
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="menu">
+      <div class="content">
+        
+              <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+        
+      </div>
+      <div class="space"></div>
+      <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+    </div>
+  </nav>
+</div>
+<!-- /.navbar -->
+
+  
+  
+  <div id="page-content" class="cols2">
+    <div id="side-menu-wrapper">
+            <nav class="side-menu">
+        <a href="/dashboard/" class="dashboard">DASHBOARD</a>
+        <a class="generators">GENERATORS</a>
+        <a href="/wireguard/" class="sub wireguard">WIREGUARD</a>
+        <a href="/openvpn/" class="sub openvpn">OPENVPN</a>
+        <a href="/proxy/" class="sub proxy">STEALTH PROXY</a>
+        <div class="horizontal-separator"></div>
+        <a href="/order/" class="order">ORDER</a>
+        <a href="/user-guides/" class="guides">GUIDES</a>
+        <a href="/tickets/" class="support">SUPPORT</a>
+        <div class="horizontal-separator"></div>
+        <div class="service-status">
+          <a href="https://status.xeovo.com">
+            <p class="ok">All systems normal</p>
+            <p class="minor_outage">Partial Outage</p>
+            <p class="major_outage">Major Outage</p>
+          </a>
+        </div>
+      </nav>
+
+    </div>
+
+    
+
+    <main class="">
+      
+  <h5>&gt; Account</h5>
+  <h3>Account information</h3>
+
+  <div class="info">
+    <p class="field">Username<span>:</span></p><p>xvthw7fln</p>
+    <p class="field">Email<span>:</span></p><p>xvthw7fln@fldubai.com</p>
+    <p class="field">Status<span>:</span></p><p>
+      
+        Inactive <a href="/order/">(Activate)</a>
+      
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Change password</h2>
+    <form action="/account/set-pw/" method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="gNyX38iKRkYC9Pe4DcbZ8OrvKADr6IYx53SbnPnHUCdt44F6WibwaTM1ApBOSKV4">
+      <input type="hidden" name="action" value="pw" />
+      <input type="password" name="current_password" placeholder="Current password" />
+      <input type="password" name="new_password" placeholder="New password" />
+      <input type="password" name="confirm_password" placeholder="Repeat new password" />
+      <div class="server-messages-row">
+        
+        <div class="server-messages ">
+  
+</div>
+
+        
+        <button type="submit" class="form-submit-button save">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Change email address</h2>
+    <form action="/account/set-email/" method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="gNyX38iKRkYC9Pe4DcbZ8OrvKADr6IYx53SbnPnHUCdt44F6WibwaTM1ApBOSKV4">
+      <input type="hidden" name="action" value="email" />
+      <input type="password" name="current_password" placeholder="Current password" />
+      <input type="email" name="email" placeholder="New email address" />
+      <div class="server-messages-row">
+        
+        <div class="server-messages ">
+  
+</div>
+
+        
+        <button type="submit" class="form-submit-button save">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Two-Factor Authentication</h2>
+    
+      <p>Two-factor authentication is not enabled for your
+        account. Enable two-factor authentication for enhanced account
+        security.</p>
+      <div class="button-row">
+        <a href="/account/mfa/" class="form-submit-button">Enable</a>
+      </div>
+    
+  </div>
+
+  <div class="card privacy">
+    <h2>Privacy</h2>
+    <form action="/account/export/" method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="gNyX38iKRkYC9Pe4DcbZ8OrvKADr6IYx53SbnPnHUCdt44F6WibwaTM1ApBOSKV4">
+      <input type="password" name="current_password" placeholder="Current password" />
+      <button type="submit" class="form-submit-button export">Export Data</button>
+    </form>
+    <div class="server-messages-row">
+      
+      <div class="server-messages ">
+  
+</div>
+
+      
+    </div>
+    <form action="/account/delete/" method="post">
+      <input type="hidden" name="csrfmiddlewaretoken" value="gNyX38iKRkYC9Pe4DcbZ8OrvKADr6IYx53SbnPnHUCdt44F6WibwaTM1ApBOSKV4">
+      <input type="password" name="current_password" placeholder="Current password" />
+      <button type="submit" id="delete-account-button" class="form-submit-button red">Delete Account</button>
+    </form>
+    <div class="server-messages-row">
+      
+      <div class="server-messages ">
+  
+</div>
+
+      
+    </div>
+  </div>
+
+    </main>
+
+    <div class="right">
+      
+    </div>
+  </div>
+
+  <footer>
+  <div class="socials">
+  <a href="mailto:support@xeovo.com" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mail.svg" />
+    <img class="hover" src="/static/images/socials/mail-green.svg" />
+  </a>
+  <a href="https://bsky.app/profile/xeovo.bsky.social" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/bluesky.svg" />
+    <img class="hover" src="/static/images/socials/bluesky-green.svg" />
+  </a>
+  <a href="https://mastodon.social/@xeovo" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/mastodon.svg" />
+    <img class="hover" src="/static/images/socials/mastodon-green.svg"/>
+  </a>
+  <a href="https://www.reddit.com/r/xeovo/" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/reddit.svg" />
+    <img class="hover" src="/static/images/socials/reddit-green.svg" />
+  </a>
+  <a href="https://t.me/XeovoVPN" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/telegram.svg" />
+    <img class="hover" src="/static/images/socials/telegram-green.svg"/>
+  </a>
+  <a href="http://xeovok4d6ehoclmlyviwuq7zlmcvucuekhrt2677r33ny2csyd4yldyd.onion" rel="noopener noreferrer nofollow">
+    <img class="base" src="/static/images/socials/tor.svg" />
+    <img class="hover" src="/static/images/socials/tor-green.svg" />
+  </a>
+</div>
+
+  </footer>
+
+</body>
+</html>
