@@ -1,0 +1,5 @@
+#!/bin/bash
+UA='Mozilla/5.0'
+A=https://aiagent.atomicwork.com
+p(){ local n="$1"; shift; local r b; r=$(curl -sk --max-time 10 -A "$UA" -o /tmp/aa.body -w '%{http_code} %{size_download} %{content_type}' "$@"); b=$(head -c 100 /tmp/aa.body | tr '\n' ' '); echo -e "$n\t$r\t$b"; }
+for path in /api/health /api/healthz /api/status /api/version /api/config /api/settings /api/me /api/user /api/users /api/auth /api/auth/session /api/auth/providers /api/auth/csrf /api/auth/signin /api/chat /api/chat/completions /api/completions /api/completion /api/messages /api/conversations /api/threads /api/runs /api/agents /api/agent /api/agent/chat /api/agent/run /api/run /api/invoke /api/tools /api/mcp /api/stream /api/sse /api/ask /api/query /api/search /api/embed /api/embeddings /api/models /api/documents /api/knowledge /api/upload /api/files /api/assets /api/proxy /api/fetch /api/url /api/render /api/scrape /api/browse /api/webhook /api/events /api/callback /api/public /mcp /sse /health /healthz /status /openapi.json /docs /api/v1 /api/v1/chat /api/v1/messages; do p "$path" "$A$path"; done
