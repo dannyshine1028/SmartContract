@@ -1,0 +1,16 @@
+HTTP/2 200 
+content-type: text/html
+last-modified: Thu, 29 Oct 2026 07:42:39 GMT
+vary: Accept-Encoding
+etag: "6ae2f8ef-abc"
+cache-control: no-cache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+accept-ranges: bytes
+x-cloud-trace-context: 675e15aabcc0d8b447857c2a66876efd
+date: Mon, 02 Nov 2026 02:18:02 GMT
+server: Google Frontend
+content-length: 2748
+via: 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
