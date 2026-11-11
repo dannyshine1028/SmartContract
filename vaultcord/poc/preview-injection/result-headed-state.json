@@ -1,0 +1,8 @@
+{
+  "href": "http://localhost:8124/harness.html?target=https%3A%2F%2Fvaultcord.win%2Fcosmoscraft%3FpreviewToken%3Dproof-5&mode=popup",
+  "title": "VC preview-injection harness",
+  "bodyText": "VaultCord preview postMessage harness (attacker origin = this page) Open target popup opened pumping preview-update to https://vaultcord.win/cosmoscraft?previewToken=proof-5 popup opened pumping preview-update to https://vaultcord.win/cosmoscraft?previewToken=proof-5 ",
+  "marker": false,
+  "iframes": [],
+  "frames": []
+}

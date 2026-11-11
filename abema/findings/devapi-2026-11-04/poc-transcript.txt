@@ -1,0 +1,30 @@
+[1] DEV channel catalogue (no Cookie / no Authorization)
+    HTTP 200  29951 bytes
+    first ids: "id":"Smaqtest"
+    first ids: "id":"thorhammer"
+    first ids: "id":"aaa"
+    first ids: "id":"abema-activation"
+    first ids: "id":"gemma"
+[2] PROD channel catalogue for comparison
+    HTTP 200  51740 bytes
+[3] set difference: channels present on DEV, absent from PROD public catalogue
+    dev=57 prod=57 dev_only=48
+    internal/QA ids: ['Smaqtest', 'Smaqtest2', 'fujiwo-test', 'global-test', 'ito-test002', 'live-test', 'pd-test', 'personalizedAd1', 'personalizedAd2', 'personalizedAd3', 'personalizedAd4', 'personalizedAd5', 'qa-drm', 'qa-drm-personal', 'qa-drm2', 'spotlive-test', 'suga-test', 'test---1111', 'test-ch', 'yospace01', 'yospace02']
+[4] DEV schedule: internal QA test-case slots
+    HTTP 200  62304 bytes
+    dev slots=27  internal-tagged(【..】)=24  overlapping prod titles=0
+    e.g.: ['【IGQ】有料TS（放送枠/注目/TSあり/追っかけ不可/ダウンロード可）', '【IDS】本編(非DRM)→外部リンク付き広告（パーソナライズド）', '【IDS】本編(非DRM)→フィラー', '【IDS】本編(非DRM)→サイト一体型広告（パーソナライズド）']
+[5] DEV media config for one internal slot (internal dev CDN origins + playlist URL templates)
+    HTTP 200  slot=8WB9XwTkXUfqU3
+    https://dev-vod-abematv.akamaized.net/slot/8WB9XwTkXUfqU3/playlist.m3u8?%3Fvvvv=true
+    https://dev-vod-abematv.akamaized.net/slot/8WB9XwTkXUfqU3/manifest.mpd?%3Fvvvv=true
+    https://dev-vod-abematv.akamaized.net/preview/slot/8WB9XwTkXUfqU3/playlist.m3u8?%3Fvvvv=true
+    same slotId on PROD:
+      HTTP 404
+      body: {"message":"Not Found"}[6] Negative control: the dev gateway DOES have an auth gate on other routes
+    GET /v1/me -> HTTP 401
+      body: {"message":"authorization header must exist"}[7] Internal service discovery + build version on the dev gateway (response headers)
+    server: istio-envoy
+    x-envoy-decorator-operation: abema-catalog-api.default.svc.cluster.local:8000/*
+    via: 1.1 google
+    /version -> {"branch":"HEAD","hash":"batch/v20261030061019.80bba2df16","timestamp":"2026-10-30T06:11:10Z"}
