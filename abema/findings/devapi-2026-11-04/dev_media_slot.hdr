@@ -1,0 +1,13 @@
+HTTP/2 200 
+content-length: 3533
+content-type: application/json
+etag: 16db41d8756f14c6
+vary: Accept, Accept-Encoding, Origin,Origin
+date: Wed, 04 Nov 2026 01:04:45 GMT
+x-envoy-upstream-service-time: 121
+server: istio-envoy
+x-envoy-decorator-operation: abema-gateway-cdn.default.svc.cluster.local:8000/*
+via: 1.1 google
+cache-control: public,max-age=0,s-maxage=298,stale-while-revalidate=2
+alt-svc: h3=":443"; ma=2592000
+
