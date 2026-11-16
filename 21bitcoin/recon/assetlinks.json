@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fior.digital21app",
+      "sha256_cert_fingerprints": [
+        "6D:9C:D9:75:06:18:49:EA:3E:8F:85:7D:85:60:C0:CA:BD:6E:13:76:AF:B3:B8:C0:75:23:FE:09:66:5A:E0:F0"
+      ]
+    }
+  }
+]
