@@ -1,0 +1,273 @@
+*.ad.abema.io	000|0|	srv=	ct=	t=
+*.c2.abem.io	000|0|	srv=	ct=	t=
+*.c2.abema.io	000|0|	srv=	ct=	t=
+*.dev.ad.abema.io	000|0|	srv=	ct=	t=
+*.dual.media.abema.io	000|0|	srv=	ct=	t=
+*.ed.c1.abem.io	000|0|	srv=	ct=	t=
+*.ed.c1.abema.io	000|0|	srv=	ct=	t=
+*.ed.c2.abem.io	000|0|	srv=	ct=	t=
+*.ed.c2.abema.io	000|0|	srv=	ct=	t=
+*.ed.c3.abem.io	000|0|	srv=	ct=	t=
+*.ed.c3.abema.io	000|0|	srv=	ct=	t=
+*.el.c3.abem.io	000|0|	srv=	ct=	t=
+*.el.c3.abema.io	000|0|	srv=	ct=	t=
+*.ep.c1.abem.io	000|0|	srv=	ct=	t=
+*.ep.c1.abema.io	000|0|	srv=	ct=	t=
+*.ep.c2.abem.io	000|0|	srv=	ct=	t=
+*.ep.c2.abema.io	000|0|	srv=	ct=	t=
+*.ep.c3.abem.io	000|0|	srv=	ct=	t=
+*.ep.c3.abema.io	000|0|	srv=	ct=	t=
+*.epl.c3.abem.io	000|0|	srv=	ct=	t=
+*.ha.abema.io	000|0|	srv=	ct=	t=
+*.mam.abema.io	000|0|	srv=	ct=	t=
+*.stg.ad.abema.io	000|0|	srv=	ct=	t=
+*.superbird.abema.io	000|0|	srv=	ct=	t=
+*.xd.c2.abem.io	000|0|	srv=	ct=	t=
+*.xd.c2.abema.io	000|0|	srv=	ct=	t=
+*.xd.c3.abem.io	000|0|	srv=	ct=	t=
+*.xd.c3.abema.io	000|0|	srv=	ct=	t=
+*.xp.c2.abem.io	000|0|	srv=	ct=	t=
+*.xp.c2.abema.io	000|0|	srv=	ct=	t=
+*.xp.c3.abem.io	000|0|	srv=	ct=	t=
+*.xp.c3.abema.io	000|0|	srv=	ct=	t=
+1st-anniv.abema.tv	000|0|	srv=	ct=	t=
+2nd-anniv-cp.abema.tv	000|0|	srv=	ct=	t=
+2nd-anniv.abema.tv	000|0|	srv=	ct=	t=
+abem.io	000|0|	srv=	ct=	t=
+abema-ldh.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+abema-news.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+abema-ppv-onlinelive.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+abema.tv	200|31553|	srv=Varnish	ct=text/html; charset=utf8	t=エラー | ABEMA
+abemaldh.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+abemanojikan.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+abemappv-onlinelive-info.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+ad.abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+animation-abema.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+asiadrama-ch.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+auth-business.ad.abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+bs.ad.abema.io	403|111|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+business-gateway.ad.abema.io	415|0|	srv=Google Frontend	ct=application/grpc	t=
+business.ad.abema.io	200|2748|	srv=Google Frontend	ct=text/html	t=AbemaTV Ads ビジネスマネージャ
+c2.abem.io	000|0|	srv=	ct=	t=AbemaTV Ads ビジネスマネージャ
+c2.abema.io	000|0|	srv=	ct=	t=AbemaTV Ads ビジネスマネージャ
+campaign-10mdl.abema.tv	000|0|	srv=	ct=	t=AbemaTV Ads ビジネスマネージャ
+campaign-firetv.abema.tv	000|0|	srv=	ct=	t=AbemaTV Ads ビジネスマネージャ
+campaign-rm.abema.tv	000|0|	srv=	ct=	t=AbemaTV Ads ビジネスマネージャ
+conte.abem.io	301|0|https://conte.d-c3-x.abema-tv.org:443/	srv=	ct=text/html; charset=UTF-8	t=
+countdown-hypnosismic.abema.tv	000|0|	srv=	ct=	t=
+dev-accurate-video.mam.abema.io	000|0|	srv=	ct=	t=
+dev-developer.abema.io	401|0|	srv=CloudFront	ct=	t=
+dev-etc.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+dev-grafana.abem.io	301|0|https://dev-grafana.d-c3-e.abema-tv.org:443/	srv=	ct=text/html; charset=UTF-8	t=
+dev-kickback.ad.abema.io	404|24|	srv=Google Frontend	ct=application/json; charset=UTF-	t=
+dev-portal.dm.abem.io	000|0|	srv=	ct=	t=
+dev-promviz.abem.io	301|0|https://dev-promviz.d-c3-e.abema-tv.org:443/	srv=	ct=text/html; charset=UTF-8	t=
+dev-times.abema.tv	000|0|	srv=	ct=	t=
+dev-tmb.ad.abema.io	404|1275|	srv=UploadServer	ct=text/html	t=エラー | AbemaTV
+dev-trk.ad.abema.io	404|24|	srv=	ct=application/json; charset=UTF-	t=
+dev-vast.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+dev-vod-cfl.abema.io	000|0|	srv=	ct=	t=
+dev-webview.xd.c3.abema.io	000|0|	srv=	ct=	t=
+dev-yospace.ad.abema.io	403|111|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+dev.ad.abema.io	000|0|	srv=	ct=	t=
+developer.abema.io	200|944|	srv=AmazonS3	ct=text/html	t=ABEMA Developer Conference
+docs.abema.io	000|0|	srv=	ct=	t=ABEMA Developer Conference
+docs.android.abem.io	000|0|	srv=	ct=	t=ABEMA Developer Conference
+docs.ios.abem.io	302|138|https://github.com/pages/auth?nonce=08ff0ced-a07a-4cd2-94c5-035c2b3189fe&page_id=23865538&path=Lw	srv=GitHub.com	ct=text/html	t=302 Found
+docs.native.abem.io	302|138|https://github.com/pages/auth?nonce=3e94790e-0dba-4027-8482-1826fb9af4f4&page_id=23909529&path=Lw	srv=GitHub.com	ct=text/html	t=302 Found
+domain-mapping-migration.ad.abema.io	000|0|	srv=	ct=	t=302 Found
+drama-gakkoujyanee.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-hoshikuzu.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-koedake.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-korea.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-korea201612.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-lp.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-tadano.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-tadano2.abema.tv	000|0|	srv=	ct=	t=302 Found
+drama-yaretakamo.abema.tv	000|0|	srv=	ct=	t=302 Found
+dual.media.abema.io	000|0|	srv=	ct=	t=302 Found
+dummy-business-gateway.ad.abema.io	000|0|	srv=	ct=	t=302 Found
+dummy-business.ad.abema.io	000|0|	srv=	ct=	t=302 Found
+dummy-kickback.ad.abema.io	000|0|	srv=	ct=	t=302 Found
+dummy-stg-kickback.ad.abema.io	000|0|	srv=	ct=	t=302 Found
+ed.c1.abem.io	000|0|	srv=	ct=	t=302 Found
+ed.c1.abema.io	000|0|	srv=	ct=	t=302 Found
+ed.c2.abem.io	000|0|	srv=	ct=	t=302 Found
+ed.c2.abema.io	000|0|	srv=	ct=	t=302 Found
+ed.c3.abem.io	000|0|	srv=	ct=	t=302 Found
+ed.c3.abema.io	000|0|	srv=	ct=	t=302 Found
+education.abema.tv	000|0|	srv=	ct=	t=302 Found
+ep.c1.abem.io	000|0|	srv=	ct=	t=302 Found
+ep.c1.abema.io	000|0|	srv=	ct=	t=302 Found
+ep.c2.abem.io	000|0|	srv=	ct=	t=302 Found
+ep.c2.abema.io	000|0|	srv=	ct=	t=302 Found
+ep.c3.abem.io	000|0|	srv=	ct=	t=302 Found
+ep.c3.abema.io	000|0|	srv=	ct=	t=302 Found
+etc.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+features.abema.tv	000|0|	srv=	ct=	t=
+festival-august2016.abema.tv	000|0|	srv=	ct=	t=
+festival-july2016.abema.tv	000|0|	srv=	ct=	t=
+festival-spweek.abema.tv	000|0|	srv=	ct=	t=
+function.abema.tv	000|0|	srv=	ct=	t=
+guide.abema.tv	000|0|	srv=	ct=	t=
+ha.abema.io	000|0|	srv=	ct=	t=
+help.abema.tv	302|0|https://help.abema.tv/hc	srv=cloudflare	ct=text/html; charset=utf-8	t=
+hypnosismic.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+inner-brand.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+kickback.ad.abema.io	404|24|	srv=Google Frontend	ct=application/json	t=
+koisute.abema.tv	000|0|	srv=	ct=	t=
+kyousuki.abema.tv	000|0|	srv=	ct=	t=
+load-grafana.abem.io	000|0|	srv=	ct=	t=
+love-campus.abema.tv	000|0|	srv=	ct=	t=
+ltrk.ad.abema.io	404|24|	srv=	ct=application/json	t=
+ltrk.dev.ad.abema.io	404|24|	srv=	ct=application/json; charset=UTF-	t=
+ltrk.stg.ad.abema.io	404|24|	srv=	ct=application/json	t=
+mam.abema.io	000|0|	srv=	ct=	t=
+managedcerttest.stg.ad.abema.io	000|0|	srv=	ct=	t=
+million-campaign.abema.tv	000|0|	srv=	ct=	t=
+native-monitoring.abem.io	302|36|https://accounts.google.com/o/oauth2/v2/auth?client_id=159166896015-r8d5ft5p74thm90h9gabnasmua30hc5b.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/159166896015-r8d5ft5p74thm90h9gabnasmua30hc5b.apps.googleusercontent.com:handleRedirect&code_challenge=buoFXL8FHWhf0BBqeGwyZDFjGEcF2mU4_PxQ9aiByKg&code_challenge_method=S256&cred_ref=true&state=AaMXCssEUV3KKCAMH25G1oRuqWo6kTltgMgiGIQGlZ9XEJQ_kKfchhzCot-al2i0IEUjzQUNtcXuujlYu-qypj0ZQbDFa7QWZNOzHgtGFRZoYTNjmDOijcvt1ETAO2Bsx6Zs9EmUCxQL85-Wy6T1PXS7p6fYOmpX4FLIqnPhT8Do0xz-3Mi3CZrLi9LZv77M4lpGk1Nv3qLurAKu-JlBnvWVtUW1d5w9cK-dNmZjH2bwL5BTOf_QYY54J7tXHTwDxZ6xa1eHOAjIeWeB1ik4ebvC-Qg9WAlEf2pTh1V_hGYwY4oYiEzljmkhwf2b54cApQz7M7vrKT-Oi3SEQHMPyrZJ6Cu7me7G-TYLfq4MepEE-4rc_lbkMCCddCCfpYdUSdzSTeddGndr91bz-URcZ2rqUE0-s3UpT5Np8xCGGjRpC4gi-xIAX04SMx1EBbSIUSYfktr_tf8GAyzZemujs-x_or9lUWM7DA18RhyhcHuc8668P-9nYBBaRMrgntMYraVhpm7DFf0se-lItnNq2cCLLXBJNn4i063vT6rIFCTZeiunk45izgo72j4NqKbAjuLyw8R1Qd7MXC0oJCE4_YI3m1A1_Q9ndemOMXXwtIZqWTTUe4uks62p8TsDPjckqMfu0o1hsz6SVqI9JFnC9jgtwD4AU2tUfAv4BpoGkV7vV6R0fyb868R089Gks4Sf1AolAj2RYvh2MRYqUlRax_s2YKj6jyncOx_dm0vwhELhvsMtz_rwGVNrNaIpBMNBDQP8XrixkX00bR-gaLH8Yo5EpcAo6kqi1bpPhm8dunPPWIQi_LUU6lwMzwP7ywVVXPYy5vF4iN-twwgIhEKEGnE1Qy_8k_qhZ6kXI5cVZWuP2RvIoAP7RgukqVMVlZx0i2VCnTe4e6Uv6zChICrzA4XWev6JZXA1cMokrEnIWM7eVu_1NPi710LhHR5qqwYrqlXYw_mkLiei05ULvP-9exeauFlcZN0y2y2PNWsISaC8_sb-z485ttfXxQ-D0lcxPyDY7Q3_8gdTz8q_-B3wncMMv1U_cvulPGzzBrHrtrGeqPLosr-ctTw6XjUL5_5DHRtDJA6W8HDQclX7ew9nyE3FDYatMjNCZw2ArxSD0wvvAhQOrnPejjK2UFTUT0X_cMcp_tBLMmy7t7x1vEOQRhM3X9mrq7WEt0KpUrE	srv=	ct=text/html; charset=UTF-8	t=
+ncc-scenario.abema.tv	000|0|	srv=	ct=	t=
+new-anime-ch.abema.tv	000|0|	srv=	ct=	t=
+new-anime-lineup.abema.tv	000|0|	srv=	ct=	t=
+new-program.abema.tv	000|0|	srv=	ct=	t=
+news-24.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-baka.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-chigau.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-deguchi.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-entame.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-harajyuku.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-hikigeki.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-keyaki.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-kod.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-minkame.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-prime.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-shinso.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-wave.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+news-yorubuzz.abema.tv	301|0|https://abema.tv:443/video/genre/news	srv=	ct=text/html; charset=UTF-8	t=
+on-demand.abema.tv	000|0|	srv=	ct=	t=
+ookamikun-test.abema.tv	000|0|	srv=	ct=	t=
+ookamikun4.abema.tv	000|0|	srv=	ct=	t=
+osx-jenkins.abema.io	000|0|	srv=	ct=	t=
+popsen-present.abema.tv	000|0|	srv=	ct=	t=
+portal.dm.abem.io	302|36|https://accounts.google.com/o/oauth2/v2/auth?client_id=788278010771-r0k9u8io48bn3ejepq4n223jrb2cfi19.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/788278010771-r0k9u8io48bn3ejepq4n223jrb2cfi19.apps.googleusercontent.com:handleRedirect&code_challenge=58QXC_zyvE29U6GoxbplYrtdgHFXMrZe-C1ZfeIq868&code_challenge_method=S256&cred_ref=true&state=AaMXCssEfig6apYAfCX2hu6FVECjn5TyCOgJu623pdAmqZeUPC7Z1zQqgtEdlAFwrMFL5PYGtbXtcAxdUfTOVX5J0LvkXXSgkU5NYUdPaxGQsuaqjOF1KO-YQL6nZ7wqVWiF9pVpuUiDuIjb34zQlzFhc6x6xUiJYkmV2HUBwmdU7_CtFFL-4uuAnsWW5E5iaDhQ2vS4k9HPhLwBSixt04zof5XNpl6Uc-I6IaNYr47Oa0O4rNqltTMBpCRmo0WkiKVia3ddlUYpqvdq3P32CuYl7OpffEUxV62x-kbQ1XWMOIsEKGE42YbRJpjSzSRsK-HVYsLVwJT7X-gWnBeUyfcNiXJOwKoKYTkmePn4nusjN0xodlVN8BOyEfcO4CMyOj79ORq8lEh4_XZE0m4_1iW75E-1IvDve3Q5WwDGTUz0ax2D5kQ0-1Oj35scs7S3FuPQsiJJvP-x3w3UZF3cDvt6TqreN8MYW5ppEieW1GzqAYGgNHiasoBVBiMjg-22Zaqr70AOAGtUkuhbrgY5jMUafZA0WQb1yb8ygfmZjQbeS0GZYuRGpvxUcqu0X9Y_2JcuS3_ggCa_Xd3hMyITCGMprbGoWXeTYJjNsEEzx9boyR-OV2sRaW8tJkgzXeXoMzit-hWf0etbp0kLwrw0A-RRHxN8TySkgb6OSAOC9Aa6B0ngPBaUk1hENhnZGBT-z5A5ysJ9L5-fT0QSGpnPCPiws4okYbKhV75rBwoPinPx-3zxj6z0iJ2Zgctzc_k4ju0ZB0f7ohHRO0IiHAg8F4sHqlpMZ1SzK1FIfCnsj15Wro1plEOcSzfZjie0gWt4HoiqchO3uaQpGB8h5JuUsqw8FXVjjO-anuXD9SrFQaoXmvCJSYGEfG9R0toSCaT2xHXYeOoep5yV8m9_ceW3NRuZ05UQ1aOOnVLcYYGAhcu-nYC2ixmhGLZztqR3pKPl8Go9zOL5NK9HACyYQ74CJKv-QZznkM-iuHoUx-9V8nNnjNQDv66vpIV0_QBiX3gpzTVrBdTVU1Ma175W-qpt10kazoRdDcWdLcLzO3RniQ1CIDlNSTKywPQzb1DTXTETsGhiZ0rPgX2k-lyNvmY4OoDcZufNMsUTWk9F3jnuyBBQVIxb8TD-nURsoZ_L	srv=	ct=text/html; charset=UTF-8	t=
+post.times.abema.tv	000|0|	srv=	ct=	t=
+prd-grafana.abem.io	301|0|https://prd-grafana.p-c3-e.abema-tv.org:443/	srv=	ct=text/html; charset=UTF-8	t=
+prd-promviz.abem.io	301|0|https://prd-promviz.p-c3-e.abema-tv.org:443/	srv=	ct=text/html; charset=UTF-8	t=
+prd-trk.ad.abema.io	000|0|	srv=	ct=	t=
+premiumplan.abema.tv	000|0|	srv=	ct=	t=
+present.abema.tv	000|0|	srv=	ct=	t=
+programnews.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+rank.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+reality.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+reiwabema-pjt.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+s11618.epl.c3.abem.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+seventeen.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+sp-cp.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-100kareshi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-animation.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-anizatsu.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-asia.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-asia2.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-asobi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-atsugaku.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-bakarijigoku.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-bijyolunch.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-bpm.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-busutv.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-dorakoi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-dttv.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-egoserch.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-fujiten.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-geinoukozo.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-genekou.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-genseki.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-gudaguda.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-harajuku.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-himura.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-imappo.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-jyoshidaisei.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kaiji.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kakerutv.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kawaii.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kissbara.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-koipoint.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kokodoko.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-kyousuki.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-lastidol.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-lineup.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-majigachi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-makomina.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-metrock2016.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-mogamaga.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-motetaionna.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-mousou.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-muscats.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-newsrap.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-night.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-otakare.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-otokogi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-otonajyoshikai.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-p-channel.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-paripi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-ryuchell.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-saiteiotoko.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-shibuyabema.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-shoei.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-shotaiken.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-star.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-sumitai.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-suriru.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-takatoshi.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-tk-music.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-tomochan.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-urakyo.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-ushiro.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-wakatsuki.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-wolf.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-wolf3.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special-yattemiru.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+special.abema.tv	503|919|	srv=nginx	ct=text/html; charset=utf-8	t=メンテナンスを実施しています | Ameba Ownd
+sponsored.ad.abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+ss.abema.tv	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+sso-web.ad.abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+sso.ad.abema.io	000|0|	srv=	ct=	t=メンテナンスを実施しています | Ameba Ownd
+stg-bs.ad.abema.io	403|111|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+stg-etc.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+stg-kickback.ad.abema.io	404|24|	srv=Google Frontend	ct=application/json	t=
+stg-tmb.ad.abema.io	404|1275|	srv=UploadServer	ct=text/html	t=エラー | AbemaTV
+stg-trk.ad.abema.io	404|24|	srv=	ct=application/json	t=
+stg-vast.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+stg-yospace.ad.abema.io	403|111|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+stg.ad.abema.io	000|0|	srv=	ct=	t=
+studio.abema.tv	000|0|	srv=	ct=	t=
+superbird.abema.io	000|0|	srv=	ct=	t=
+support-project-lineup.abema.tv	000|0|	srv=	ct=	t=
+sy.abema.io	000|0|	srv=	ct=	t=
+tetsuya28.xpl.c3.abem.io	000|0|	srv=	ct=	t=
+times.abema.tv	200|218373|	srv=	ct=text/html; charset=utf-8	t=ABEMA TIMES | アベマタイムズ
+tmb.ad.abema.io	404|1275|	srv=UploadServer	ct=text/html	t=エラー | AbemaTV
+trk.ad.abema.io	404|24|	srv=	ct=application/json	t=
+trk.dev.ad.abema.io	404|24|	srv=	ct=application/json; charset=UTF-	t=
+trk.stg.ad.abema.io	404|24|	srv=	ct=application/json	t=
+u-29.abema.tv	000|0|	srv=	ct=	t=
+vast.ad.abema.io	404|127|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+vod-cfl.abema.io	200|2|	srv=	ct=text/plain; charset=utf-8	t=
+vst.abema.tv	000|0|	srv=	ct=	t=
+w-challenge.abema.tv	000|0|	srv=	ct=	t=
+web-zixi-4a.xp.c3.abema.io	000|0|	srv=	ct=	t=
+web-zixi-4b.xp.c3.abema.io	000|0|	srv=	ct=	t=
+wifitruck.abema.tv	000|0|	srv=	ct=	t=
+www.post.times.abema.tv	000|0|	srv=	ct=	t=
+www.times.abema.tv	000|0|	srv=	ct=	t=
+xd.c2.abem.io	000|0|	srv=	ct=	t=
+xd.c2.abema.io	000|0|	srv=	ct=	t=
+xd.c3.abem.io	000|0|	srv=	ct=	t=
+xd.c3.abema.io	000|0|	srv=	ct=	t=
+xp.c2.abem.io	000|0|	srv=	ct=	t=
+xp.c2.abema.io	000|0|	srv=	ct=	t=
+xp.c3.abem.io	000|0|	srv=	ct=	t=
+xp.c3.abema.io	000|0|	srv=	ct=	t=
+xxx.epl.c3.abem.io	000|0|	srv=	ct=	t=
+yospace.ad.abema.io	403|111|	srv=UploadServer	ct=application/xml; charset=UTF-8	t=
+DONE

@@ -1,0 +1,22 @@
+HTTP/2 302 
+server: GitHub.com
+content-type: text/html
+set-cookie: __Host-gh_pages_session=7f7fe10c-366f-4af7-a064-91e3d46ab238; Secure; path=/; HttpOnly
+cache-control: private, no-store
+x-pages-private: 1
+x-origin-cache: no-store
+location: https://github.com/pages/auth?nonce=7f7fe10c-366f-4af7-a064-91e3d46ab238&page_id=23909529&path=L2luZGV4Lmh0bWw
+x-github-request-id: 7578:83A53:4C2FD:54727:6AE7F081
+x-github-edge-region: iad
+fastly-restarts: 1
+accept-ranges: bytes
+date: Mon, 02 Nov 2026 02:08:01 GMT
+via: 1.1 varnish
+x-served-by: cache-den-kden1300068-DEN
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1793585282.840926,VS0,VE122
+vary: Accept-Encoding
+x-fastly-request-id: c9f784bcef74f91498d25d2404f3dacd8b8cbd30
+content-length: 138
+

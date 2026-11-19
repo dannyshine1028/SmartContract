@@ -1,0 +1,14 @@
+HTTP/2 200 
+content-type: text/html
+content-length: 426
+accept-ranges: bytes
+server: AmazonS3
+last-modified: Mon, 29 Nov 2021 06:12:25 GMT
+x-amz-version-id: d.b0l.PjCVFgdsjEL06TQLEnZCeHtk0O
+date: Mon, 02 Nov 2026 01:56:08 GMT
+etag: "0634ac2bd25d246a030b0a9c8cd32f78"
+x-cache: RefreshHit from cloudfront
+via: 1.1 706548e2e8ccb2860757a9c147e29fe6.cloudfront.net (CloudFront)
+x-amz-cf-pop: DEN53-P4
+x-amz-cf-id: Jj_8fV1i2XVnSzeDyt_u-Q0tFIpuhrm95bdKe_GKPWvK46gq5CF8sA==
+
