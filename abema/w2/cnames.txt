@@ -1,0 +1,18 @@
+abema-ldh.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+abema-news.abema.tv	custom-domain.amebaowndme.com.	18.182.78.85
+abema-ppv-onlinelive.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+abemaldh.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+abemappv-onlinelive-info.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+dev-developer.abema.io	dn6pjgiaq6qq2.cloudfront.net.	65.8.180.27
+dev-vod-cfl.abema.io	dev-vod-cfl.abema.io.cdn.cloudflare.net.	34.95.92.171
+developer.abema.io	d2885kz69giol5.cloudfront.net.	18.155.192.72
+docs.ios.abem.io	abema.github.io.	185.199.109.153
+docs.native.abem.io	abema.github.io.	185.199.108.153
+followme.thai.run	firebase.thai.run.	151.101.65.195
+help.abema.tv	abema.zendesk.com.	216.198.54.11
+hypnosismic.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+programnews.abema.tv	custom-domain.amebaowndme.com.	18.182.215.253
+special.abema.tv	;; communications error to 198.18.192.1#53: timed out ;; no servers could be reached	18.182.78.85
+vod-cfl.abema.io	vod-cfl.abema.io.cdn.cloudflare.net.	34.111.239.121
+www.ovrboost.com	ovrboost.com.	151.101.1.195
+www.upstatepersonaltraining.com	upstatepersonaltraining.web.app.	199.36.158.100

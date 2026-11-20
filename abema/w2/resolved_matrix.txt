@@ -1,0 +1,12 @@
+api.p-c3-e.abema-tv.com
+conte.d-c3-x.abema-tv.org
+dev-api.d-c3-e.abema-tv.com
+docs.d-c3-e.abema-tv.org
+gateway.p-c2-x.abema-tv.com
+image.d-c2-x.abema-tv.com
+image.p-c2-x.abema-tv.com
+image.p-c3-e.abema-tv.com
+license.p-c3-e.abema-tv.com
+media.p-c3-e.abema-tv.com
+streaming-api-cf.p-c2-x.abema-tv.com
+wt-api.p-c3-e.abema-tv.com

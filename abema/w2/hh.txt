@@ -1,0 +1,8 @@
+HTTP/2 301 
+cache-control: private
+location: https://abema.tv:443/video/genre/news
+content-length: 0
+date: Tue, 03 Nov 2026 04:56:13 GMT
+content-type: text/html; charset=UTF-8
+alt-svc: h3=":443"; ma=2592000
+

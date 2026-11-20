@@ -1,0 +1,2622 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="naver-site-verification" content="73088cbc51c493ceb8c43793186f4f37f7228f4a" />
+<title>ABEMA TIMES | アベマタイムズ</title>
+<meta name="description" content="ABEMA TIMESは「見たい！」がみつかる情報ニュースサイトです。ABEMAの番組を中心に、ニュース映像や面白動画の紹介、著名人のインタビュー等選りすぐりの情報をお届けします。">
+<meta property="article:publisher" content="https://www.facebook.com/ABEMATIMES/">
+<meta property="fb:app_id" content="2226295124255038">
+<meta name="theme-color" content="#">
+  <meta name="robots" content="max-image-preview:large">
+
+<meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="ABEMA TIMES">
+<meta property="og:url" content="https://times.abema.tv/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ABEMA TIMES | アベマタイムズ">
+<meta property="og:image" content="https://times-abema.ismcdn.jp/common/images/icons/logo-1600x900.jpg">
+<meta property="og:description" content="ABEMA TIMESは「見たい！」がみつかる情報ニュースサイトです。ABEMAの番組を中心に、ニュース映像や面白動画の紹介、著名人のインタビュー等選りすぐりの情報をお届けします。">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ABEMATIMES">
+<meta name="twitter:domain" content="times.abema.tv">
+<link rel="alternate" type="application/rss+xml" title="RSS | ABEMA TIMES" href="https://times.abema.tv/list/feed/rss">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://times-abema.ismcdn.jp/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://times-abema.ismcdn.jp/common/images/icons/apple-touch-icon.png">
+<link rel="preload" as="image" href="https://times-abema.ismcdn.jp/common/images/abema/logo-categories.png">
+  <style>
+@charset "utf-8";@font-face{font-family:FontAwesome;font-weight:400;font-style:normal;font-display:swap;src:url(/common/files/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2")}a,aside,body,div,figcaption,figure,h1,h2,header,html,i,iframe,img,ins,label,li,nav,p,section,span,time,ul{font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;border:0}html{line-height:1}ul{list-style:none}a img{border:none}aside,figcaption,figure,header,main,nav,section{display:block}@font-face{font-family:Hiragino Sans;font-weight:100;src:local("HiraginoSans-W1"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:200;src:local("HiraginoSans-W2"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:300;src:local("HiraginoSans-W3"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:400;src:local("HiraginoSans-W3"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:500;src:local("HiraginoSans-W5"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:600;src:local("HiraginoSans-W6"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:700;src:local("HiraginoSans-W6"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:800;src:local("HiraginoSans-W7"),local("Hiragino Sans")}@font-face{font-family:Hiragino Sans;font-weight:900;src:local("HiraginoSans-W8"),local("Hiragino Sans")}body,html{font-family:Hiragino Sans,-apple-system,BlinkMacSystemFont,ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,Meiryo,Arial,sans-serif;font-size:14px;word-break:break-all;color:#333;-webkit-text-size-adjust:100%}body{line-height:1.8;background:#000}a{text-decoration:none;color:inherit}img{width:auto;max-width:100%;height:auto;vertical-align:bottom}.lazy[data-loaded=true]{opacity:1}.lazy{opacity:0}.l-wrapper{padding:40px 8% 100px;background:#fff}.l-wrapper.\--ad-gate{display:flex;overflow-x:clip;width:100%;padding:0 0 100px;align-items:flex-start;justify-content:center}.l-wrapper.\--ad-gate .l-contents{width:calc(100% - 40px);max-width:1000px;margin:0 20px}.l-wrapper.\--ad-gate .l-ad-gate-top{margin:0 -20px 20px}.l-wrapper.\--ad-gate .l-ad-gete-side{position:sticky;top:0;min-width:200px;min-height:600px}.l-contents{max-width:1100px;margin-right:auto;margin-left:auto;padding-right:0;padding-left:0}.l-contents:after{display:block;clear:both;content:""}.l-main-side-wrapper{display:grid;grid-template-columns:auto 300px;grid-gap:24px}.l-main{max-width:676px}.l-main-row{margin-top:40px}.l-side{width:300px}.l-flex{display:flex}.l-flex-wrap{flex-wrap:wrap}.l-flex-100{flex:0 0 100%}.l-flex-shrink-0{flex-shrink:0}.l-items-center{align-items:center}.l-items-baseline{align-items:baseline}.l-lg-items-center{align-items:center}.l-lg-mb-1{margin-bottom:5px}.c-keyword-search__label{position:relative}.c-keyword-search__label:after,.c-keyword-search__label:before{font-family:FontAwesome;color:#ccc}.c-keyword-search__label:after{position:absolute;top:50%;right:14px;content:"\f002";transform:translateY(-50%)}.c-keyword-search__input{font-size:14px;box-sizing:border-box;width:100%;padding:11px 10px;border:1px solid #ccc;border-radius:6px;outline:none;background-color:#fff;-webkit-appearance:none;-moz-appearance:none;appearance:none}.l-side .c-keyword-search{display:none}.c-category-title{font-size:24px;font-weight:700;line-height:1;position:relative;padding-left:24px;letter-spacing:1.2px}.c-category-title:before{position:absolute;top:50%;left:0;width:15px;height:15px;content:"";transform:translateY(-50%);border-radius:50%;background-color:green}.c-category-group.-news .c-category-title:before{background-color:#36bd83}.c-category-group__tab{display:flex}.c-category-group__tab__item{font-size:14px;line-height:1.71;position:relative;display:flex;width:50%;padding-bottom:8px;letter-spacing:.7px;flex:0 0 auto;align-items:center;justify-content:center}.c-category-group__tab__item:after{position:absolute;right:0;bottom:2.5px;width:100%;height:1px;content:"";background-color:#ddd}.c-category-group__tab__item.is-active{font-weight:700}.c-category-group__tab__item.is-active:after{bottom:0;left:0;height:5px;background-color:green}.c-category-group__tab__block{display:none}.c-category-group__tab__block.is-show{display:block}.c-category-group.-news .c-category-group__tab__item.is-active:after{background-color:#36bd83}@media screen and (min-width:801px){.c-category-group__tab-block{margin-top:20px}.c-category-group__tab-block .c-more{margin-top:32px}.c-category-group__tab__contents{margin-top:27px}}@media screen and (max-width:800px){.c-category-group__tab-block{margin-top:23px}.c-category-group__tab-block .c-more{margin-top:24px}.c-category-group__tab__contents{margin-top:21px}}.c-list-category{display:flex;counter-reset:number;flex-wrap:wrap}.c-list-category__item--narrow .c-list-category__subject>span{line-height:1.57;letter-spacing:-.35px}.c-list-category__item--narrow .c-date{margin-top:5px}.c-list-category__item--half .c-list-category__link{display:flex}.c-list-category__item--half .c-list-category__subject>span{font-size:16px;letter-spacing:-.4px}.c-list-category__item--half .c-list-category__block{display:flex;flex-direction:column;width:100%;justify-content:space-between}.c-list-category__item--half .c-list-category__block:first-child{flex:0 0 auto}.c-list-category__link{position:relative;display:block}.c-list-category.-ranking .c-list-category__link:after{font-size:1rem;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:counter(number);counter-increment:number;text-align:center;color:#fff;background-color:#51c300;background-image:none}.c-list-category__subject>span{font-weight:700;word-break:break-all}.c-list-category__img{position:relative;overflow:hidden;padding-top:56.25%}.c-list-category__img__file{position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%)}.c-list-category__link.-new:after{position:absolute;top:0;left:0;content:"";background-repeat:no-repeat;background-position:0 0}.c-list-category__link.-new:after{background-image:url(/common/images/abema/new-bage.png)}.c-article-title{font-size:18px;font-weight:700;letter-spacing:.9px;color:#fff}.c-article-title.-underline{position:relative}.c-article-title.-underline:after{position:absolute;bottom:0;left:0;width:20px;height:3px;content:"";background-color:#51c300}.c-article-title.-dark{color:#000}@keyframes nowOnAirBadge-outer-opacity-fade{0%{animation-timing-function:cubic-bezier(.33,1,.68,1);opacity:0}25%{animation-timing-function:linear;opacity:.15}50%{opacity:0}}@keyframes nowOnAirBadge-outer-scale-out{0%{transform:scale(1)}25%{transform:scale(4)}}@keyframes nowOnAirBadge-inner-opacity-fade{0%{animation-timing-function:cubic-bezier(.33,1,.68,1);opacity:0}25%{animation-timing-function:linear;opacity:.4}50%{opacity:0}}@keyframes nowOnAirBadge-inner-scale-out{0%{transform:scale(1)}25%{transform:scale(2.2)}}.nowOnAirBadge{position:relative;display:flex;flex-direction:row;width:12px;height:12px;margin:10px 15px;align-items:center;justify-content:center}.nowOnAirBadge:before{position:absolute;top:0;left:0;width:12px;height:12px;content:"";animation:nowOnAirBadge-outer-scale-out 2s cubic-bezier(.65,0,.35,1) 0s infinite,nowOnAirBadge-outer-opacity-fade 2s 0s infinite;opacity:0;border-radius:50%;background-color:#f0163a}.nowOnAirBadge__inner{position:absolute;top:0;left:0;width:12px;height:12px;animation:nowOnAirBadge-inner-scale-out 2s cubic-bezier(.65,0,.35,1) 0s infinite,nowOnAirBadge-inner-opacity-fade 2s 0s infinite;opacity:0;border-radius:50%;background-color:#f0163a}.nowOnAirBadge:after{width:12px;height:12px;content:"";border-radius:50%;background-color:#f0163a}.c-side-on-air{display:block;background-color:#000}.c-side-on-air .c-article-title{letter-spacing:2px}.c-side-on-air__title{font-size:18px;line-height:1;display:flex;width:170px;padding-left:5px;letter-spacing:0;flex-flow:column}.c-side-on-air__title-time{font-size:12px;font-weight:400;margin-top:8px}.c-side-on-air__logo{width:100px;margin-left:-10px}.c-side-on-air__program{position:relative;display:block;overflow:hidden;border-radius:4px}.c-side-on-air__program__img{position:relative;overflow:hidden;padding-top:56.25%}.c-side-on-air__program__img img{position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%)}.c-side-on-air__program__icon{position:absolute;top:54%;left:50%;transform:translate(-50%,-50%)}.c-side-on-air__logo{display:flex;padding-top:15px;flex:1 1 auto;align-items:center;justify-content:center}.c-side-on-air__logo .c-side-on-air__logo-img{min-width:80px;max-width:80px}.c-side-on-air__lead{font-size:12px;line-height:1.5;display:-webkit-box;overflow:hidden;padding-top:15px;color:#fff;-webkit-line-clamp:2;-webkit-box-orient:vertical}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:nth-of-type(-n+3) .c-ranking__link:before{background-color:#51c300}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:first-of-type .c-ranking__link:before{content:"1"}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:nth-of-type(2) .c-ranking__link:before{content:"2"}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:nth-of-type(3) .c-ranking__link:before{content:"3"}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:nth-of-type(4) .c-ranking__link:before{content:"4"}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__item:nth-of-type(5) .c-ranking__link:before{content:"5"}.c-ranking__list:not(.c-ranking__list--type-b) .c-ranking__link:before{font-size:12px;line-height:1;position:absolute;top:-1px;left:0;display:flex;width:20px;height:20px;content:"";color:#fff;background-color:#999;align-items:center;justify-content:center}.c-ranking__list.\--tab{display:none}.c-ranking__list.\--tab.is-show{display:block}.c-ranking__block{display:flex}.c-ranking__block:first-child{min-width:1px;margin-right:3px;word-wrap:break-word;flex:1 1 auto}.c-ranking__block+.c-ranking__block{flex:0 0 auto}.c-ranking__box{display:flex;flex-direction:column;width:100%;justify-content:space-between}.c-ranking__subject{font-size:16px;font-weight:700;margin-top:-3px}.c-ranking__subject.-truncate3{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical}.c-ranking__subject.-truncate3{-webkit-line-clamp:3}.c-ranking__img{position:relative;overflow:hidden;padding-top:56.25%;flex:0 0 auto;align-self:flex-start}.c-ranking__link{position:relative;display:flex;padding-left:26px}.c-ranking-date .c-ranking__block:first-child{margin-right:8px}.c-ranking-date .c-button{margin-top:20px}.c-ranking-tab{display:flex;margin-top:20px}.c-ranking-tab-item{font-size:12px;line-height:1.71;position:relative;display:flex;padding-bottom:8px;letter-spacing:.7px;flex:0 0 auto;align-items:center;justify-content:center;flex:1}.c-ranking-tab-item:after{position:absolute;right:0;bottom:2.5px;width:100%;height:1px;content:"";background-color:#ddd}.c-ranking-tab-item.is-active{font-weight:700}.c-ranking-tab-item.is-active:after{height:5px;background-color:#51c300}.c-button__link{font-size:16px;font-weight:700;display:flex;padding:11px 0 10px;letter-spacing:2px;color:#fff;border-radius:6px;background-color:#51c300;align-items:center;justify-content:center}.c-more{text-align:right}.c-more__link{font-size:16px;font-weight:700;position:relative;padding-right:15px;letter-spacing:2px}.c-more__link:after{position:absolute;top:50%;width:5px;height:5px;content:"";transform:rotate(45deg) translateY(-50%);border-top:1px solid #000;border-right:1px solid #000}.c-date{display:block}.c-date,.c-program-text{font-size:10px;line-height:1;color:#999}.c-program-text{display:-webkit-box;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical}.top-slider__container{max-height:460px}.top-slider__link{position:relative;display:block}.top-slider__link.-pickup{position:relative}.top-slider__link.-pickup:before{position:absolute;z-index:100;top:0;left:0;width:62px;height:62px;content:"";background:url(/common/images/abema/pickup_icon.png) no-repeat;background-size:62px}.top-slider__img{position:relative;overflow:hidden;width:100%;padding-top:56%}.top-slider__img img{position:absolute;top:50%;left:50%;width:100%;height:100%;transform:translate(-50%,-50%);-o-object-fit:cover;object-fit:cover}.top-slider__caption{position:absolute;z-index:10;right:0;bottom:0;left:0;display:flex;box-sizing:border-box;min-width:1px;color:#fff;background:#100e0e;background:linear-gradient(180deg,rgba(16,14,14,.151698),#000);align-items:center}.top-slider__caption.\--exist-program{align-items:normal;align-content:space-between}.top-slider__caption .c-program-text{font-size:14px;margin-top:10px;color:#fff}.top-slider__caption__subject{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:2}.c-slide-dots{position:absolute;bottom:0;left:50%;display:flex;transform:translateX(-50%);align-items:center;justify-content:center}.c-slide-dots>li{line-height:0;width:7px;height:7px;color:#999;border-radius:50%;background-color:#999;flex:0 0 auto}.c-slide-dots>li.slick-active{background-color:#000}.c-slide-dots>li+li{margin-left:10px}.c-slide-dots button{width:100%;height:100%;padding:0;opacity:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}.c-tools{display:flex;margin-left:20px;gap:20px;align-items:center}.g-header{background:#fff}.g-header-wrapper{display:flex;max-width:1100px;margin:0 auto;padding:0 20px;justify-content:space-between;align-items:center}.g-header-wrapper .c-keyword-search__input{width:216px;padding:8px 10px;border:0;background:#f5f5f5}.g-nav-list{display:flex;margin-top:10px}.g-nav-list__link{font-size:14px;font-weight:500;line-height:1;display:inline-block;padding:15px;word-break:keep-all;border-radius:2px 2px 0 0}.g-nav-list__link.is-current{font-weight:700;text-decoration:underline;color:#fff;background:#000}.g-header-logo__img{width:250px;max-width:250px}.g-subnav-div{background:#000}.g-subnav-div .g-header-wrapper{min-height:72px}.m-subcategory-recommend{display:flex;padding-bottom:34px;color:#fff;align-items:flex-start;-moz-column-gap:11px;column-gap:11px}.m-subcategory-recommend.\--slide{padding:0 66px 34px}.m-subcategory-recommend.\--slide .m-subcategory-recommend__item{padding:0 6px}.m-subcategory-recommend__item{max-width:calc(20% - 8.8px);flex:1}.m-subcategory-recommend__subcate{font-size:14px;font-weight:700;line-height:1;display:block;margin-bottom:4px;padding:8px 0;text-align:center;background-color:#585858}.m-subcategory-recommend__img{position:relative;overflow:hidden;margin-bottom:8px;padding-top:56.25%}.m-subcategory-recommend__img__file{position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%)}.m-subcategory-recommend__subject{font-size:14px;line-height:1.5;margin-bottom:10px}.m-subcategory-recommend__subject.-truncate3>span{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:3}.m-subcategory-recommend .c-date,.m-subcategory-recommend .c-program-text{color:#fff}.m-reward-modal{font-size:16px;line-height:1;position:fixed;z-index:2147483647;top:0;right:0;bottom:0;left:0;display:none;background:rgba(0,0,0,.5)}.m-reward-modal__window{position:absolute;top:50%;left:50%;padding:32px 49px 26px;transform:translate(-50%,-50%);text-align:center;border-radius:6px;background:#fff}.m-reward-modal__logo{width:380px}.m-reward-modal__ttl{font-size:24px;font-weight:500;margin-top:28px}.m-reward-modal__sub{margin-top:20px;color:#6b6e76}.m-reward-modal__btn{position:relative;width:312px;margin:26px auto 0;padding:24px;text-align:left;border:1px solid #ddd;border-radius:6px}.m-reward-modal__btn:before{right:24px;width:30px;height:30px;border-radius:50%;background:#51c300}.m-reward-modal__btn:after,.m-reward-modal__btn:before{position:absolute;top:50%;content:"";transform:translateY(-50%)}.m-reward-modal__btn:after{right:32px;border-top:7px solid transparent;border-right:0;border-bottom:7px solid transparent;border-left:11px solid #fff}.m-reward-modal__close{position:absolute;top:10px;right:10px;width:20px;height:20px;border-radius:50%;background:#000}.m-reward-modal__close:after,.m-reward-modal__close:before{position:absolute;top:50%;left:50%;width:12px;height:1px;content:"";transform:translate(-50%,-50%) rotate(45deg);transform-origin:center;background:#fff}.m-reward-modal__close:after{left:4px;transform:rotate(-45deg)}.slick-slider{box-sizing:border-box;-webkit-touch-callout:none;touch-action:pan-y}.slick-list,.slick-slider{position:relative;display:block}.slick-list{overflow:hidden;margin:0;padding:0}.slick-slider .slick-list,.slick-slider .slick-track{transform:translateZ(0)}.slick-track{position:relative;top:0;left:0;display:block;margin-right:auto;margin-left:auto}.slick-track:after,.slick-track:before{display:table;content:""}.slick-track:after{clear:both}.slick-slide{display:none;float:left;height:100%;min-height:1px}.slick-slide img{display:block}.slick-initialized .slick-slide{display:block}.slick-dotted.slick-slider{margin-bottom:30px}      @media (min-width: 768px) and (max-width: 1024px) {
+        html, body {
+          background-color: #fff;
+          overflow-x: hidden;
+        }
+
+        body {
+          margin: 0 auto;
+          width: 1040px;
+          overflow-x: hidden;
+        }
+        
+        .g-header-wrapper .c-keyword-search__input {
+          width: 100%;
+        }
+        
+        .l-ad-gete-side {
+          display: none;
+        }
+      }
+  </style>
+<link rel="stylesheet" href="https://times-abema.ismcdn.jp/resources/abema/css/pc/pages/top.css?rd=202610291001" media="print" onload="this.media='all'">
+  <link rel="manifest" href="/manifest.json?rd=202610291001">
+    <link rel="canonical" href="https://times.abema.tv">
+
+
+<link rel="preconnect" href="https://times-abema.ismcdn.jp" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://analytics.google.com" crossorigin>
+<link rel="preconnect" href="https://storage.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://image.p-c2-x.abema-tv.com" crossorigin>
+<link rel="preconnect" href="https://abema.tv" crossorigin>
+<link rel="preconnect" href="https://code.jquery.com" crossorigin>
+
+<!-- Google Tag Manager -->
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+  var hash = {"stright_enabled":false};
+    if (document.referrer) {
+      hash['previous_page'] = document.referrer;
+    }
+  dataLayer.push(hash);
+  dataLayer.push({'event': 'pageview'});
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFVZ8N');</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="application/ld+json">
+[{"@context":"http://schema.org","@type":"WebSite","name":"ABEMA TIMES","alternateName":"ABEMA TIMES | ABEMA公式ニュースサイト","url":"https://times.abema.tv","sameAs":["https://www.facebook.com/ABEMATIMES/","https://x.com/ABEMATIMES"],"potentialAction":{"@type":"SearchAction","target":"https://times.abema.tv/list/search?fulltext={fulltext}","query-input":"required name=fulltext"}},{"@context":"http://schema.org","@type":"SiteNavigationElement","url":["/"]}]
+</script>
+
+
+
+<script type="text/javascript">
+  window.googletag = window.googletag || {};
+  window.googletag.cmd = window.googletag.cmd || [];
+</script>
+
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript">
+  window.pbjs = window.pbjs || {};
+  window.pbjs.que = window.pbjs.que || [];
+</script>
+<script async='async' src="https://flux-cdn.com/client/1000354/times-abema_01654.min.js"></script>
+<script type="text/javascript">
+  window.fluxtag = {
+    readyBids: {
+      prebid: false,
+      amazon: false,
+      google: false
+    },
+    failSafeTimeout: 3e3,
+    isFn: function isFn(object) {
+      var _t = 'Function';
+      var toString = Object.prototype.toString;
+      return toString.call(object) === '[object ' + _t + ']';
+    },
+    launchAdServer: function() {
+      if (!fluxtag.readyBids.prebid || !fluxtag.readyBids.amazon) {
+        return;
+      }
+      fluxtag.requestAdServer();
+    },
+    requestAdServer: function() {
+      if (!fluxtag.readyBids.google) {
+        fluxtag.readyBids.google = true;
+        googletag.cmd.push(function () {
+          var pbjsLoaded = !!(window.pbjs && pbjs.que &&
+                  fluxtag.isFn(pbjs.que.push) &&
+                  (pbjs.libLoaded || (pbjs.setTargetingForGPTAsync &&
+                          fluxtag.isFn(pbjs.setTargetingForGPTAsync))));
+          if (pbjsLoaded) {
+            pbjs.que.push(function () {
+              if (pbjs.setTargetingForGPTAsync && fluxtag.isFn(pbjs.setTargetingForGPTAsync)) {
+                try {
+                  Promise.resolve(pbjs.setTargetingForGPTAsync())
+                    .catch(function () {})
+                    .then(function () {
+                      googletag.pubads().refresh();
+                    });
+                } catch (e) {
+                  googletag.pubads().refresh();
+                }
+              } else {
+                googletag.pubads().refresh();
+              }
+            });
+          } else {
+            googletag.pubads().refresh();
+          }
+        });
+      }
+    }
+  };
+</script>
+<script type="text/javascript">
+  setTimeout(function() {
+    fluxtag.requestAdServer();
+  }, fluxtag.failSafeTimeout);
+</script>
+<script type='text/javascript'>
+  ! function (a9, a, p, s, t, A, g) {
+    if (a[a9]) return;
+
+    function q(c, r) {
+      a[a9]._Q.push([c, r])
+    }
+    a[a9] = {
+      init: function () {
+        q("i", arguments)
+      },
+      fetchBids: function () {
+        q("f", arguments)
+      },
+      setDisplayBids: function () {},
+      targetingKeys: function () {
+        return []
+      },
+      _Q: []
+    };
+    A = p.createElement(s);
+    A.async = !0;
+    A.src = t;
+    g = p.getElementsByTagName(s)[0];
+    g.parentNode.insertBefore(A, g)
+  }("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js");
+  apstag.init({
+    pubID: '5232',
+    adServer: 'googletag',
+    bidTimeout: 1e3
+  });
+  apstag.fetchBids({
+    slots: [{
+  slotID: "div-gpt-ad-1698676584485-0",
+  slotName: "/22954913985/all_all_pc_rightcolumn1",
+  sizes: [300,250]
+}
+,{
+  slotID: "div-gpt-ad-1698676604498-0",
+  slotName: "/22954913985/all_all_pc_rightcolumn2",
+  sizes: [300,600]
+}
+]
+  }, function (bids) {
+    googletag.cmd.push(function () {
+      apstag.setDisplayBids();
+
+      fluxtag.readyBids.amazon = true;
+      fluxtag.launchAdServer();
+    });
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.pubads().setTargeting('genre', 'news');
+    
+    googletag.defineSlot('/22954913985/article_all_pc_gateleft', [200, 701], 'div-gpt-ad-1702011303152-0').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+googletag.defineSlot('/22954913985/article_all_pc_gatetop', [1040, 250], 'div-gpt-ad-1698672125497-0').setCollapseEmptyDiv(true).addService(googletag.pubads());
+googletag.defineSlot('/22954913985/article_all_pc_gateright', [200, 700], 'div-gpt-ad-1702011093675-0').setCollapseEmptyDiv(true, true).addService(googletag.pubads());
+googletag.defineSlot('/22954913985/all_all_pc_rightcolumn1', [300, 250], 'div-gpt-ad-1698676584485-0').addService(googletag.pubads());
+googletag.defineSlot('/22954913985/all_all_pc_rightcolumn2', [300, 600], 'div-gpt-ad-1698676604498-0').addService(googletag.pubads());
+var anchorSlot;
+anchorSlot = googletag.defineOutOfPageSlot('/22954913985/article_all_pc_anker', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+
+if (anchorSlot) {
+  anchorSlot.addService(googletag.pubads());
+
+  window.googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+    if(event.isEmpty){
+      return false;
+    }
+    if(event.slot.getSlotElementId().indexOf('article_all_pc_anker') > -1){
+      if(event.size.length){
+        var h = event.size[1];
+        window.addEventListener('load', function(){
+          $('.js-to-top').css('bottom', h + 47 + 'px');
+        });
+      }
+    }
+  });
+}
+
+
+    function randomInt(min, max) {
+      return Math.floor( Math.random() * (max + 1 - min) ) + min;
+    }
+
+      googletag.pubads().setTargeting("fluct_ad_group", String(randomInt(1, 10)));
+
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+
+    googletag.enableServices();
+
+    pbjs.que.push(function () {
+      window.pbFlux.prebidBidder();
+    });
+  });
+
+
+
+</script>
+
+<script async src="https://yads.c.yimg.jp/js/yads-async.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6845393640653469" crossorigin="anonymous"></script>
+
+
+<script async preferred-sources-control="manual" src="https://news.google.com/swg/js/v1/publisher.js"></script>
+<script>
+window.pushMST_config={"vapidPK":"BIZgYrmxqBfolcrCDu0L4R5IkCzwyZaCqvz9EmY2mrLijpPduFfUTiFTqoGquDzcBfiJrAo1mkSQ5jgxhbw1qfU","enableOverlay":true,"swPath":"/sw.js","i18n":{}};
+  var pushmasterTag = document.createElement('script');
+  pushmasterTag.src = "https://cdn.pushmaster-cdn.xyz/scripts/publishers/685522a816a8578b6e2d6de5/SDK.js";
+  pushmasterTag.setAttribute('defer','');
+
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(pushmasterTag, firstScriptTag);
+</script>
+
+</head>
+<body>
+
+<div class="page">
+  <header class="g-header">
+    <div class="g-header-wrapper">
+      <nav class="g-nav">
+        <ul class="g-nav-list">
+          <li class="g-nav-list__list"><a class="g-nav-list__link is-current" href="/">TOP</a></li>
+          <li class="g-nav-list__list"><a class="g-nav-list__link" href="/ranking/realtime">ランキング</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/news">ニュース</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/sports">スポーツ</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/anime">アニメ</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/entame">エンタメ</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/shogi">将棋</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/mahjong">麻雀</a></li>
+            <li class="g-nav-list__list"><a class="g-nav-list__link" href="/poker">ポーカー</a></li>
+        </ul>
+      </nav>
+        <div class="c-tools">
+          <div class="c-keyword-search">
+            <label for="keyword_search" class="c-keyword-search__label">
+              <input id="keyword_search" type="text" placeholder="キーワードを入力" class="c-keyword-search__input js-search-text">
+            </label>
+          </div>
+        </div>
+    </div>
+  <div class="g-subnav-div">
+    <div class="g-header-wrapper">
+      <h1 class="g-header-logo">
+          <a class="g-header-logo__link" href="/"><img class="g-header-logo__img" src="https://times-abema.ismcdn.jp/common/images/abema/logo-categories.png" width="250" height="45" alt="ニュース【ABEMA TIMES | アベマタイムズ】"></a>
+      </h1>
+    </div>
+          <ul class="m-subcategory-recommend --slide js-subcategory-recommend-slide">
+    <li class="m-subcategory-recommend__item">
+  <a href="/news" class="m-subcategory-recommend__subcate">ニュース</a>
+  <a href="/articles/-/10285929" class="m-subcategory-recommend__link  -new" data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/a/500w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 2x" width="250" height="140" class="m-subcategory-recommend__img__file lazy" alt="埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">速報｜</div>
+        <time datetime="2026-11-03T09:33:00+09:00" class="c-date l-flex-shrink-0">34分前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/sports" class="m-subcategory-recommend__subcate">スポーツ</a>
+  <a href="/articles/-/10285896" class="m-subcategory-recommend__link  -new" data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/0/3/250w/img_0313de14d60537f290b75b31b450ad43617850.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/0/3/250w/img_0313de14d60537f290b75b31b450ad43617850.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/0/3/500w/img_0313de14d60537f290b75b31b450ad43617850.jpg 2x" width="250" height="137" class="m-subcategory-recommend__img__file lazy" alt="「とんでもない記録が出ました！」“山の名探偵”早大・工藤慎作、驚異の“猛スパート”に実況アナも衝撃【全日本大学駅伝】" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>「とんでもない記録が出ました！」“山の名探偵”早大・工藤慎作、驚異の“猛スパート”に実況アナも衝撃【全日本大学駅伝】</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">全日本大学駅伝｜</div>
+        <time datetime="2026-11-03T09:22:00+09:00" class="c-date l-flex-shrink-0">45分前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/anime" class="m-subcategory-recommend__subcate">アニメ</a>
+  <a href="/articles/-/10285864" class="m-subcategory-recommend__link " data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/8/250w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/8/250w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/8/500w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg 2x" width="250" height="140" class="m-subcategory-recommend__img__file lazy" alt="保険会社のサーバーから情報を引き出す麦野たち…『とある暗部の少女共棲』第5話あらすじ・先行カット公開" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>保険会社のサーバーから情報を引き出す麦野たち…『とある暗部の少女共棲』第5話あらすじ・先行カット公開</span></div>
+      <div class="l-flex l-items-baseline">
+        
+        <time datetime="2026-11-02T22:00:00+09:00" class="c-date l-flex-shrink-0">12時間前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/entame" class="m-subcategory-recommend__subcate">エンタメ</a>
+  <a href="/articles/-/10284644" class="m-subcategory-recommend__link  -new" data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/e/500w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 2x" width="250" height="164" class="m-subcategory-recommend__img__file lazy" alt="藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">秘密のママ園｜</div>
+        <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/shogi" class="m-subcategory-recommend__subcate">将棋</a>
+  <a href="/articles/-/10285926" class="m-subcategory-recommend__link  -new" data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/f/250w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/f/250w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/f/500w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg 2x" width="250" height="139" class="m-subcategory-recommend__img__file lazy" alt="藤井聡太竜王が3連勝で6連覇へ王手か、服部慎一郎七段が反撃の一勝を飾るか 舞台は京都・世界遺産の仁和寺へ！注目の第3局開始／将棋・竜王戦" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>藤井聡太竜王が3連勝で6連覇へ王手か、服部慎一郎七段が反撃の一勝を飾るか 舞台は京都・世界遺産の仁和寺へ！注目の第3局開始／将棋・竜王戦</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">将棋｜</div>
+        <time datetime="2026-11-03T09:03:00+09:00" class="c-date l-flex-shrink-0">1時間前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/mahjong" class="m-subcategory-recommend__subcate">麻雀</a>
+  <a href="/articles/-/10285921" class="m-subcategory-recommend__link  -new" data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/e/500w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 2x" width="250" height="140" class="m-subcategory-recommend__img__file lazy" alt="仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">Mリーグ｜</div>
+        <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+      </div>
+    </div>
+  </a>
+</li>
+<li class="m-subcategory-recommend__item">
+  <a href="/poker" class="m-subcategory-recommend__subcate">ポーカー</a>
+  <a href="/articles/-/10285580" class="m-subcategory-recommend__link " data-previous_link="header_banner">
+    <div class="m-subcategory-recommend__block">
+      <figure class="m-subcategory-recommend__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 1x,https://times-abema.ismcdn.jp/mwimgs/6/9/500w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 2x" width="250" height="140" class="m-subcategory-recommend__img__file lazy" alt="「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」" style=""></figure>
+    </div>
+    <div class="m-subcategory-recommend__block">
+      <div class="m-subcategory-recommend__subject -truncate3"><span>「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」</span></div>
+      <div class="l-flex l-items-baseline">
+        <div class="c-program-text">POKER SONIC｜</div>
+        <time datetime="2026-10-31T09:15:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+      </div>
+    </div>
+  </a>
+</li>
+
+  </ul>
+
+  </div>
+</header>
+  <div class="l-wrapper --ad-gate">
+      <!-- /22954913985/article_all_pc_gateleft -->
+<div id='div-gpt-ad-1702011303152-0' class="l-ad-gete-side">
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1702011303152-0'); });
+  </script>
+</div>
+    <div class="l-contents">
+        <div class="l-ad-gate-top">
+  <!-- /22954913985/article_all_pc_gatetop -->
+  <div id='div-gpt-ad-1698672125497-0' style='min-width: 1040px; min-height: 250px;'>
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1698672125497-0'); });
+    </script>
+  </div>
+</div>
+      <div class="l-main-side-wrapper">
+        <main class="l-main">
+          <div class="top-slider">
+  <div class="top-slider__container js-top-slider">
+      <div class="top-slider__item">
+        <a href="/articles/-/10285618" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/f/780w/img_1f0c6e6e1e02940172911708c3b4974d90114.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/f/780w/img_1f0c6e6e1e02940172911708c3b4974d90114.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/f/1560w/img_1f0c6e6e1e02940172911708c3b4974d90114.jpg 2x" width="780" height="438" class=" lazy" alt="パックン、19歳＆17歳美形兄妹の顔出しショット公開「かっこいいでしょ？」イケメンハーフ息子は米大学留学中「来年に娘も…」" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">パックン、19歳＆17歳美形兄妹の顔出しショット公開「かっこいいでしょ？」イケメンハーフ息子は米大学留学中「来年に娘も…」</div>
+              <div class="c-program-text">徹子の部屋</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="top-slider__item">
+        <a href="/articles/-/10285004" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/6/780w/img_f650f83bb182536fc0f2a395166842ae76119.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/6/780w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/6/1560w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 2x" width="780" height="502" class=" lazy" alt="久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」</div>
+              <div class="c-program-text">秘密のママ園</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="top-slider__item">
+        <a href="/articles/-/10285685" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/b/780w/img_6b3ecdf6fde512a9fc86aa64d459ee5e135470.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/b/780w/img_6b3ecdf6fde512a9fc86aa64d459ee5e135470.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/b/1560w/img_6b3ecdf6fde512a9fc86aa64d459ee5e135470.jpg 2x" width="780" height="495" class=" lazy" alt="千鳥ノブ「つるっぱげ片眉なし」「こわっこいつ」覆面を外した若手芸人の衝撃的なビジュアルに恐怖" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">千鳥ノブ「つるっぱげ片眉なし」「こわっこいつ」覆面を外した若手芸人の衝撃的なビジュアルに恐怖</div>
+              <div class="c-program-text">チャンスの時間</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="top-slider__item">
+        <a href="/articles/-/10285592" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/d/780w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/d/780w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/d/1560w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg 2x" width="780" height="438" class=" lazy" alt="勝つほどに美しく…モデル雀士・岡田紗佳、勝利後の立ち姿に酔いしれるファン続出「スタイルすご」「ビジュが爆発してる」／麻雀・Mリーグ" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">勝つほどに美しく…モデル雀士・岡田紗佳、勝利後の立ち姿に酔いしれるファン続出「スタイルすご」「ビジュが爆発してる」／麻雀・Mリーグ</div>
+              <div class="c-program-text">Mリーグ</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="top-slider__item">
+        <a href="/articles/-/10285763" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/a/780w/img_aab35558d94b4311eb06f2708fb3df601150109.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/a/780w/img_aab35558d94b4311eb06f2708fb3df601150109.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/a/1560w/img_aab35558d94b4311eb06f2708fb3df601150109.jpg 2x" width="780" height="438" class=" lazy" alt="「めちゃくちゃいいボール蹴るやん」中村敬斗、リーグアン初先発＆初アシスト！ “絶妙CK”に 「素晴らしいクロス」SNS沸騰" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">「めちゃくちゃいいボール蹴るやん」中村敬斗、リーグアン初先発＆初アシスト！ “絶妙CK”に 「素晴らしいクロス」SNS沸騰</div>
+              <div class="c-program-text">リーグアン</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="top-slider__item">
+        <a href="/articles/-/10285744" class="top-slider__link -pickup" data-previous_link="carousel_banner">
+          <figure class="top-slider__img">
+            <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/f/780w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/f/780w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/f/1560w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg 2x" width="780" height="441" class=" lazy" alt="「気になって仕方ない」変な衣装のラウンドガールが“ズラリ” リング下でカメラが捉えたセクシー＆オモシロ姿が話題" style="">
+            <figcaption class="top-slider__caption l-flex-wrap --exist-program">
+              <div class="top-slider__caption__subject l-flex-100">「気になって仕方ない」変な衣装のラウンドガールが“ズラリ” リング下でカメラが捉えたセクシー＆オモシロ姿が話題</div>
+              <div class="c-program-text">K-1・KRUSH</div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <section class="c-category-group -news js-tab-group">
+  <h2 class="c-category-title"><a href="/latest">新着</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">全体ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+            <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285921" class="c-list-category__link  -new" data-previous_link="latest_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/e/500w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+            <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10284644" class="c-list-category__link  -new" data-previous_link="latest_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/e/500w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 2x" width="250" height="164" class="c-list-category__img__file lazy" alt="藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+            <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285929" class="c-list-category__link  -new" data-previous_link="latest_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/a/500w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:33:00+09:00" class="c-date l-flex-shrink-0">34分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+            <li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285928" class="c-list-category__link  -new" data-previous_link="latest_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/2/250w/img_726ac325218a32de565be5e614043820310680.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/2/250w/img_726ac325218a32de565be5e614043820310680.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/7/2/500w/img_726ac325218a32de565be5e614043820310680.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="ロシアがウクライナの人道支援学校攻撃 24人死亡" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>ロシアがウクライナの人道支援学校攻撃 24人死亡</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:32:00+09:00" class="c-date l-flex-shrink-0">35分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+            <li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285927" class="c-list-category__link  -new" data-previous_link="latest_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/1/250w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/1/250w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/1/500w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="GMO不正アクセス問題 8月にサーバー侵入も気付かず" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>GMO不正アクセス問題 8月にサーバー侵入も気付かず</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:32:00+09:00" class="c-date l-flex-shrink-0">35分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/latest" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10257957" class="c-list-category__link " data-previous_link="ranking_all_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/a/500w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 2x" width="250" height="165" class="c-list-category__img__file lazy" alt="「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">シャッフルアイランド｜</div>
+          <time datetime="2026-07-15T06:19:00+09:00" class="c-date l-flex-shrink-0">2026/07/15</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285004" class="c-list-category__link  -pickup" data-previous_link="ranking_all_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/6/250w/img_f650f83bb182536fc0f2a395166842ae76119.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/6/250w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/6/500w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 2x" width="250" height="161" class="c-list-category__img__file lazy" alt="久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-02T11:50:00+09:00" class="c-date l-flex-shrink-0">22時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285865" class="c-list-category__link " data-previous_link="ranking_all_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/e/250w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/e/250w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/e/500w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">時々ボソッとロシア語でデレる隣のアーリャさん｜</div>
+          <time datetime="2026-11-02T20:42:00+09:00" class="c-date l-flex-shrink-0">13時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285282" class="c-list-category__link " data-previous_link="ranking_all_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/c/500w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="相次ぐ「家族系YouTuber」の収益化停止 欧州では「子どもの肖像権保護」の法規制も テレビはOK、動画だとダメ？弁護士の見解は" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>相次ぐ「家族系YouTuber」の収益化停止 欧州では「子どもの肖像権保護」の法規制も テレビはOK、動画だとダメ？弁護士の見解は</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ABEMA Prime｜</div>
+          <time datetime="2026-11-01T22:58:00+09:00" class="c-date l-flex-shrink-0">2026/11/01</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285668" class="c-list-category__link " data-previous_link="ranking_all_latest">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/7/250w/img_57196640cb1232666d1b388aeaaff358168526.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/7/250w/img_57196640cb1232666d1b388aeaaff358168526.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/7/500w/img_57196640cb1232666d1b388aeaaff358168526.jpg 2x" width="250" height="163" class="c-list-category__img__file lazy" alt="「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">K-1・KRUSH｜</div>
+          <time datetime="2026-10-31T20:53:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+          
+<section class="c-category-group -news js-tab-group">
+  <h2 class="c-category-title"><a href="/news" class="">ニュース</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285929" class="c-list-category__link  -new" data-previous_link="latest_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/a/250w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/a/500w/img_ca69f31b87bc252a3bf5fdac9e866a94294156.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>埼玉・八潮市 警察官が拳銃構え「刃物捨てろ」 刃物突きつけた高校生逮捕</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:33:00+09:00" class="c-date l-flex-shrink-0">34分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285928" class="c-list-category__link  -new" data-previous_link="latest_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/2/250w/img_726ac325218a32de565be5e614043820310680.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/2/250w/img_726ac325218a32de565be5e614043820310680.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/7/2/500w/img_726ac325218a32de565be5e614043820310680.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="ロシアがウクライナの人道支援学校攻撃 24人死亡" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>ロシアがウクライナの人道支援学校攻撃 24人死亡</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:32:00+09:00" class="c-date l-flex-shrink-0">35分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285927" class="c-list-category__link  -new" data-previous_link="latest_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/1/250w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/1/250w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/1/500w/img_21b1756a759f9b07fdf490c8cdb7041874668.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="GMO不正アクセス問題 8月にサーバー侵入も気付かず" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>GMO不正アクセス問題 8月にサーバー侵入も気付かず</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">速報｜</div>
+          <time datetime="2026-11-03T09:32:00+09:00" class="c-date l-flex-shrink-0">35分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285825" class="c-list-category__link  -new" data-previous_link="latest_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/5/250w/img_c56a3ed330b7c6599bd2185b4377a6b23421386.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/5/250w/img_c56a3ed330b7c6599bd2185b4377a6b23421386.png 1x,https://times-abema.ismcdn.jp/mwimgs/c/5/500w/img_c56a3ed330b7c6599bd2185b4377a6b23421386.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="まるで“双子コーデ”？ 愛子さまと佳子さまの秋らしい振袖姿に視線集中…SNSで大反響「仲睦まじくて可愛らしい」「2人ともかわいい！」 秋の園遊会" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>まるで“双子コーデ”？ 愛子さまと佳子さまの秋らしい振袖姿に視線集中…SNSで大反響「仲睦まじくて可愛らしい」「2人ともかわいい！」 秋の園遊会</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">わたしとニュース｜</div>
+          <time datetime="2026-11-03T09:25:00+09:00" class="c-date l-flex-shrink-0">42分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285824" class="c-list-category__link  -new" data-previous_link="latest_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/c/250w/img_cc993c9abb807fdb0ff2dd533ecedeaf1301807.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/c/250w/img_cc993c9abb807fdb0ff2dd533ecedeaf1301807.png 1x,https://times-abema.ismcdn.jp/mwimgs/c/c/500w/img_cc993c9abb807fdb0ff2dd533ecedeaf1301807.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「まるでミサイルが…」ビジネスジェット機が“巨大な火の玉”となり道路へ激突、巨大クレーターに…乗客9人は全員死亡 米・フロリダ州" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「まるでミサイルが…」ビジネスジェット機が“巨大な火の玉”となり道路へ激突、巨大クレーターに…乗客9人は全員死亡 米・フロリダ州</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">わたしとニュース｜</div>
+          <time datetime="2026-11-03T08:55:00+09:00" class="c-date l-flex-shrink-0">1時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/news" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285282" class="c-list-category__link " data-previous_link="ranking_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/c/500w/img_1c4f3a5a9f90380d8acafb97869a8fa2355507.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="相次ぐ「家族系YouTuber」の収益化停止 欧州では「子どもの肖像権保護」の法規制も テレビはOK、動画だとダメ？弁護士の見解は" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>相次ぐ「家族系YouTuber」の収益化停止 欧州では「子どもの肖像権保護」の法規制も テレビはOK、動画だとダメ？弁護士の見解は</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ABEMA Prime｜</div>
+          <time datetime="2026-11-01T22:58:00+09:00" class="c-date l-flex-shrink-0">2026/11/01</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285806" class="c-list-category__link " data-previous_link="ranking_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/2/250w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/2/250w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/2/500w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="政府の「備蓄緊急要請」で広がる不安 専門家が指摘する無関係なニュースを結びつける心理「情報の結束性」とは" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>政府の「備蓄緊急要請」で広がる不安 専門家が指摘する無関係なニュースを結びつける心理「情報の結束性」とは</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ABEMA Prime｜</div>
+          <time datetime="2026-11-02T21:51:00+09:00" class="c-date l-flex-shrink-0">17時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10205865" class="c-list-category__link " data-previous_link="ranking_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/c/250w/img_2cf43a56d02df3e7cb0f190e5537c043143869.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/c/250w/img_2cf43a56d02df3e7cb0f190e5537c043143869.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/c/500w/img_2cf43a56d02df3e7cb0f190e5537c043143869.jpg 2x" width="250" height="136" class="c-list-category__img__file lazy" alt="片山さつき氏は財務省の“恐竜番付”で上位だった？元同僚が激白「怖い上司と恐れられていた」「関脇からおかみさんに」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>片山さつき氏は財務省の“恐竜番付”で上位だった？元同僚が激白「怖い上司と恐れられていた」「関脇からおかみさんに」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ABEMA的ニュースショー｜</div>
+          <time datetime="2025-10-30T11:30:00+09:00" class="c-date l-flex-shrink-0">2025/10/30</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285667" class="c-list-category__link " data-previous_link="ranking_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/3/250w/img_a35edb985764731ac0aeea9fb41eb5ce253794.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/3/250w/img_a35edb985764731ac0aeea9fb41eb5ce253794.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/3/500w/img_a35edb985764731ac0aeea9fb41eb5ce253794.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="高齢の親のYouTube依存“ドパ親”に頭を抱える家族…“ドパガキ”なら「外で友達と遊びなさい」と言えるけど…精神科医「孤独な高齢者ほどのめり込みやすい」社会学者「1対1の没入感がある」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>高齢の親のYouTube依存“ドパ親”に頭を抱える家族…“ドパガキ”なら「外で友達と遊びなさい」と言えるけど…精神科医「孤独な高齢者ほどのめり込みやすい」社会学者「1対1の没入感がある」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">わたしとニュース｜</div>
+          <time datetime="2026-11-01T17:03:00+09:00" class="c-date l-flex-shrink-0">2026/11/01</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10202637" class="c-list-category__link " data-previous_link="ranking_ニュース">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/b/250w/img_7bcc623e0c9cb0981d9719bec1517171147447.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/b/250w/img_7bcc623e0c9cb0981d9719bec1517171147447.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/7/b/500w/img_7bcc623e0c9cb0981d9719bec1517171147447.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="“筋金入りの阪神ファン”高市新総裁とは？著書では「男かペットがいなくちゃダメな私」とも" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>“筋金入りの阪神ファン”高市新総裁とは？著書では「男かペットがいなくちゃダメな私」とも</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ABEMA的ニュースショー｜</div>
+          <time datetime="2025-10-08T06:50:00+09:00" class="c-date l-flex-shrink-0">2025/10/08</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/news" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -sports js-tab-group">
+  <h2 class="c-category-title"><a href="/sports" class="">スポーツニュース</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285896" class="c-list-category__link  -new" data-previous_link="latest_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/0/3/250w/img_0313de14d60537f290b75b31b450ad43617850.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/0/3/250w/img_0313de14d60537f290b75b31b450ad43617850.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/0/3/500w/img_0313de14d60537f290b75b31b450ad43617850.jpg 2x" width="250" height="137" class="c-list-category__img__file lazy" alt="「とんでもない記録が出ました！」“山の名探偵”早大・工藤慎作、驚異の“猛スパート”に実況アナも衝撃【全日本大学駅伝】" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「とんでもない記録が出ました！」“山の名探偵”早大・工藤慎作、驚異の“猛スパート”に実況アナも衝撃【全日本大学駅伝】</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">全日本大学駅伝｜</div>
+          <time datetime="2026-11-03T09:22:00+09:00" class="c-date l-flex-shrink-0">45分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285909" class="c-list-category__link " data-previous_link="latest_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/2/250w/img_22d9a127e6c36a9b54f1045b89e14411267380.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/2/250w/img_22d9a127e6c36a9b54f1045b89e14411267380.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/2/500w/img_22d9a127e6c36a9b54f1045b89e14411267380.jpg 2x" width="250" height="142" class="c-list-category__img__file lazy" alt="「ちょっと待てよ！」おかしい軌道の“変態フリーキック”に騒然「壁の上じゃない？」「どこ通った？」エルフェアスベルクMF、横から巻きながらゴールへ向かう一撃" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「ちょっと待てよ！」おかしい軌道の“変態フリーキック”に騒然「壁の上じゃない？」「どこ通った？」エルフェアスベルクMF、横から巻きながらゴールへ向かう一撃</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ブンデスリーガ｜</div>
+          <time datetime="2026-11-03T07:30:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285904" class="c-list-category__link " data-previous_link="latest_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/3/250w/img_4381764f9e00fa46e507e3c0e5a05eed60081.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/3/250w/img_4381764f9e00fa46e507e3c0e5a05eed60081.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/3/500w/img_4381764f9e00fa46e507e3c0e5a05eed60081.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="伊東純也、爆速突破からの“幻のアシスト”が話題！際どいオフサイドに「速すぎて飛び出しちゃったか」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>伊東純也、爆速突破からの“幻のアシスト”が話題！際どいオフサイドに「速すぎて飛び出しちゃったか」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ベルギーリーグ｜</div>
+          <time datetime="2026-11-03T07:00:00+09:00" class="c-date l-flex-shrink-0">3時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285879" class="c-list-category__link " data-previous_link="latest_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/e/250w/img_1e0364492ae8836a12370a39d03b24c5270378.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/e/250w/img_1e0364492ae8836a12370a39d03b24c5270378.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/e/500w/img_1e0364492ae8836a12370a39d03b24c5270378.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「彼は天才だ！」中村敬斗、ビタどめトラップ→ドリブル突破に現地熱視線 「日本の技術」とクラブも絶賛" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「彼は天才だ！」中村敬斗、ビタどめトラップ→ドリブル突破に現地熱視線 「日本の技術」とクラブも絶賛</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">リーグアン｜</div>
+          <time datetime="2026-11-03T07:00:00+09:00" class="c-date l-flex-shrink-0">3時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285908" class="c-list-category__link " data-previous_link="latest_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_69e4458c587007112ddb4370c36b2f20182047.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_69e4458c587007112ddb4370c36b2f20182047.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/9/500w/img_69e4458c587007112ddb4370c36b2f20182047.jpg 2x" width="250" height="144" class="c-list-category__img__file lazy" alt="どうなってんだ！？ 佐野海舟、怖すぎる… まさかの“終わらないボール奪取”「バケモノやん」驚異の運動量→衝撃の“連続インターセプト”" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>どうなってんだ！？ 佐野海舟、怖すぎる… まさかの“終わらないボール奪取”「バケモノやん」驚異の運動量→衝撃の“連続インターセプト”</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ブンデスリーガ｜</div>
+          <time datetime="2026-11-03T08:07:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/sports" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285668" class="c-list-category__link " data-previous_link="ranking_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/7/250w/img_57196640cb1232666d1b388aeaaff358168526.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/7/250w/img_57196640cb1232666d1b388aeaaff358168526.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/7/500w/img_57196640cb1232666d1b388aeaaff358168526.jpg 2x" width="250" height="163" class="c-list-category__img__file lazy" alt="「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">K-1・KRUSH｜</div>
+          <time datetime="2026-10-31T20:53:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285675" class="c-list-category__link " data-previous_link="ranking_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/8/7/250w/img_875fa05df9c8e4f56d636a9e768aef22122613.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/8/7/250w/img_875fa05df9c8e4f56d636a9e768aef22122613.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/8/7/500w/img_875fa05df9c8e4f56d636a9e768aef22122613.jpg 2x" width="250" height="173" class="c-list-category__img__file lazy" alt="「水着小さっ」ラウンドガール、セクシーすぎる“チャイナ服”コスプレにファン騒然" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「水着小さっ」ラウンドガール、セクシーすぎる“チャイナ服”コスプレにファン騒然</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">K-1・KRUSH｜</div>
+          <time datetime="2026-10-31T21:43:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10281671" class="c-list-category__link " data-previous_link="ranking_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/2/250w/img_12571f641a3b89a20680106f66eb656a205714.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/2/250w/img_12571f641a3b89a20680106f66eb656a205714.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/2/500w/img_12571f641a3b89a20680106f66eb656a205714.jpg 2x" width="250" height="163" class="c-list-category__img__file lazy" alt="「急に変なポーズw」ラウンドガールにハプニング発生 女子キック王座戦でまさかの事態 驚いたファンは笑いとツッコミ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「急に変なポーズw」ラウンドガールにハプニング発生 女子キック王座戦でまさかの事態 驚いたファンは笑いとツッコミ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">RISE｜</div>
+          <time datetime="2026-10-18T09:18:00+09:00" class="c-date l-flex-shrink-0">2026/10/18</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285744" class="c-list-category__link  -pickup" data-previous_link="ranking_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/f/250w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/f/250w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/f/500w/img_3f9f8940265e1a3d87a2a5e043ceadc6328118.jpg 2x" width="250" height="141" class="c-list-category__img__file lazy" alt="「気になって仕方ない」変な衣装のラウンドガールが“ズラリ” リング下でカメラが捉えたセクシー＆オモシロ姿が話題" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「気になって仕方ない」変な衣装のラウンドガールが“ズラリ” リング下でカメラが捉えたセクシー＆オモシロ姿が話題</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">K-1・KRUSH｜</div>
+          <time datetime="2026-11-01T21:24:00+09:00" class="c-date l-flex-shrink-0">2026/11/01</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10272465" class="c-list-category__link " data-previous_link="ranking_スポーツ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/c/250w/img_6c44f57c23ae7be948e70e657daa16a8214634.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/c/250w/img_6c44f57c23ae7be948e70e657daa16a8214634.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/c/500w/img_6c44f57c23ae7be948e70e657daa16a8214634.jpg 2x" width="250" height="158" class="c-list-category__img__file lazy" alt="「そこはだめ」「すごい角度」美女レスラー、“セクシー秘技”で会場沸かす 絶妙アングルに「いいsiri」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「そこはだめ」「すごい角度」美女レスラー、“セクシー秘技”で会場沸かす 絶妙アングルに「いいsiri」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">WWE｜</div>
+          <time datetime="2026-09-11T09:04:00+09:00" class="c-date l-flex-shrink-0">2026/09/11</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/sports" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -anime js-tab-group">
+  <h2 class="c-category-title"><a href="/anime" class="">アニメフリークス</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285864" class="c-list-category__link " data-previous_link="latest_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/8/250w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/8/250w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/8/500w/img_28fb5cef2a92bbce1aa03f93046d1440261467.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="保険会社のサーバーから情報を引き出す麦野たち…『とある暗部の少女共棲』第5話あらすじ・先行カット公開" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>保険会社のサーバーから情報を引き出す麦野たち…『とある暗部の少女共棲』第5話あらすじ・先行カット公開</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2026-11-02T22:00:00+09:00" class="c-date l-flex-shrink-0">12時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285857" class="c-list-category__link " data-previous_link="latest_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/9/250w/img_29ed6bf6a46cabbb6b7d74c6d82596c1244940.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/9/250w/img_29ed6bf6a46cabbb6b7d74c6d82596c1244940.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/9/500w/img_29ed6bf6a46cabbb6b7d74c6d82596c1244940.jpg 2x" width="250" height="355" class="c-list-category__img__file lazy" alt="『柊さんちの吸血事情』TVアニメ化決定！原作者「とてもアニメ映えする作品だと思っているので今から楽しみ」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>『柊さんちの吸血事情』TVアニメ化決定！原作者「とてもアニメ映えする作品だと思っているので今から楽しみ」</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2026-11-02T21:45:00+09:00" class="c-date l-flex-shrink-0">12時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285880" class="c-list-category__link " data-previous_link="latest_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/8/8/500w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「このパーティの良さ全開すぎるw」「また吐きそうになってる」アニメ『葬送のフリーレン』吸血鬼ヒンメルやこみ上げるハイターに大反響" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「このパーティの良さ全開すぎるw」「また吐きそうになってる」アニメ『葬送のフリーレン』吸血鬼ヒンメルやこみ上げるハイターに大反響</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">葬送のフリーレン｜</div>
+          <time datetime="2026-11-02T21:17:00+09:00" class="c-date l-flex-shrink-0">12時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285866" class="c-list-category__link " data-previous_link="latest_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/e/250w/img_7e3cb66834b2e70162a27ad65f0c93e7603676.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/e/250w/img_7e3cb66834b2e70162a27ad65f0c93e7603676.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/7/e/500w/img_7e3cb66834b2e70162a27ad65f0c93e7603676.jpg 2x" width="250" height="353" class="c-list-category__img__file lazy" alt="『閃光のハサウェイ』『水星の魔女』『装甲騎兵ボトムズ』が作品の垣根を超えたコラボ！3人の魔女集結に「シイコも入れて欲しかった」の声も" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>『閃光のハサウェイ』『水星の魔女』『装甲騎兵ボトムズ』が作品の垣根を超えたコラボ！3人の魔女集結に「シイコも入れて欲しかった」の声も</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ガンダム｜</div>
+          <time datetime="2026-11-02T21:07:00+09:00" class="c-date l-flex-shrink-0">13時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285855" class="c-list-category__link " data-previous_link="latest_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/b/250w/img_6bc8de5ed4afbd4b106d60e437cf4e79169594.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/b/250w/img_6bc8de5ed4afbd4b106d60e437cf4e79169594.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/b/500w/img_6bc8de5ed4afbd4b106d60e437cf4e79169594.jpg 2x" width="250" height="353" class="c-list-category__img__file lazy" alt="虎杖や乙骨ら13人の新たな表情…！『呪術廻戦』3期「死滅回游 前編」の“描き下ろし新ビジュアル”が一挙解禁" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>虎杖や乙骨ら13人の新たな表情…！『呪術廻戦』3期「死滅回游 前編」の“描き下ろし新ビジュアル”が一挙解禁</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">呪術廻戦｜</div>
+          <time datetime="2026-11-02T21:00:00+09:00" class="c-date l-flex-shrink-0">13時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/anime" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285865" class="c-list-category__link " data-previous_link="ranking_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/e/250w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/e/250w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/e/500w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">時々ボソッとロシア語でデレる隣のアーリャさん｜</div>
+          <time datetime="2026-11-02T20:42:00+09:00" class="c-date l-flex-shrink-0">13時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285060" class="c-list-category__link " data-previous_link="ranking_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/5/250w/img_150bd5dc810f93ab35f68cd80d4b6e81168562.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/5/250w/img_150bd5dc810f93ab35f68cd80d4b6e81168562.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/5/500w/img_150bd5dc810f93ab35f68cd80d4b6e81168562.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「距離が近い！！」「猫猫の表情最高すぎる」アニメ『薬屋のひとりごと』劇場版描き下ろし表紙画が尊すぎてファン騒然" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「距離が近い！！」「猫猫の表情最高すぎる」アニメ『薬屋のひとりごと』劇場版描き下ろし表紙画が尊すぎてファン騒然</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">薬屋のひとりごと｜</div>
+          <time datetime="2026-11-02T18:02:00+09:00" class="c-date l-flex-shrink-0">16時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285442" class="c-list-category__link " data-previous_link="ranking_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/d/250w/img_6ddc5827a00c92f1ed5e6e311243459e621256.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/d/250w/img_6ddc5827a00c92f1ed5e6e311243459e621256.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/d/500w/img_6ddc5827a00c92f1ed5e6e311243459e621256.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「フェルンはチョコレートも二刀流」『葬送のフリーレン』宝箱いっぱいの板チョコを食べるフリーレン一行の幸せな姿にファンほっこり" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「フェルンはチョコレートも二刀流」『葬送のフリーレン』宝箱いっぱいの板チョコを食べるフリーレン一行の幸せな姿にファンほっこり</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">葬送のフリーレン｜</div>
+          <time datetime="2026-11-02T18:23:00+09:00" class="c-date l-flex-shrink-0">15時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285851" class="c-list-category__link " data-previous_link="ranking_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/7/250w/img_37517196db072c2e467d48529dcdaef663256.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/7/250w/img_37517196db072c2e467d48529dcdaef663256.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/7/500w/img_37517196db072c2e467d48529dcdaef663256.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="バッチリメイクのロイドに死神コスのヨル…『SPY×FAMILY』公式のハロウィンイラストにファン歓喜「かわいすぎるーー」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>バッチリメイクのロイドに死神コスのヨル…『SPY×FAMILY』公式のハロウィンイラストにファン歓喜「かわいすぎるーー」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">SPY×FAMILY｜</div>
+          <time datetime="2026-11-02T19:47:00+09:00" class="c-date l-flex-shrink-0">14時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285880" class="c-list-category__link " data-previous_link="ranking_アニメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/8/8/500w/img_882bf232893d00e2f5794b82f3fc39b5109748.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「このパーティの良さ全開すぎるw」「また吐きそうになってる」アニメ『葬送のフリーレン』吸血鬼ヒンメルやこみ上げるハイターに大反響" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「このパーティの良さ全開すぎるw」「また吐きそうになってる」アニメ『葬送のフリーレン』吸血鬼ヒンメルやこみ上げるハイターに大反響</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">葬送のフリーレン｜</div>
+          <time datetime="2026-11-02T21:17:00+09:00" class="c-date l-flex-shrink-0">12時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/anime" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -entame js-tab-group">
+  <h2 class="c-category-title"><a href="/entame" class="">エンタメニュース</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10284644" class="c-list-category__link  -new" data-previous_link="latest_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/e/250w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/e/500w/img_fef8f27f1b1150ff3383fded23d2fbb5101674.jpg 2x" width="250" height="164" class="c-list-category__img__file lazy" alt="藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>藤田ニコル（28）「夫はかっこいいので…」夫・稲葉友（38）の匂いについて告白</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285362" class="c-list-category__link  -new" data-previous_link="latest_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/6/250w/img_c65c04c2fb53e3d6bb346a26cdc7599a215239.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/6/250w/img_c65c04c2fb53e3d6bb346a26cdc7599a215239.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/6/500w/img_c65c04c2fb53e3d6bb346a26cdc7599a215239.jpg 2x" width="250" height="167" class="c-list-category__img__file lazy" alt="“1男8女”のシンママ大家族の9歳長男、女子に囲まれるがゆえの悩みを告白「お兄ちゃんが欲しかった。サッカーがしたい」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>“1男8女”のシンママ大家族の9歳長男、女子に囲まれるがゆえの悩みを告白「お兄ちゃんが欲しかった。サッカーがしたい」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-03T09:00:00+09:00" class="c-date l-flex-shrink-0">1時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285003" class="c-list-category__link " data-previous_link="latest_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/0/a/250w/img_0add2b121d338db7377bbe2eba4e6f1b1865250.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/0/a/250w/img_0add2b121d338db7377bbe2eba4e6f1b1865250.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/0/a/500w/img_0add2b121d338db7377bbe2eba4e6f1b1865250.jpg 2x" width="250" height="167" class="c-list-category__img__file lazy" alt="柿谷曜一朗の妻・丸高愛実「スーパーのカゴの中身をめっちゃ見られて…」SNSについた衝撃コメントを告白" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>柿谷曜一朗の妻・丸高愛実「スーパーのカゴの中身をめっちゃ見られて…」SNSについた衝撃コメントを告白</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-03T08:00:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10284904" class="c-list-category__link " data-previous_link="latest_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/0/4/250w/img_0431b0b19c86e7d3a2e506ee8d9b23ac196603.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/0/4/250w/img_0431b0b19c86e7d3a2e506ee8d9b23ac196603.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/0/4/500w/img_0431b0b19c86e7d3a2e506ee8d9b23ac196603.jpg 2x" width="250" height="166" class="c-list-category__img__file lazy" alt="「ゴロツキの一歩手前だった」21歳でグラビアデビュー・可愛すぎる足場職人、ヤンキー時代の写真を公開" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「ゴロツキの一歩手前だった」21歳でグラビアデビュー・可愛すぎる足場職人、ヤンキー時代の写真を公開</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">ななにー 地下ABEMA｜</div>
+          <time datetime="2026-11-03T08:00:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285017" class="c-list-category__link " data-previous_link="latest_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/a/250w/img_2a08cec1137c3d35f1cf5bb772390fc6148472.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/a/250w/img_2a08cec1137c3d35f1cf5bb772390fc6148472.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/a/500w/img_2a08cec1137c3d35f1cf5bb772390fc6148472.jpg 2x" width="250" height="165" class="c-list-category__img__file lazy" alt="「生後2ヶ月の時に1ヶ月間いなくて…」藤田ニコル、夫・稲葉友の不在時に救われた“毎日の電話”" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「生後2ヶ月の時に1ヶ月間いなくて…」藤田ニコル、夫・稲葉友の不在時に救われた“毎日の電話”</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-03T07:00:00+09:00" class="c-date l-flex-shrink-0">3時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/entame" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10257957" class="c-list-category__link " data-previous_link="ranking_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/a/500w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 2x" width="250" height="165" class="c-list-category__img__file lazy" alt="「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">シャッフルアイランド｜</div>
+          <time datetime="2026-07-15T06:19:00+09:00" class="c-date l-flex-shrink-0">2026/07/15</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285004" class="c-list-category__link  -pickup" data-previous_link="ranking_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/6/250w/img_f650f83bb182536fc0f2a395166842ae76119.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/6/250w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/6/500w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 2x" width="250" height="161" class="c-list-category__img__file lazy" alt="久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-02T11:50:00+09:00" class="c-date l-flex-shrink-0">22時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285040" class="c-list-category__link " data-previous_link="ranking_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/b/250w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/b/250w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/b/500w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「並んで歩くと母のほうがモテます」 まるで姉妹な34歳娘と60歳母に「60はやばい、見えない」「若すぎてびっくり」の声" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「並んで歩くと母のほうがモテます」 まるで姉妹な34歳娘と60歳母に「60はやばい、見えない」「若すぎてびっくり」の声</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">エイジレスボーイズ｜</div>
+          <time datetime="2026-10-30T11:15:00+09:00" class="c-date l-flex-shrink-0">2026/10/30</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10284647" class="c-list-category__link " data-previous_link="ranking_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/2/250w/img_c2e7f6d74f029422b53db776442c1764558699.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/2/250w/img_c2e7f6d74f029422b53db776442c1764558699.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/2/500w/img_c2e7f6d74f029422b53db776442c1764558699.jpg 2x" width="250" height="167" class="c-list-category__img__file lazy" alt="「一晩でかけ布団がびっしょり濡れちゃう」峯岸みなみ、夫・てつやとの寝室事情について告白" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「一晩でかけ布団がびっしょり濡れちゃう」峯岸みなみ、夫・てつやとの寝室事情について告白</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">秘密のママ園｜</div>
+          <time datetime="2026-11-02T11:52:00+09:00" class="c-date l-flex-shrink-0">22時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285782" class="c-list-category__link " data-previous_link="ranking_エンタメ">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/1/250w/img_11d819651e2a64364a7947b2749d35e8110565.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/1/250w/img_11d819651e2a64364a7947b2749d35e8110565.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/1/500w/img_11d819651e2a64364a7947b2749d35e8110565.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="ジュニアオリンピックを目指す現役水泳選手・長谷川楼紗、“体脂肪率6%”の鍛え上げられたボディ 『ヤンマガ』巻中グラビア" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>ジュニアオリンピックを目指す現役水泳選手・長谷川楼紗、“体脂肪率6%”の鍛え上げられたボディ 『ヤンマガ』巻中グラビア</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2026-11-02T12:10:00+09:00" class="c-date l-flex-shrink-0">21時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/entame" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -shogi js-tab-group">
+  <h2 class="c-category-title"><a href="/shogi" class="">将棋</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285926" class="c-list-category__link  -new" data-previous_link="latest_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/f/250w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/f/250w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/f/500w/img_5f48547e06172269ee1deb6b46fd6591233041.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="藤井聡太竜王が3連勝で6連覇へ王手か、服部慎一郎七段が反撃の一勝を飾るか 舞台は京都・世界遺産の仁和寺へ！注目の第3局開始／将棋・竜王戦" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>藤井聡太竜王が3連勝で6連覇へ王手か、服部慎一郎七段が反撃の一勝を飾るか 舞台は京都・世界遺産の仁和寺へ！注目の第3局開始／将棋・竜王戦</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-03T09:03:00+09:00" class="c-date l-flex-shrink-0">1時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285740" class="c-list-category__link " data-previous_link="latest_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/9/250w/img_c9450ede0aa7c75535593953f46b6b412930574.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/9/250w/img_c9450ede0aa7c75535593953f46b6b412930574.png 1x,https://times-abema.ismcdn.jp/mwimgs/c/9/500w/img_c9450ede0aa7c75535593953f46b6b412930574.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt=" 「藤井くん連れてきてよ」飲み会での衝撃発言に若手棋士が憤慨！？“あるある”被害に木村一基九段がバッサリ「そんなやつとは飲まない方がいい」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span> 「藤井くん連れてきてよ」飲み会での衝撃発言に若手棋士が憤慨！？“あるある”被害に木村一基九段がバッサリ「そんなやつとは飲まない方がいい」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-02T11:30:00+09:00" class="c-date l-flex-shrink-0">22時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10070039" class="c-list-category__link " data-previous_link="latest_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/5/250w/img_55da9049767a68e6b198b4b6c83f65d743443.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/5/250w/img_55da9049767a68e6b198b4b6c83f65d743443.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/5/500w/img_55da9049767a68e6b198b4b6c83f65d743443.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="将棋・11月2日週の主な対局 藤井聡太竜王の3連勝か、服部慎一郎七段の反撃開始か！3・4日、注目の竜王戦第3局" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>将棋・11月2日週の主な対局 藤井聡太竜王の3連勝か、服部慎一郎七段の反撃開始か！3・4日、注目の竜王戦第3局</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-02T10:37:00+09:00" class="c-date l-flex-shrink-0">23時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285739" class="c-list-category__link " data-previous_link="latest_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/e/250w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/e/250w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png 1x,https://times-abema.ismcdn.jp/mwimgs/3/e/500w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「今でも三段リーグの夢見る」行方尚史九段が明かした過酷な記憶に同世代棋士が共感「この世界に残れるかどうかだからね」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「今でも三段リーグの夢見る」行方尚史九段が明かした過酷な記憶に同世代棋士が共感「この世界に残れるかどうかだからね」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-02T07:30:00+09:00" class="c-date l-flex-shrink-0">2026/11/02</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285659" class="c-list-category__link " data-previous_link="latest_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/5/250w/img_a5dde994727129c8a8e0737ba5670a67180683.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/5/250w/img_a5dde994727129c8a8e0737ba5670a67180683.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/5/500w/img_a5dde994727129c8a8e0737ba5670a67180683.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="永瀬拓矢九段、大熱戦制し3度目の決勝進出！八代弥八段との大激闘を制し初優勝へ“王手”/将棋・JT杯" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>永瀬拓矢九段、大熱戦制し3度目の決勝進出！八代弥八段との大激闘を制し初優勝へ“王手”/将棋・JT杯</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-10-31T20:52:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/shogi" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285740" class="c-list-category__link " data-previous_link="ranking_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/9/250w/img_c9450ede0aa7c75535593953f46b6b412930574.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/9/250w/img_c9450ede0aa7c75535593953f46b6b412930574.png 1x,https://times-abema.ismcdn.jp/mwimgs/c/9/500w/img_c9450ede0aa7c75535593953f46b6b412930574.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt=" 「藤井くん連れてきてよ」飲み会での衝撃発言に若手棋士が憤慨！？“あるある”被害に木村一基九段がバッサリ「そんなやつとは飲まない方がいい」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span> 「藤井くん連れてきてよ」飲み会での衝撃発言に若手棋士が憤慨！？“あるある”被害に木村一基九段がバッサリ「そんなやつとは飲まない方がいい」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-02T11:30:00+09:00" class="c-date l-flex-shrink-0">22時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10283868" class="c-list-category__link " data-previous_link="ranking_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5e78529ca6d6717708d73784b4bf3196758805.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5e78529ca6d6717708d73784b4bf3196758805.png 1x,https://times-abema.ismcdn.jp/mwimgs/5/e/500w/img_5e78529ca6d6717708d73784b4bf3196758805.png 2x" width="250" height="153" class="c-list-category__img__file lazy" alt="「30年やってきたものが否定されて…」行方尚史九段が語る“極端にAI化”した将棋界のリアル 木村一基九段「どっかで中毒っぽくなっちゃう」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「30年やってきたものが否定されて…」行方尚史九段が語る“極端にAI化”した将棋界のリアル 木村一基九段「どっかで中毒っぽくなっちゃう」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-10-27T08:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/27</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10281656" class="c-list-category__link " data-previous_link="ranking_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/d/8/250w/img_d824be8f84136af9917d80d723cd838f158923.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/d/8/250w/img_d824be8f84136af9917d80d723cd838f158923.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/d/8/500w/img_d824be8f84136af9917d80d723cd838f158923.jpg 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="藤井聡太六冠ら豪華スター棋士が休日の浅草に降臨！？木村一基九段が明かした撮影裏話に爆笑「ネクタイ締めてる人が5人しかいない」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>藤井聡太六冠ら豪華スター棋士が休日の浅草に降臨！？木村一基九段が明かした撮影裏話に爆笑「ネクタイ締めてる人が5人しかいない」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-10-19T07:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/19</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10279856" class="c-list-category__link " data-previous_link="ranking_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/9/c/250w/img_9c67f7413ea388481588ff25c9a4551f4311615.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/9/c/250w/img_9c67f7413ea388481588ff25c9a4551f4311615.png 1x,https://times-abema.ismcdn.jp/mwimgs/9/c/500w/img_9c67f7413ea388481588ff25c9a4551f4311615.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「森内さんがクスクス笑ってた」行方尚史九段がやらかした！？タイトル戦副立会での“大遅刻”事件を告白" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「森内さんがクスクス笑ってた」行方尚史九段がやらかした！？タイトル戦副立会での“大遅刻”事件を告白</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-10-13T07:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/13</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285739" class="c-list-category__link " data-previous_link="ranking_将棋">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/e/250w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/e/250w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png 1x,https://times-abema.ismcdn.jp/mwimgs/3/e/500w/img_3e1e91ffd6200ddcf887f83a136a38e33928131.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「今でも三段リーグの夢見る」行方尚史九段が明かした過酷な記憶に同世代棋士が共感「この世界に残れるかどうかだからね」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「今でも三段リーグの夢見る」行方尚史九段が明かした過酷な記憶に同世代棋士が共感「この世界に残れるかどうかだからね」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">将棋｜</div>
+          <time datetime="2026-11-02T07:30:00+09:00" class="c-date l-flex-shrink-0">2026/11/02</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/shogi" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -mahjong js-tab-group">
+  <h2 class="c-category-title"><a href="/mahjong" class="">麻雀</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285921" class="c-list-category__link  -new" data-previous_link="latest_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/e/250w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/e/500w/img_5ee9a11b4717545c3e75baa394c53d11289938.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>仕掛けさせたら一級品 本田朋広、七対子イーシャンテンから華麗なる対々和変化「やっぱすごいわ」とファン脱帽の手順／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T10:00:00+09:00" class="c-date l-flex-shrink-0">7分前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285914" class="c-list-category__link  -new" data-previous_link="latest_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/a/250w/img_6a7b5432c7475739432accc71d8f01a4351497.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/a/250w/img_6a7b5432c7475739432accc71d8f01a4351497.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/a/500w/img_6a7b5432c7475739432accc71d8f01a4351497.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="戻ってきた“りおカーニバル”東城りお、親番で猛連荘 今期3勝目でチームも＋100ポイントを突破／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>戻ってきた“りおカーニバル”東城りお、親番で猛連荘 今期3勝目でチームも＋100ポイントを突破／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T08:30:00+09:00" class="c-date l-flex-shrink-0">1時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285913" class="c-list-category__link " data-previous_link="latest_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/b/4/250w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/b/4/250w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/b/4/500w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="リーダーが闘志メラメラ 多井隆晴、連投からの貴重なトップ 6連投の後輩に刺激「僕も活躍してみたい」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>リーダーが闘志メラメラ 多井隆晴、連投からの貴重なトップ 6連投の後輩に刺激「僕も活躍してみたい」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T08:00:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285912" class="c-list-category__link " data-previous_link="latest_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c0a4f677747695082784840c800401f440387.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/c/250w/img_1c0a4f677747695082784840c800401f440387.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/c/500w/img_1c0a4f677747695082784840c800401f440387.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="本田朋広、個人6勝目！全員が満貫以上をアガる打撃戦、オーラスで逆転「今月はこのまま突っ走る」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>本田朋広、個人6勝目！全員が満貫以上をアガる打撃戦、オーラスで逆転「今月はこのまま突っ走る」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T07:30:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285911" class="c-list-category__link " data-previous_link="latest_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/d/250w/img_1d2b2b0b485ed75f9ecb1456de0305fa325950.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/d/250w/img_1d2b2b0b485ed75f9ecb1456de0305fa325950.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/d/500w/img_1d2b2b0b485ed75f9ecb1456de0305fa325950.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「今日もやれました！」怒涛の4連勝！HIRO柴田、満貫3回・跳満1回と暴れまくりで個人4勝目／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「今日もやれました！」怒涛の4連勝！HIRO柴田、満貫3回・跳満1回と暴れまくりで個人4勝目／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T07:00:00+09:00" class="c-date l-flex-shrink-0">3時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/mahjong" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285592" class="c-list-category__link  -pickup" data-previous_link="ranking_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/d/250w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/d/250w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/d/500w/img_3d53ab9ccb576f20550c1f9737592b28444199.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="勝つほどに美しく…モデル雀士・岡田紗佳、勝利後の立ち姿に酔いしれるファン続出「スタイルすご」「ビジュが爆発してる」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>勝つほどに美しく…モデル雀士・岡田紗佳、勝利後の立ち姿に酔いしれるファン続出「スタイルすご」「ビジュが爆発してる」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-10-31T19:00:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285575" class="c-list-category__link " data-previous_link="ranking_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/7/250w/img_a7cc6d56ecc37b454db3a74d98203de9380012.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/7/250w/img_a7cc6d56ecc37b454db3a74d98203de9380012.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/7/500w/img_a7cc6d56ecc37b454db3a74d98203de9380012.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="本田朋広が個人5勝目 チームも再びプラス圏に復帰「調子のいいやつが頑張るのがチーム」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>本田朋広が個人5勝目 チームも再びプラス圏に復帰「調子のいいやつが頑張るのがチーム」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-10-31T08:00:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10223544" class="c-list-category__link " data-previous_link="ranking_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/1/0/250w/img_10e7089bf161449ebdb9f3ff667896e845827.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/1/0/250w/img_10e7089bf161449ebdb9f3ff667896e845827.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/1/0/500w/img_10e7089bf161449ebdb9f3ff667896e845827.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="【全13種】麻雀の役満一覧｜確率ランキングと成立条件を徹底解説" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>【全13種】麻雀の役満一覧｜確率ランキングと成立条件を徹底解説</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2026-07-07T14:12:00+09:00" class="c-date l-flex-shrink-0">2026/07/07</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285585" class="c-list-category__link " data-previous_link="ranking_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/2/f/250w/img_2f4c41117a53de177422249d1258cd3f300690.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/2/f/250w/img_2f4c41117a53de177422249d1258cd3f300690.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/2/f/500w/img_2f4c41117a53de177422249d1258cd3f300690.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「めっちゃ美人！！」「デコ出しかわいい」モデル雀士・岡田紗佳、ハロウィン仕様のおしゃれヘアが大好評「髪型かわいすぎ」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「めっちゃ美人！！」「デコ出しかわいい」モデル雀士・岡田紗佳、ハロウィン仕様のおしゃれヘアが大好評「髪型かわいすぎ」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-10-31T11:00:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285913" class="c-list-category__link " data-previous_link="ranking_麻雀">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/b/4/250w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/b/4/250w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/b/4/500w/img_b42ec261a5c72791649bd0a8634130ae424373.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="リーダーが闘志メラメラ 多井隆晴、連投からの貴重なトップ 6連投の後輩に刺激「僕も活躍してみたい」／麻雀・Mリーグ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>リーダーが闘志メラメラ 多井隆晴、連投からの貴重なトップ 6連投の後輩に刺激「僕も活躍してみたい」／麻雀・Mリーグ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">Mリーグ｜</div>
+          <time datetime="2026-11-03T08:00:00+09:00" class="c-date l-flex-shrink-0">2時間前</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/mahjong" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-category-group -poker js-tab-group">
+  <h2 class="c-category-title"><a href="/poker" class="">ポーカー</a></h2>
+  <div class="c-category-group__tab-block">
+    <div class="c-category-group__tab">
+      <div class="c-category-group__tab__item is-active js-tab-item">新着</div>
+      <div class="c-category-group__tab__item js-tab-item">ランキング</div>
+    </div>
+    <div class="c-category-group__tab__contents">
+      <div class="c-category-group__tab__block is-show js-tab-block">
+        <ul class="c-list-category -top">
+          <li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285580" class="c-list-category__link " data-previous_link="latest_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 1x,https://times-abema.ismcdn.jp/mwimgs/6/9/500w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T09:15:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285579" class="c-list-category__link " data-previous_link="latest_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/d/a/250w/img_dafe8668769429aee9a59df178def1fc8201568.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/d/a/250w/img_dafe8668769429aee9a59df178def1fc8201568.png 1x,https://times-abema.ismcdn.jp/mwimgs/d/a/500w/img_dafe8668769429aee9a59df178def1fc8201568.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="かまいたち山内、ポーカーで気合い入りすぎて“まさかのビジュアル”になってしまう…オールイン勝負は衝撃結末「かわいそう」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>かまいたち山内、ポーカーで気合い入りすぎて“まさかのビジュアル”になってしまう…オールイン勝負は衝撃結末「かわいそう」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T08:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10285577" class="c-list-category__link " data-previous_link="latest_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/f/250w/img_7fed666a6a272d4d4dbc2ec70af771567560537.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/f/250w/img_7fed666a6a272d4d4dbc2ec70af771567560537.png 1x,https://times-abema.ismcdn.jp/mwimgs/7/f/500w/img_7fed666a6a272d4d4dbc2ec70af771567560537.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「事故だった」“ミス・パーフェクト”美女Mリーガー、まさかの結末で“ぷく顔”悔しすぎるリアクションが話題に「しゃーない」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「事故だった」“ミス・パーフェクト”美女Mリーガー、まさかの結末で“ぷく顔”悔しすぎるリアクションが話題に「しゃーない」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T07:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285576" class="c-list-category__link " data-previous_link="latest_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/7/250w/img_775d20d638e83d6e5eb9f2755c6d6b327044724.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/7/250w/img_775d20d638e83d6e5eb9f2755c6d6b327044724.png 1x,https://times-abema.ismcdn.jp/mwimgs/7/7/500w/img_775d20d638e83d6e5eb9f2755c6d6b327044724.png 2x" width="250" height="139" class="c-list-category__img__file lazy" alt="「怖いw」そんな質問する！？ ポーカー鉄強芸人の揺さぶり→美人すぎるポーカー女子が笑顔で返した“ドSな一言”にタジタジ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「怖いw」そんな質問する！？ ポーカー鉄強芸人の揺さぶり→美人すぎるポーカー女子が笑顔で返した“ドSな一言”にタジタジ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T06:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285371" class="c-list-category__link " data-previous_link="latest_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/0/250w/img_c0eaf5ebd42f41c9e3ddf00f8f5114b87996406.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/0/250w/img_c0eaf5ebd42f41c9e3ddf00f8f5114b87996406.png 1x,https://times-abema.ismcdn.jp/mwimgs/c/0/500w/img_c0eaf5ebd42f41c9e3ddf00f8f5114b87996406.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「全然アイドルの顔してない！」金髪イケメンポーカー男子が大胆ブラフ→勝負モードの“ガチ顔”に思わずツッコミ" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「全然アイドルの顔してない！」金髪イケメンポーカー男子が大胆ブラフ→勝負モードの“ガチ顔”に思わずツッコミ</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-30T22:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/30</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+        </ul>
+        <div class="c-more"><a href="/poker" class="c-more__link">もっと見る</a></div>
+      </div>
+      <div class="c-category-group__tab__block js-tab-block">
+        <ul class="c-list-category -top -ranking">
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10152873" class="c-list-category__link " data-previous_link="ranking_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/b/500w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="ポーカーの役一覧・早見表｜強い順・確率を解説" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>ポーカーの役一覧・早見表｜強い順・確率を解説</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2025-10-08T12:48:00+09:00" class="c-date l-flex-shrink-0">2025/10/08</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10230810" class="c-list-category__link " data-previous_link="ranking_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/b/500w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="ポーカー・テキサスホールデムのディール（配り方）完全ガイド｜順番・枚数・マナーを徹底解説" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>ポーカー・テキサスホールデムのディール（配り方）完全ガイド｜順番・枚数・マナーを徹底解説</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2026-03-10T11:54:00+09:00" class="c-date l-flex-shrink-0">2026/03/10</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--narrow">
+  <div>
+    <a href="/articles/-/10152917" class="c-list-category__link " data-previous_link="ranking_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/b/250w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/b/500w/img_abcc64a07c4e34f055ada6a4b5e86705339576.jpg 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="テキサスホールデム ポーカーのルールを解説" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>テキサスホールデム ポーカーのルールを解説</span></div>
+        <div class="l-flex l-items-baseline">
+          
+          <time datetime="2025-10-08T12:56:00+09:00" class="c-date l-flex-shrink-0">2025/10/08</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285579" class="c-list-category__link " data-previous_link="ranking_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/d/a/250w/img_dafe8668769429aee9a59df178def1fc8201568.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/d/a/250w/img_dafe8668769429aee9a59df178def1fc8201568.png 1x,https://times-abema.ismcdn.jp/mwimgs/d/a/500w/img_dafe8668769429aee9a59df178def1fc8201568.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="かまいたち山内、ポーカーで気合い入りすぎて“まさかのビジュアル”になってしまう…オールイン勝負は衝撃結末「かわいそう」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>かまいたち山内、ポーカーで気合い入りすぎて“まさかのビジュアル”になってしまう…オールイン勝負は衝撃結末「かわいそう」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T08:30:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+<li class="c-list-category__item--half">
+  <div>
+    <a href="/articles/-/10285580" class="c-list-category__link " data-previous_link="ranking_ポーカー">
+      <div class="c-list-category__block">
+        <figure class="c-list-category__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/9/250w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 1x,https://times-abema.ismcdn.jp/mwimgs/6/9/500w/img_6941ca05d61c2fe40d59ac88c89e5f8d7131666.png 2x" width="250" height="140" class="c-list-category__img__file lazy" alt="「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」" style=""></figure>
+      </div>
+      <div class="c-list-category__block">
+        <div class="c-list-category__subject -truncate3 -sp-truncate2"><span>「まじかー」世界女王がまさか…美人すぎるポーカープロ、敗退危機で見せた“祈るような表情”が話題に「やっちまった」</span></div>
+        <div class="l-flex l-items-baseline">
+          <div class="c-program-text">POKER SONIC｜</div>
+          <time datetime="2026-10-31T09:15:00+09:00" class="c-date l-flex-shrink-0">2026/10/31</time>
+        </div>
+      </div>
+    </a>
+  </div>
+</li>
+
+</ul>
+<div class="c-more"><a href="/ranking/daily/poker" class="c-more__link">もっと見る</a></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+          
+
+        </main>
+        <aside class="l-side">
+            <div class="l-component-wrapper">
+  <a href="https://abema.go.link/now-on-air/abema-news?utm_campaign=abematimes_20261103_free_sp_pc_onair_top&utm_medium=web&utm_source=abematimes&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_onair_top&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fnow-on-air%2Fabema-news%3Futm_campaign%3Dabematimes_20261103_free_sp_pc_onair_top%26utm_medium%3Dweb%26utm_source%3Dabematimes" target="_blank" class="c-side-on-air js-side-on-air-link">
+    <div class="l-flex l-lg-items-center l-lg-mb-1">
+      <div class="nowOnAirBadge"><div class="nowOnAirBadge__inner"></div></div>
+      <div class="c-article-title l-flex-100"><div class="c-side-on-air__title">テレビ放送中<div class="c-side-on-air__title-time"><span class="js-onair-start"></span><span class="js-onair-end"></span></div></div></div>
+    </div>
+    <div class="c-side-on-air__block">
+      <div class="c-side-on-air__program c-icon-onair">
+        <figure class="c-side-on-air__program__img"><img src="https://times-abema.ismcdn.jp/common/images/abema/no_image.jpg" alt="abema-news" class="js-onair-poster" width="424" height="238"></figure><i class="c-side-on-air__program__icon"><img src="https://times-abema.ismcdn.jp/common/images/abema/play.png" width="46" height="46" alt=""></i></div>
+        <div class="l-flex l-items-center">
+          <div class="c-side-on-air__logo"><img alt="abema-news" src="https://image.p-c2-x.abema-tv.com/image/channels/abema-news/logo.png?width=200" width="200" height="75" class="c-side-on-air__logo-img js-onair-logo"></div>
+          <div class="c-side-on-air__lead js-onair-lead"></div>
+        </div>
+    </div>
+  </a>
+</div>
+
+
+  <div class="l-component-wrapper">
+  <div class="c-keyword-search">
+    <label for="keyword_search_side" class="c-keyword-search__label">
+      <input id="keyword_search_side" type="text" placeholder="キーワードを入力" class="c-keyword-search__input js-search-text">
+    </label>
+  </div>
+</div>
+
+    <div class="l-component-wrapper l-main-row">
+    <div class="c-ranking c-ranking-date c-ranking-daily js-tab-group">
+      <div class="c-article-title -underline -dark">記事ランキング</div>
+      <div class="c-ranking-tab">
+          <div class="c-ranking-tab-item -dark is-active js-tab-item">最新</div>
+        <div class="c-ranking-tab-item -dark js-tab-item">24時間</div>
+        <div class="c-ranking-tab-item -dark js-tab-item">週間</div>
+      </div>
+        <ul class="c-ranking__list --tab is-show js-tab-block">
+            <li class="c-ranking__item">
+              <a href="/articles/-/10285860" class="c-ranking__link" data-previous_link="article_ranking_1h_all">
+                <div class="c-ranking__block">
+                  <div class="c-ranking__box">
+                    <p class="c-ranking__subject -truncate3"><span>GMO熊谷代表「あなたお詫びしているのにボタン開けてどうするんだ」 会見中に服装注意 記者には「申し訳ありません」</span></p>
+                  </div>
+                </div>
+                <div class="c-ranking__block">
+                  <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/1/120w/img_f1ed15a5b4e464d950ef9b8614c594e5159318.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/1/120w/img_f1ed15a5b4e464d950ef9b8614c594e5159318.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/1/240w/img_f1ed15a5b4e464d950ef9b8614c594e5159318.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="GMO熊谷代表「あなたお詫びしているのにボタン開けてどうするんだ」 会見中に服装注意 記者には「申し訳ありません」" style=""></figure>
+                </div>
+              </a>
+            </li>
+            <li class="c-ranking__item">
+              <a href="/articles/-/10285865" class="c-ranking__link" data-previous_link="article_ranking_1h_all">
+                <div class="c-ranking__block">
+                  <div class="c-ranking__box">
+                    <p class="c-ranking__subject -truncate3"><span>「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題</span></p>
+                  </div>
+                </div>
+                <div class="c-ranking__block">
+                  <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/e/120w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/e/120w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/e/240w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題" style=""></figure>
+                </div>
+              </a>
+            </li>
+            <li class="c-ranking__item">
+              <a href="/articles/-/10285901" class="c-ranking__link" data-previous_link="article_ranking_1h_all">
+                <div class="c-ranking__block">
+                  <div class="c-ranking__box">
+                    <p class="c-ranking__subject -truncate3"><span>水着姿が話題・芳根京子（29）、最新オフショットに絶賛の声「どんな時も可愛い」「イベントに全力なきょんちゃん大好き」</span></p>
+                  </div>
+                </div>
+                <div class="c-ranking__block">
+                  <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/9/9/120w/img_993db1f01babe5cde23beaea67841e80835105.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/9/9/120w/img_993db1f01babe5cde23beaea67841e80835105.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/9/9/240w/img_993db1f01babe5cde23beaea67841e80835105.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="水着姿が話題・芳根京子（29）、最新オフショットに絶賛の声「どんな時も可愛い」「イベントに全力なきょんちゃん大好き」" style=""></figure>
+                </div>
+              </a>
+            </li>
+            <li class="c-ranking__item">
+              <a href="/articles/-/10285905" class="c-ranking__link" data-previous_link="article_ranking_1h_all">
+                <div class="c-ranking__block">
+                  <div class="c-ranking__box">
+                    <p class="c-ranking__subject -truncate3"><span>“元小学生ギャル男”ちゅけ（12）、新しい彼女を紹介し反響「この若さで彼女2人目はモテ男すぎる」「30歳まで彼女いらないって言ってたちゅけが!?」2024年にりゅあと破局</span></p>
+                  </div>
+                </div>
+                <div class="c-ranking__block">
+                  <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/0/7/120w/img_078f818eed5e7fb94c017705216885ce481470.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/0/7/120w/img_078f818eed5e7fb94c017705216885ce481470.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/0/7/240w/img_078f818eed5e7fb94c017705216885ce481470.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="“元小学生ギャル男”ちゅけ（12）、新しい彼女を紹介し反響「この若さで彼女2人目はモテ男すぎる」「30歳まで彼女いらないって言ってたちゅけが!?」2024年にりゅあと破局" style=""></figure>
+                </div>
+              </a>
+            </li>
+            <li class="c-ranking__item">
+              <a href="/articles/-/10285004" class="c-ranking__link" data-previous_link="article_ranking_1h_all">
+                <div class="c-ranking__block">
+                  <div class="c-ranking__box">
+                    <p class="c-ranking__subject -truncate3"><span>久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」</span></p>
+                  </div>
+                </div>
+                <div class="c-ranking__block">
+                  <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/6/120w/img_f650f83bb182536fc0f2a395166842ae76119.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/6/120w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/6/240w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」" style=""></figure>
+                </div>
+              </a>
+            </li>
+          <li>
+            <div class="c-button"><a href="/ranking/realtime" class="c-button__link">もっと見る</a></div>
+          </li>
+        </ul>
+      <ul class="c-ranking__list --tab js-tab-block">
+          <li class="c-ranking__item">
+            <a href="/articles/-/10257957" class="c-ranking__link" data-previous_link="article_ranking_24h_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/a/120w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/a/120w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/a/240w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10285865" class="c-ranking__link" data-previous_link="article_ranking_24h_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/e/120w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/e/120w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/e/240w/img_4eb79c23ef80c62b8795c07a1cf6ca0a295727.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「スカートの形がガチで解釈一致です」「破壊力あるな」アニメ『ロシデレ』アーリャたち3人が魔女に変身したハロウィンイラストが話題" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10285004" class="c-ranking__link" data-previous_link="article_ranking_24h_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/6/120w/img_f650f83bb182536fc0f2a395166842ae76119.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/6/120w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/6/240w/img_f650f83bb182536fc0f2a395166842ae76119.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="久保建英の妻・福原遥へのSNSコメントをアスリート妻らが心配「世界中から…」" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10285806" class="c-ranking__link" data-previous_link="article_ranking_24h_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>政府の「備蓄緊急要請」で広がる不安 専門家が指摘する無関係なニュースを結びつける心理「情報の結束性」とは</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/a/2/120w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/a/2/120w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/a/2/240w/img_a241b4a04029c92fc91b78994bd22ec1369564.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="政府の「備蓄緊急要請」で広がる不安 専門家が指摘する無関係なニュースを結びつける心理「情報の結束性」とは" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10285668" class="c-ranking__link" data-previous_link="article_ranking_24h_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/5/7/120w/img_57196640cb1232666d1b388aeaaff358168526.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/5/7/120w/img_57196640cb1232666d1b388aeaaff358168526.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/5/7/240w/img_57196640cb1232666d1b388aeaaff358168526.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「美人なのに刺青ありすぎ」「背中がすごいことに」左フックで豪快2ダウン！ 圧巻勝利に「バコーンいうたぞ」" style=""></figure>
+              </div>
+            </a>
+          </li>
+        <li>
+          <div class="c-button"><a href="/ranking/daily" class="c-button__link">もっと見る</a></div>
+        </li>
+      </ul>
+      <ul class="c-ranking__list --tab js-tab-block">
+          <li class="c-ranking__item">
+            <a href="/articles/-/10285040" class="c-ranking__link" data-previous_link="article_ranking_weekly_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「並んで歩くと母のほうがモテます」 まるで姉妹な34歳娘と60歳母に「60はやばい、見えない」「若すぎてびっくり」の声</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/c/b/120w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/c/b/120w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/c/b/240w/img_cb7cbbd7f8438f42a329453f61e72cfd90533.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「並んで歩くと母のほうがモテます」 まるで姉妹な34歳娘と60歳母に「60はやばい、見えない」「若すぎてびっくり」の声" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10284491" class="c-ranking__link" data-previous_link="article_ranking_weekly_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>パックン、妻・芽衣さんが46歳の若さで死去 初公表しさまざまな反響「どれほどつらかったか…」「とてもお美しい奥様ですね」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/9/e/120w/img_9eea93686101959231356839f394ecdc150819.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/9/e/120w/img_9eea93686101959231356839f394ecdc150819.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/9/e/240w/img_9eea93686101959231356839f394ecdc150819.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="パックン、妻・芽衣さんが46歳の若さで死去 初公表しさまざまな反響「どれほどつらかったか…」「とてもお美しい奥様ですね」" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10283948" class="c-ranking__link" data-previous_link="article_ranking_weekly_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「声優界の大谷翔平」「明里ちゃんのイラストはもうプロ」声優・鬼頭明里が投稿した自筆イラストが絵師レベルで大反響</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/4/7/120w/img_47d302d8a06051d41e70c7cbafe12e803393475.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/4/7/120w/img_47d302d8a06051d41e70c7cbafe12e803393475.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/4/7/240w/img_47d302d8a06051d41e70c7cbafe12e803393475.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「声優界の大谷翔平」「明里ちゃんのイラストはもうプロ」声優・鬼頭明里が投稿した自筆イラストが絵師レベルで大反響" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10284120" class="c-ranking__link" data-previous_link="article_ranking_weekly_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>19歳長男の顔出しショットが話題・近藤真彦（62）、最新の姿に反響「マッチの笑顔最高にステキ まさにスーパーアイドル」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/e/0/120w/img_e0c8b3b84f1a88f59da0adaef3138e99209109.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/e/0/120w/img_e0c8b3b84f1a88f59da0adaef3138e99209109.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/e/0/240w/img_e0c8b3b84f1a88f59da0adaef3138e99209109.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="19歳長男の顔出しショットが話題・近藤真彦（62）、最新の姿に反響「マッチの笑顔最高にステキ まさにスーパーアイドル」" style=""></figure>
+              </div>
+            </a>
+          </li>
+          <li class="c-ranking__item">
+            <a href="/articles/-/10257957" class="c-ranking__link" data-previous_link="article_ranking_weekly_all">
+              <div class="c-ranking__block">
+                <div class="c-ranking__box">
+                  <p class="c-ranking__subject -truncate3"><span>「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」</span></p>
+                </div>
+              </div>
+              <div class="c-ranking__block">
+                <figure class="c-ranking__img"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/a/120w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/a/120w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/a/240w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 2x" width="120" height="80" class="c-list-category__img__file lazy" alt="「すごい水着やな」20歳の現役女子大生の国宝級スタイルに全員衝撃「どこで支えてる？」" style=""></figure>
+              </div>
+            </a>
+          </li>
+        <li>
+          <div class="c-button"><a href="/ranking/weekly" class="c-button__link">もっと見る</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="u-lg-overflow-hidden" style='min-height: 250px;'>
+  <!-- /22954913985/all_all_pc_rightcolumn1 -->
+  <div id='div-gpt-ad-1698676584485-0' class="ad-side-ajuster" style='min-width: 300px; min-height: 250px;'></div>
+</div>
+    <div class="l-component-wrapper l-main-row">
+    <div class="g-side-program-ranking g-side-program-ranking-news">
+      <div class="g-side-program-ranking__title">番組ランキング</div>
+      <ul class="g-side-program-ranking-counter">
+      <li class="g-side-program-ranking-item">
+  <a href="https://abema.go.link/video/episode/90-980_s102_p188?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_no1&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_no1&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fvideo%2Fepisode%2F90-980_s102_p188%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_no1" class="g-side-program-ranking-item__link">
+    <figure class="g-side-program-ranking-item__img"><div style="padding-top:56.00000000000001%;position:relative;"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/3/8/250w/img_385610b38d065b4902280c24c2d62e72185372.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/3/8/250w/img_385610b38d065b4902280c24c2d62e72185372.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/3/8/500w/img_385610b38d065b4902280c24c2d62e72185372.jpg 2x" width="250" height="140" class="g-side-program-ranking-item__img u-fit lazy" alt="#87：スターに似すぎのマスクイケメン&amp;美女大集合 - ななにー 地下ABEMA - ななにー 地下ABEMA (バラエティ) | 無料動画・見逃し配信を見るなら | ABEMA" style=""></div></figure>
+    <div class="">
+      <div class="g-side-program-ranking-item__episode"><span>“体重72キロの北川景子”ぽっちゃり体型公表の理由</span></div>
+      <div class="g-side-program-ranking-item__series"><span>ななにー 地下ABEMA</span></div>
+    </div>
+  </a>
+</li>
+<li class="g-side-program-ranking-item">
+  <a href="https://abema.go.link/video/episode/89-116_s35_p407?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_no2&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_no2&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fvideo%2Fepisode%2F89-116_s35_p407%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_no2" class="g-side-program-ranking-item__link">
+    <figure class="g-side-program-ranking-item__img"><div style="padding-top:68.0%;position:relative;"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_88cb8e3a74c215e6d915f3b2f291a555144920.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/8/8/250w/img_88cb8e3a74c215e6d915f3b2f291a555144920.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/8/8/500w/img_88cb8e3a74c215e6d915f3b2f291a555144920.jpg 2x" width="250" height="170" class="g-side-program-ranking-item__img u-fit lazy" alt="布川敏和「俺がダメだった」つちやかおりと離婚の真相…&quot;家族の家&quot;を還暦で手放し愛犬とマンション暮らし - ABEMAエンタメ - NO MAKE (ニュース) | 無料動画・見逃し配信を見るなら | ABEMA" style=""></div></figure>
+    <div class="">
+      <div class="g-side-program-ranking-item__episode"><span>「ゴミ屋敷」「孤独死」布川敏和の離婚後の絶望生活</span></div>
+      <div class="g-side-program-ranking-item__series"><span>ABEMAエンタメ</span></div>
+    </div>
+  </a>
+</li>
+<li class="g-side-program-ranking-item">
+  <a href="https://abema.go.link/video/episode/90-1833_s1_p111?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_no3&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_no3&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fvideo%2Fepisode%2F90-1833_s1_p111%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_no3" class="g-side-program-ranking-item__link">
+    <figure class="g-side-program-ranking-item__img"><div style="padding-top:66.4%;position:relative;"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/6/a/250w/img_6a21a8f4939ab871a5f6963982abb113618413.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/6/a/250w/img_6a21a8f4939ab871a5f6963982abb113618413.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/6/a/500w/img_6a21a8f4939ab871a5f6963982abb113618413.jpg 2x" width="250" height="166" class="g-side-program-ranking-item__img u-fit lazy" alt="#11：ホスト山本裕典が涙＆恋をしないキャバ嬢に騙されるな - 愛のハイエナ - シーズン1 (バラエティ) | 無料動画・見逃し配信を見るなら | ABEMA" style=""></div></figure>
+    <div class="">
+      <div class="g-side-program-ranking-item__episode"><span>加護亜依、芸能人との“体の関係”を赤裸々告白</span></div>
+      <div class="g-side-program-ranking-item__series"><span>愛のハイエナ</span></div>
+    </div>
+  </a>
+</li>
+<li class="g-side-program-ranking-item">
+  <a href="https://abema.go.link/video/episode/90-980_s102_p194?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_no4&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_no4&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fvideo%2Fepisode%2F90-980_s102_p194%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_no4" class="g-side-program-ranking-item__link">
+    <figure class="g-side-program-ranking-item__img"><div style="padding-top:57.599999999999994%;position:relative;"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/7/e/250w/img_7e0536352c96059ab6fda41df3c1916b123522.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/7/e/250w/img_7e0536352c96059ab6fda41df3c1916b123522.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/7/e/500w/img_7e0536352c96059ab6fda41df3c1916b123522.jpg 2x" width="250" height="144" class="g-side-program-ranking-item__img u-fit lazy" alt="#93：一体何歳!? 年齢不詳の美女 - ななにー 地下ABEMA - ななにー 地下ABEMA (バラエティ) | 無料動画・見逃し配信を見るなら | ABEMA" style=""></div></figure>
+    <div class="">
+      <div class="g-side-program-ranking-item__episode"><span>小学生ギャル（12歳）の登校姿＆すっぴんに衝撃</span></div>
+      <div class="g-side-program-ranking-item__series"><span>ななにー 地下ABEMA</span></div>
+    </div>
+  </a>
+</li>
+<li class="g-side-program-ranking-item">
+  <a href="https://abema.go.link/video/episode/90-1887_s70_p2?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_no5&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_no5&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2Fvideo%2Fepisode%2F90-1887_s70_p2%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_no5" class="g-side-program-ranking-item__link">
+    <figure class="g-side-program-ranking-item__img"><div style="padding-top:66.0%;position:relative;"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg" data-srcset="https://times-abema.ismcdn.jp/mwimgs/f/a/250w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 1x,https://times-abema.ismcdn.jp/mwimgs/f/a/500w/img_faab732d98873a2a340c29c7e62f5ebf57811.jpg 2x" width="250" height="165" class="g-side-program-ranking-item__img u-fit lazy" alt="シャッフルアイランド - シャッフルアイランド Season7 - 2話 (リアリティーショー) | 無料動画・見逃し配信を見るなら | ABEMA" style=""></div></figure>
+    <div class="">
+      <div class="g-side-program-ranking-item__episode"><span>「すごい水着」20歳の現役女子大生のスタイルに全員衝撃</span></div>
+      <div class="g-side-program-ranking-item__series"><span>シャッフルアイランド</span></div>
+    </div>
+  </a>
+</li>
+
+      </ul>
+    </div>
+    <div class="c-button mgt-pc--20"><a href="https://abema.go.link/?utm_medium=web&utm_source=abematimes&utm_campaign=abematimes_20261103_free_sp_pc_ranking_other_top&adj_t=1o8o1k5q&adj_campaign=202611&adj_adgroup=03&adj_creative=abematimes_20261103_free_sp_pc_ranking_other_top&adj_tracker_limit=25000&adj_redirect=https%3A%2F%2Fabema.tv%2F%3Futm_medium%3Dweb%26utm_source%3Dabematimes%26utm_campaign%3Dabematimes_20261103_free_sp_pc_ranking_other_top" class="c-button__link">もっと見る</a></div>
+  </div>
+
+    <div class="u-lg-overflow-hidden mgt-pc--30 ad-side-sticky">
+      <!-- /22954913985/all_all_pc_rightcolumn2 -->
+      <div id='div-gpt-ad-1698676604498-0' class="ad-side-ajuster" style='min-width: 300px; min-height: 600px;'>
+        <script>
+          googletag.cmd.push(function() { googletag.display('div-gpt-ad-1698676604498-0'); });
+          (function(){
+            var tad = document.getElementById('div-gpt-ad-1698676604498-0');
+            tad.style.transform = 'scale(0.8)';
+            tad.style.transformOrigin = 'left top';
+            tad.parentElement.style.height = '480px';
+          })();
+        </script>
+      </div>
+    </div>
+
+        </aside>
+      </div>
+    </div>
+      <!-- /22954913985/article_all_pc_gateright -->
+<div id='div-gpt-ad-1702011093675-0' class="l-ad-gete-side">
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1702011093675-0'); });
+  </script>
+</div>
+  </div>
+  <footer class="g-footer">
+    <div class="g-footer-wrapper --upper">
+      
+      <div class="c-ameba-app">
+  <a href="https://abema.tv/"><img width="240" height="79" alt="ABEMA" class="c-ameba-app__logo lazy" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/common/images/abema/abema_logo_s.png"></a>
+  <ul class="c-ameba-app__list">
+    <li class="c-ameba-app__item"><a href="https://apps.apple.com/jp/app/abematv/id1074866833" target="_blank" class="c-ameba-app__link"><img width="140" height="40" alt="App Storeからダウンロード" class="c-ameba-app__img lazy" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/common/images/abema/app-store.svg?rd=202610291001"></a></li>
+    <li class="c-ameba-app__item"><a href="https://play.google.com/store/apps/details?id=tv.abema&hl=ja" target="_blank" class="c-ameba-app__link"><img width="130" height="40" alt="ANDROIDアプリ Google Play" class="c-ameba-app__img lazy" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/common/images/abema/google-play.png?rd=202610291001"></a></li>
+  </ul>
+</div>
+
+      <ul class="g-footer-sns">
+  <li class=""><a href="https://www.facebook.com/ABEMATIMES/" target="_blank" class="g-footer-sns__link g-footer-sns__link--facebook">Facebook</a></li>
+  <li class=""><a href="https://x.com/ABEMATIMES" target="_blank" class="g-footer-sns__link g-footer-sns__link--twitter">Twitter</a></li>
+  <li class=""><a href="https://www.youtube.com/channel/UCLsdm7nCJCVTWSid7G_f0Pg" target="_blank" class="g-footer-sns__link g-footer-sns__link--youtube">Youtube</a></li>
+  <li class=""><a href="https://www.instagram.com/abema_official/?igshid=howehth9b00o" target="_blank" class="g-footer-sns__link g-footer-sns__link--instagram">Instagram</a></li>
+</ul>
+
+        <div class="g-footer__preferred-source">
+          <button class="google-preferred-btn" type="button">
+  <img class="btn-icon" src="https://times-abema.ismcdn.jp/common/images/logo_google_g.png?rd=202610291001" width="18" height="18" alt="">
+  <span><strong>ABEMA TIMES</strong> をGoogleでフォロー</span>
+</button>
+
+        </div>
+    </div>
+    <div class="g-footer-wrapper">
+      <div class="g-footer-category-div">
+        <ul class="g-footer-category">
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/">TOP</a>
+          </li>
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/news">ニュース</a>
+            <ul class="g-footer-subcategory">
+              <li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/news/domestic">国内</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/news/international">国際</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/news/economy">経済・IT</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/news/politics">政治</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/news/trend">話題</a>
+</li>
+
+            </ul>
+          </li>
+        </ul>
+        <ul class="g-footer-category">
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/sports">スポーツ</a>
+            <ul class="g-footer-subcategory">
+              <li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/baseball">野球</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/soccer">サッカー</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/sumo">大相撲</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/golf">ゴルフ</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/motorsports">モータースポーツ</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/boatrace">ボートレース</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/sportsnews">スポーツ総合</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/fight">格闘技</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/tennis">テニス</a>
+</li>
+
+            </ul>
+          </li>
+        </ul>
+        <ul class="g-footer-category">
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/anime">アニメ</a>
+            <ul class="g-footer-subcategory">
+              <li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/news">アニメニュース</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/comic">コミック</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/goods">グッズ</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/voiceactor">声優</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/vtuber">Vtuber</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/anime/cosplay">コスプレ</a>
+</li>
+
+            </ul>
+          </li>
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/entame">エンタメ</a>
+            <ul class="g-footer-subcategory">
+              <li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/entamenews">エンタメ総合</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/variety">バラエティ</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/kpop">K-POP</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/reality">リアリティーショー</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/drama">ドラマ</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/movie">映画</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/music">音楽</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/hiphop">HIPHOP</a>
+</li>
+<li class="g-footer-subcategory__list">
+  <a class="g-footer-subcategory__link" href="/gravure">グラビア</a>
+</li>
+
+            </ul>
+          </li>
+        </ul>
+        <ul class="g-footer-category">
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/shogi">将棋</a>
+          </li>
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/mahjong">麻雀</a>
+          </li>
+          <li class="g-footer-category__list">
+            <a class="g-footer-category__link" href="/poker">ポーカー</a>
+          </li>
+          <li class="g-footer-category__list">
+            <ul class="g-footer-subcategory --no-parent">
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/ranking/realtime">総合記事ランキング（最新）</a>
+              </li>
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/ranking/daily">総合記事ランキング（24時間）</a>
+              </li>
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/ranking/weekly">総合記事ランキング（週間）</a>
+              </li>
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/tags">人物・グループ一覧</a>
+              </li>
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/tags/program">番組一覧</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="g-footer-category">
+          <li class="g-footer-category__list">
+            関連サイト
+            <ul class="g-footer-subcategory">
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/visions">VISIONS</a>
+              </li>
+              <li class="g-footer-subcategory__list">
+                <a class="g-footer-subcategory__link" href="/onlinelive">PPV</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    <ul class="g-footer-info-list">
+      <li class="g-footer-info-list__item"><a href="https://abematv.co.jp/pages/396088/company" class="g-footer-info-list__link">運営会社</a></li>
+      <li class="g-footer-info-list__item"><a href="https://abema.tv/about/privacy-policy/" class="g-footer-info-list__link">プライバシーポリシー</a></li>
+      <li class="g-footer-info-list__item"><a href="https://times.abema.tv/list/information" class="g-footer-info-list__link">プライバシー設定</a></li>
+      <li class="g-footer-info-list__item"><a href="https://abema.tv/about/support/" class="g-footer-info-list__link">お問い合わせ</a></li>
+    </ul>
+    <div class="g-footer-copyright">©AbemaTV, Inc.</div>
+  </div>
+</footer>
+
+  <script src="https://one.adingo.jp/tag/abematv/3aa68f3c-93b7-4baf-b709-1a786f47c4c6.js"></script>
+<div class="m-reward-modal js-reward-modal">
+  <div class="m-reward-modal__window">
+    <div class="m-reward-modal__logo">
+      <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="https://times-abema.ismcdn.jp/common/images/abema/default_491x83.png" width="380" height="64" class="m-reward__img lazy" alt="ABEMA TIMES" style="">
+    </div>
+    <div class="m-reward-modal__ttl js-reward-modal__ttl">このまま画像を見る</div>
+    <div class="m-reward-modal__sub">続きは広告を見た後にご覧いただけます</div>
+    <div class="m-reward-modal__btn js-reward-modal__btn">クリックして広告を見る</div>
+    <div class="m-reward-modal__close js-reward-modal__close"></div>
+  </div>
+</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/lib/inview.min.js"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/lib/lozad.min.js"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/lib/slick.min.js"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/lib/luminous.min.js"></script>
+<script src="https://times-abema.ismcdn.jp/resources/fifaworldcup/js/lib/progressbar.min.js"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/common/tools.js?rd=202610291001"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/common/adx.js?rd=202610291001"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/common/onair.js?channel=abema-news&amp;rd=202610291001"></script>
+<script src="https://times-abema.ismcdn.jp/resources/abema/js/common/yads.js?rd=202610291001"></script>
+  <script src="https://times-abema.ismcdn.jp/resources/abema/js/pc/top.js?rd=202610291001"></script>
+
+<script>
+window.addEventListener('load',function(){
+  if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register("/sw.js?rd=202507091042").then(function(registration){
+      //console.log('sw regist', registration.scope);
+    }).catch(function(error){
+      //console.log('sw regist fail', error);
+    });
+  }
+});
+</script>
+
+
+<div class="measurement" style="display:none;">
+<script src="/oo/life/lsync.js" async></script>
+<script>
+var MiU=MiU||{};MiU.queue=MiU.queue||[];
+var mwdata = {
+  'media': 'times.abema.tv',
+  'skin': 'indexes/media_top',
+  'id': '',
+  'category': '',
+  'subcategory': '',
+  'model': '',
+  'modelid': ''
+}
+MiU.queue.push(function(){MiU.fire(mwdata);});
+</script>
+</div>
+
+<script>
+(function (window) {
+  window.YJ_YADS = window.YJ_YADS || { tasks: [] };
+
+  const ids = ['92071_665732','92071_665733','92071_668120','92071_665736'];
+  $.each(ids, function (idx,id) {
+    if ($('#yad_'+id).length > 0) {
+      window.YJ_YADS.tasks.push({yads_ad_ds: id, yads_parent_element: 'yad_'+id});
+    }
+  });
+
+})(window);
+</script>
+
+</body>
+</html>

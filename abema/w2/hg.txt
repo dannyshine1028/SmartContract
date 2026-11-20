@@ -1,0 +1,17 @@
+HTTP/2 200 
+server: Varnish
+retry-after: 0
+content-type: text/html; charset=utf8
+accept-ranges: bytes
+date: Tue, 03 Nov 2026 04:55:27 GMT
+via: 1.1 varnish
+x-served-by: cache-nrt-rjtf7700052-NRT
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1793681727.370031,VS0,VE126
+strict-transport-security: max-age=300
+set-cookie: cdn-ab=122d6442-6741-4cec-b3ac-d34225246837; max-age=31536000; path=/; secure
+set-cookie: __cfwaitingroom=ChhKN0JxeWdtbGNyUkl0U2oyRCtXeGxRPT0SkAJ4VTNrdTBxRmdsUXZua1hWZ1RVVjVkSjJVeVpDaGM5NTMzRUorY3o5MzJmc2pLTjBKOVhtckg4RnJQMGU2YUk5bW53QnJ3M3d1OWZuQ0QwUlVrR1JSc25rTFYwdnFaMTRFWkRPUU5uWnpQVHFFemZ6bkRRUHNFcHM2dzZwUFN3SHdKR3V3dGVxVHJ2TW81TVJsaWtCSDNSSkFacmtGWVhrcC9KWW1oOGxoVnU0Nk83di8wSU4vODE3V3FKdC9EbWJHOFJ2bVAyYnJyZVlvZHBWdkkzK2NqdjNXdkhmak1obzhsTVZLcysxVEZ2MlRCVC9OaEE0VjR5R2l1QTBIWWgxc241cG14OWFMdEZyYnZ0RA%3D%3D; Domain=abema.tv; Path=/; Expires=Tue, 03 Nov 2026 05:15:27 GMT; HttpOnly; Secure; SameSite=None; Partitioned
+cache-control: no-store
+content-length: 31553
+

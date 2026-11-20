@@ -1,0 +1,11 @@
+HTTP/2 400 
+content-type: application/json
+content-length: 45
+date: Tue, 03 Nov 2026 02:06:21 GMT
+cache-control: public,max-age=0,s-maxage=10
+vary: Accept,Accept-Encoding,Origin
+x-cache: Error from cloudfront
+via: 1.1 442d080ad536f368b087d8fa4ff33ee6.cloudfront.net (CloudFront)
+x-amz-cf-pop: SFO5-P2
+x-amz-cf-id: 2RYAtvPtmy1Uyva01VKqWTCanSAUhTOMg9PWEaNalKrfoAhsfYdxwQ==
+

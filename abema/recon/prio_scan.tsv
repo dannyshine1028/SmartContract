@@ -1,0 +1,37 @@
+osx-jenkins.abema.io	000|0|			
+prd-grafana.abem.io	200|937705|	ESF	https://prd-grafana.p-c3-e.abema-tv.org:443/	Sign in - Google Accounts
+dev-grafana.abem.io	200|937685|	ESF	https://dev-grafana.d-c3-e.abema-tv.org:443/	Sign in - Google Accounts
+load-grafana.abem.io	000|0|			Sign in - Google Accounts
+prd-promviz.abem.io	200|937792|	ESF	https://prd-promviz.p-c3-e.abema-tv.org:443/	Sign in - Google Accounts
+dev-promviz.abem.io	200|938025|	ESF	https://dev-promviz.d-c3-e.abema-tv.org:443/	Sign in - Google Accounts
+native-monitoring.abem.io	200|991639|	ESF	https://accounts.google.com/o/oauth2/v2/auth?client_id=159166896015-r8d5ft5p74thm90h9gabnasmua30hc5b.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/159166896015-r8d5ft5p74thm90h9gabnasmua30hc5b.apps.googleusercontent.com:handleRedirect&code_challenge=0ZvHMiayKCvQuVM_gftNZW4BHacUqc7tO2NGBby-jSU&code_challenge_method=S256&cred_ref=true&state=AaMXCssEO_ExmVRlFudKiukK3T6K524-cChGrutOpNHhfaVOUB5NiMRz336nrxKpnL46Zvc4YkKG-cFHIM-CkbhJ0qjv9ZmDYV9beO8mUZrJZ0a-YMzJvTxSyvEI7jQgQqCyms_pFWwmu7Xr7yVm6luVrcOsKXeAF5wViRmjmtrZZeKasx0NbnFdlFBlyJtcLdZq4KsCXl6MN2ZQ_reHrQfadfyYpHghUjOP5ZoQvyrF6YTbyFpmf__gyMPUFE21-tFgctE6Jw6sqjZyy8kQfnQDkMMoYcew9h872BiW1oQLvzx_OIorCqyhk1EZN4YlY8M-MQXzMi68V2N0j85PkCv3OrWP-rixlKZmTK3xoswynRY-Sh6FBal9h-CZqdO8Qm__TWFULwQiD-EaWIL8XY6eIajznxuUfkLCvuAmxJdf06UO_8IsbI3pTR6Hg0pKk8Q_tJYrvllKcGF4QVtYWa7sTwP-LHZvW8V2G8Fd8vez52WrPqSi-5HN_9AeVPojE7R367fMgkxThaz1fi9TL5n6IjuNrJvpOmMV9mc6nWnTHZc1oHos6zKoxRFQe7nh9O8lS9bTbb2zJ3dbQS33fxOnR3H74QKLBEp7A4VSflh6LBdqjAPeauOO-9duqDtq186fGg7ovVo5Hl896tz09d0yYC-zHuO83bAtQCnCq6d2CTY6ifdxsxCG_Jg3TsqgPfAUXLsntXRU2nOXINcEThNOGCCJixfeDb9M2QuQLvz3HOjiQwQCPeu3m9n1-a2zRP_Pp9rprRpaQ4C1GtKqvRGFiErp89hJmANeT_-hr3sl3iFxD09bpr3SsArzQrbtGIuJlHRMfNd0aDJirJSxUYiz9EUWBnF2jTOaIACB9y5_XCmxPnNv3l1vyFbX8vv2f9Ae5sKuzIzwB_kmymWOT8vDkGgHAyRmjm7QUXR8yezSHuSt_VpLroYS0zeriE8wZrLqzKdF82Y_I7GiY2p6WWbRdBRLM9FGUAExH1ycCRY1n0iklhd42U6xTQhHw8wdbeoWYqwyP_Kz0X-waQ4asq0jsPvNtfDhiQKRa_EajdabqdIDN_b6JqzNc8ijRMK-Kf2xNmoD8V0Ssscg6nWbzPn1f3PLoXC8xOpFp95cMmr21I7viijRIFPO9c9qMmoiyC92Kk1ddKZcuG7-vO6PBQBEneZDP-NRT99b87w	Sign in - Google Accounts
+portal.dm.abem.io	200|938469|	ESF	https://accounts.google.com/o/oauth2/v2/auth?client_id=788278010771-r0k9u8io48bn3ejepq4n223jrb2cfi19.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/788278010771-r0k9u8io48bn3ejepq4n223jrb2cfi19.apps.googleusercontent.com:handleRedirect&code_challenge=C0Rh6aTfEDnsDSIxovm7b9xbmI_WLK3fIACg76RhT34&code_challenge_method=S256&cred_ref=true&state=AaMXCssEQdvVgDkKT0cP7CrzERPoVqxJ_XFssN4M7qfs9w202UuLOPQuahIv88G9HNI8qOvSBf8vxll7iGDwLCRpeTnOgcbrZ3vEoYBi7Bv-Ytyf7qF-Kcvo-tH7PyHCgnOtBNfBv6U1zkZPzUX9dHowyJQfsLIzyOr1EkbhWrSIJUCSoxhRV11F1s6gQdAsxSAvcUp2B1Av2EvsUn-ofK8_9LE7wvA118fyfBTTBalKIBEnvHq8X6sm338iM9qrzyb6KprX6PPabXPyio4tBBtQ5XwwaWGmH5C6z61TW35wVgTHnRC3BQc8OgK6TVoHeCJXCzuNzJbX4aX_n3aWYcPxTx3vdnjPYSpgiEotdwaj3EPu22BWMs8Xv75TSWnYpk5ydiVVProxzTf7f4Gbp_stGwLV9CQMIsV-JKNI9rLPSOkDusxT8dxNo4-5ras_6tO3gAvgVDknznjcvKvxjLxqxx0oN0QILRZCtthmQ9AJH59KfS5D7hMKwqr5jZHMVCPGQe5Lzm4p6pVhoOyYLuuhqIPpOv_9CLDE-tRHwhm2GClK4xaeLYKTDB1OSknygI_2LWHUNTghG8MkwK2ipTwgZuhowEizJAP7sKz_2rUwHbGS3kZthUlEJq3db0SwT9BNThKHk1FGedd6kIHLcxqWjAmOpdzYPVLZhFHqPrL9mJZFbmyFxdS47i__sZF5a1WheM8HxOaW-FObX3vpAe4csbHglruCn7x3x3-dBwLpX_sb0aoHZ2p2zGWxZwxhefyqH1QLz6DzncWCokNlr9Vug0_7J4AqlrrM7LOsQA5aboGU3ATVx_5li2xRbcxEckyxQ2NItf2_VVybHVCoPIO30Be8MK0XSTKbdcGwBjNYwlYyhhNrvIJRVGmVOesJMYJ29BBAApoSFOraWOhsNL5ZxCKSjZr5HiDe_Xk2MVxBg06SLVUo3PKBq5TqgKuz00w4Im7k7a-RVRioG-qESz-Bf5vVwmY1AajhwoOwTH8yu6f-8Gg1xNjey5OgNZYhXlb7OcUERLpy45Kox0LV7hIr2BuY-ZRYniVAjnerL4aSEDiskeq3504PzpabmU1znBeB6UnfLmuXuweCQrlcXURuELnPxm-pEkiX-mzl_MC1BjwJp2GYRLSo5e8K	Sign in - Google Accounts
+dev-portal.dm.abem.io	000|0|			Sign in - Google Accounts
+docs.abem.io	000|0|			Sign in - Google Accounts
+docs.android.abem.io	000|0|			Sign in - Google Accounts
+docs.ios.abem.io	200|51698|	github.com	https://github.com/pages/auth?nonce=e25a7c69-14ba-4e09-b6c3-8e38f4793609&page_id=23865538&path=Lw	Sign in to GitHub · GitHub
+docs.native.abem.io	200|51698|	github.com	https://github.com/pages/auth?nonce=0b4758e2-327f-425a-b43c-886c85743cb7&page_id=23909529&path=Lw	Sign in to GitHub · GitHub
+developer.abema.io	200|944|	AmazonS3		ABEMA Developer Conference
+dev-developer.abema.io	401|0|	CloudFront		
+mam.abema.io	000|0|			
+dev-accurate-video.mam.abema.io	000|0|			
+sso.abema.io	000|0|			
+sso-web.ad.abema.io	000|0|			
+auth-business.ad.abema.io	000|0|			
+business-gateway.ad.abema.io	415|0|	Google Frontend		
+business.ad.abema.io	200|2748|	Google Frontend		AbemaTV Ads ビジネスマネージャ
+abema.io	000|0|			AbemaTV Ads ビジネスマネージャ
+conte.abem.io	200|937637|	ESF	https://conte.d-c3-x.abema-tv.org:443/	Sign in - Google Accounts
+abem.io	000|0|			Sign in - Google Accounts
+dev-times.abema.tv	000|0|			Sign in - Google Accounts
+function.abema.tv	000|0|			Sign in - Google Accounts
+inner-brand.abema.tv	000|0|			Sign in - Google Accounts
+studio.abema.tv	000|0|			Sign in - Google Accounts
+vst.abema.tv	000|0|			Sign in - Google Accounts
+ss.abema.tv	000|0|			Sign in - Google Accounts
+times.abema.tv	200|218630|			ABEMA TIMES | アベマタイムズ
+post.times.abema.tv	000|0|			ABEMA TIMES | アベマタイムズ
+premiumplan.abema.tv	000|0|			ABEMA TIMES | アベマタイムズ
+on-demand.abema.tv	000|0|			ABEMA TIMES | アベマタイムズ
+education.abema.tv	000|0|			ABEMA TIMES | アベマタイムズ
+features.abema.tv	000|0|			ABEMA TIMES | アベマタイムズ

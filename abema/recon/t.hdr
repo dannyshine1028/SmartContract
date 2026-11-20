@@ -1,0 +1,12 @@
+HTTP/2 403 
+content-type: application/xml; charset=UTF-8
+x-guploader-uploadid: AFy3sg0nVFs8EHshKQp9wMYU4yDumFL0VMBLb6FW2zVO9Ku6KNcVMVzWaLLPpHeeKRwmAjJZSh4iIdU
+content-length: 395
+date: Mon, 02 Nov 2026 02:08:49 GMT
+expires: Mon, 02 Nov 2026 02:08:49 GMT
+cache-control: private, max-age=0
+server: UploadServer
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+via: 1.1 google
+

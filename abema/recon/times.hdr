@@ -1,0 +1,15 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+cache-control: max-age=0, private, must-revalidate
+x-xss-protection: 1; mode=block
+x-request-id: f0f12095-6bab-40bc-b029-7c1b928ad467
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+date: Mon, 02 Nov 2026 02:21:37 GMT
+x-cache-ttl: 300.000
+vary: Accept-Encoding,User-Agent,Cookie
+x-cache: HIT
+accept-ranges: bytes
+content-length: 218508
+strict-transport-security: max-age=31536000
+
