@@ -14,10 +14,10 @@ def op(f,follow=True):
     o=urllib.request.build_opener(*hs); o.addheaders=[("User-Agent",UA)]; o.cj=cj
     return o
 import time
-def go(o,url,data=None,headers=None,method=None,retry=4):
+def go(o,url,data=None,headers=None,method=None,retry=4,raw=None):
     last=None
     for i in range(retry):
-        d=urllib.parse.urlencode(data).encode() if isinstance(data,dict) else data
+        d=raw if raw is not None else (urllib.parse.urlencode(data).encode() if isinstance(data,dict) else data)
         r=urllib.request.Request(url,data=d,method=method or ("POST" if d is not None else "GET"))
         for k,v in (headers or {}).items(): r.add_header(k,v)
         try:
@@ -42,3 +42,20 @@ def login(u,p,f):
 def meta(o,url):
     b=go(o,url)[2]
     return (re.search(r'name="x-csrf-token" content="([^"]+)"',b) or [None,None])[1] if re.search(r'name="x-csrf-token" content="([^"]+)"',b) else None
+def login2(u,p,f,secret=None,codes=None):
+    """full login incl. 2FA; returns opener"""
+    import os,re as _re
+    if os.path.exists(f): os.remove(f)
+    o=op(f)
+    t=_re.search(r'name="csrfmiddlewaretoken" value="([^"]+)"',go(o,"https://xeovo.com/login/")[2]).group(1)
+    st,fin,b,h=go(o,"https://xeovo.com/login/",{"csrfmiddlewaretoken":t,"username":u,"password":p,"next":"/account/"},
+                 {"Referer":"https://xeovo.com/login/","Origin":"https://xeovo.com"})
+    if "verify" in fin and secret:
+        import totp as T
+        v=go(o,"https://xeovo.com/login/verify/")[2]
+        tv=_re.search(r'name="csrfmiddlewaretoken" value="([^"]+)"',v).group(1)
+        tok=T.gen(secret)
+        st,fin,b,h=go(o,"https://xeovo.com/login/verify/",{"csrfmiddlewaretoken":tv,"mfa_token":tok,"next":"/account/"},
+                      {"Referer":"https://xeovo.com/login/verify/","Origin":"https://xeovo.com"})
+    o.cj.save(f,ignore_discard=True,ignore_expires=True)
+    return o,("Dashboard - Xeovo" in b or "Account Settings" in b),fin
